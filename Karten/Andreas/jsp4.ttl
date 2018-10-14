@@ -1,0 +1,2316 @@
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix jsp: <http://leipzig-data.de/Data/Jugendstadtplan/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://leipzig-data.de/Data/Adresse/04103.DeutscherPlatz.4>
+  ld:hasHouseNumber "4" ;
+  ld:hasPostCode "04103" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/DeutscherPlatz> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way184958480> ;
+  a ld:Adresse ;
+  rdfs:label "Deutscher Platz 4" ;
+  geo:lat 51.3212298 ;
+  geo:long 12.395329 .
+
+<http://leipzig-data.de/Data/Adresse/04103.Johannisplatz.5-11>
+  ld:hasHouseNumber "5-11" ;
+  ld:hasPostCode "04103" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Johannisplatz> ;
+  a ld:Adresse ;
+  rdfs:label "Johannisplatz 5-11" .
+
+<http://leipzig-data.de/Data/Adresse/04103.Philipp-Rosenthal-Strasse.51A>
+  ld:hasHouseNumber "51A" ;
+  ld:hasPostCode "04103" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Philipp-Rosenthal-Strasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way152600315> ;
+  a ld:Adresse ;
+  rdfs:label "Philipp-Rosenthal-Straße 51A" ;
+  geo:lat 51.3287947 ;
+  geo:long 12.3859685 .
+
+<http://leipzig-data.de/Data/Adresse/04103.Strassedes18Oktober.100>
+  ld:hasHouseNumber "100" ;
+  ld:hasPostCode "04103" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Strassedes18Oktober> ;
+  a ld:Adresse ;
+  rdfs:label "Straße des 18. Oktober 100" .
+
+<http://leipzig-data.de/Data/Adresse/04105.AmSportforum.2>
+  ld:hasHouseNumber "2" ;
+  ld:hasPostCode "04105" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/AmSportforum> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way18942836> ;
+  a ld:Adresse ;
+  rdfs:label "Am Sportforum 2" ;
+  geo:lat 51.342769024549 ;
+  geo:long 12.3547731294003 .
+
+<http://leipzig-data.de/Data/Adresse/04105.PfaffendorferStrasse.29>
+  ld:hasHouseNumber "29" ;
+  ld:hasPostCode "04105" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/PfaffendorferStrasse> ;
+  a ld:Adresse ;
+  rdfs:label "Pfaffendorfer Straße 29" .
+
+<http://leipzig-data.de/Data/Adresse/04107.Karl-Liebknecht-Strasse.36>
+  ld:hasHouseNumber "36" ;
+  ld:hasPostCode "04107" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Karl-Liebknecht-Strasse> ;
+  a ld:Adresse ;
+  rdfs:label "Karl-Liebknecht-Straße 36" .
+
+<http://leipzig-data.de/Data/Adresse/04107.Karl-Tauchnitz-Strasse.11>
+  ld:hasHouseNumber "11" ;
+  ld:hasPostCode "04107" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Karl-Tauchnitz-Strasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way44950352> ;
+  a ld:Adresse ;
+  rdfs:label "Karl-Tauchnitz-Straße 11" ;
+  geo:lat 51.334033626271 ;
+  geo:long 12.3653064336483 .
+
+<http://leipzig-data.de/Data/Adresse/04107.Peterssteinweg.10>
+  ld:hasHouseNumber "10" ;
+  ld:hasPostCode "04107" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Peterssteinweg> ;
+  a ld:Adresse ;
+  rdfs:label "Peterssteinweg 10" .
+
+<http://leipzig-data.de/Data/Adresse/04107.Waechterstrasse.11>
+  ld:hasHouseNumber "11" ;
+  ld:hasPostCode "04107" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Waechterstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way28817682> ;
+  a ld:Adresse ;
+  rdfs:label "Wächterstraße 11" ;
+  geo:lat 51.3336591 ;
+  geo:long 12.3686733 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Augustusplatz.8>
+  ld:hasHouseNumber "8" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Augustusplatz> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way85281043> ;
+  a ld:Adresse ;
+  rdfs:label "Augustusplatz 8" ;
+  geo:lat 51.3391581 ;
+  geo:long 12.3807993 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Augustusplatz.9>
+  ld:hasHouseNumber "9" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Augustusplatz> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node1856954721> ;
+  a ld:Adresse ;
+  rdfs:label "Augustusplatz 9" ;
+  geo:lat 51.3379418 ;
+  geo:long 12.3790116 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Bosestrasse.1>
+  ld:hasHouseNumber "1" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Bosestrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node890992486> ;
+  a ld:Adresse ;
+  rdfs:label "Bosestraße 1" ;
+  geo:lat 51.3405119 ;
+  geo:long 12.3691785 .
+
+<http://leipzig-data.de/Data/Adresse/04109.GrimmaischeStrasse.2-4>
+  ld:hasHouseNumber "2-4" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/GrimmaischeStrasse> ;
+  a ld:Adresse ;
+  rdfs:label "Grimmaische Straße 2-4" .
+
+<http://leipzig-data.de/Data/Adresse/04109.GrosseFleischergasse.12>
+  ld:hasHouseNumber "12" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/GrosseFleischergasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node1203363609> ;
+  a ld:Adresse ;
+  rdfs:label "Große Fleischergasse 12" ;
+  geo:lat 51.3423468 ;
+  geo:long 12.3716189 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Hainstrasse.12>
+  ld:hasHouseNumber "12" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Hainstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node1758322240> ;
+  a ld:Adresse ;
+  rdfs:label "Hainstraße 12" ;
+  geo:lat 51.3421412 ;
+  geo:long 12.3736481 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Katharinenstrasse.10>
+  ld:hasHouseNumber "10" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Katharinenstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way22734771> ;
+  a ld:Adresse ;
+  rdfs:label "Katharinenstraße 10" ;
+  geo:lat 51.3423561740415 ;
+  geo:long 12.3757738364676 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Katharinenstrasse.11>
+  ld:hasHouseNumber "11" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Katharinenstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node1456350610> ;
+  a ld:Adresse ;
+  rdfs:label "Katharinenstraße 11" ;
+  geo:lat 51.3419196 ;
+  geo:long 12.3748162 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Lessingstrasse.7>
+  ld:hasHouseNumber "7" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Lessingstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node798544505> ;
+  a ld:Adresse ;
+  rdfs:label "Lessingstraße 7" ;
+  geo:lat 51.342061 ;
+  geo:long 12.3667086 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Magazingasse.4>
+  ld:hasHouseNumber "4" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Magazingasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node310395313> ;
+  a ld:Adresse ;
+  rdfs:label "Magazingasse 4" ;
+  geo:lat 51.3373148 ;
+  geo:long 12.3769462 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Markt.9>
+  ld:hasHouseNumber "9" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Markt> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way30244963> ;
+  a ld:Adresse ;
+  rdfs:label "Markt 9" ;
+  geo:lat 51.3399172 ;
+  geo:long 12.3744783 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Martin-Luther-Ring.4>
+  ld:hasHouseNumber "4" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Martin-Luther-Ring> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node1454062734> ;
+  a ld:Adresse ;
+  rdfs:label "Martin-Luther-Ring 4" ;
+  geo:lat 51.3360228 ;
+  geo:long 12.3726786 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Naschmarkt.2>
+  ld:hasHouseNumber "2" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Naschmarkt> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way24606480> ;
+  a ld:Adresse ;
+  rdfs:label "Naschmarkt 2" ;
+  geo:lat 51.3406659760547 ;
+  geo:long 12.375737541309 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Nikolaikirchhof.3>
+  ld:hasHouseNumber "3" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Nikolaikirchhof> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node309922222> ;
+  a ld:Adresse ;
+  rdfs:label "Nikolaikirchhof 3" ;
+  geo:lat 51.340714 ;
+  geo:long 12.3787986 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Petersstrasse.44>
+  ld:hasHouseNumber "44" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Petersstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node1308048074> ;
+  a ld:Adresse ;
+  rdfs:label "Petersstraße 44" ;
+  geo:lat 51.3375193 ;
+  geo:long 12.3741834 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Thomaskirchhof.18>
+  ld:hasHouseNumber "18" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Thomaskirchhof> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node1454101807> ;
+  a ld:Adresse ;
+  rdfs:label "Thomaskirchhof 18" ;
+  geo:lat 51.3391293 ;
+  geo:long 12.3721452 .
+
+<http://leipzig-data.de/Data/Adresse/04109.Universitaetsstrasse.9>
+  ld:hasHouseNumber "9" ;
+  ld:hasPostCode "04109" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Universitaetsstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/relation1769862> ;
+  a ld:Adresse ;
+  rdfs:label "Universitätsstraße 9" ;
+  geo:lat 51.3372777930953 ;
+  geo:long 12.3790743082259 .
+
+<http://leipzig-data.de/Data/Adresse/04129.BerlinerStrasse.69>
+  ld:hasHouseNumber "69" ;
+  ld:hasPostCode "04129" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/BerlinerStrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node1395272770> ;
+  a ld:Adresse ;
+  rdfs:label "Berliner Straße 69" ;
+  geo:lat 51.3555484 ;
+  geo:long 12.3912641 .
+
+<http://leipzig-data.de/Data/Adresse/04159.Renftstrasse.1>
+  ld:hasHouseNumber "1" ;
+  ld:hasPostCode "04159" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Renftstrasse> ;
+  a ld:Adresse ;
+  rdfs:label "Renftstraße 1" .
+
+<http://leipzig-data.de/Data/Adresse/04177.LindenauerMarkt.21>
+  ld:hasHouseNumber "21" ;
+  ld:hasPostCode "04177" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/LindenauerMarkt> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node918029785> ;
+  a ld:Adresse ;
+  rdfs:label "Lindenauer Markt 21" ;
+  geo:lat 51.3378024 ;
+  geo:long 12.3332312 .
+
+<http://leipzig-data.de/Data/Adresse/04177.Wasserstrasse.18>
+  ld:hasHouseNumber "18" ;
+  ld:hasPostCode "04177" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Wasserstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way4297480> ;
+  a ld:Adresse ;
+  rdfs:label "Wasserstraße 18" ;
+  geo:lat 51.3426053 ;
+  geo:long 12.3351994 .
+
+<http://leipzig-data.de/Data/Adresse/04179.Spinnereistrasse.7>
+  ld:hasHouseNumber "7" ;
+  ld:hasPostCode "04179" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Spinnereistrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way37041532> ;
+  a ld:Adresse ;
+  rdfs:label "Spinnereistraße 7" ;
+  geo:lat 51.3277079553625 ;
+  geo:long 12.3196474158046 .
+
+<http://leipzig-data.de/Data/Adresse/04207.Diezmannstrasse.5>
+  ld:hasHouseNumber "5" ;
+  ld:hasPostCode "04207" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Diezmannstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node636075768> ;
+  a ld:Adresse ;
+  rdfs:label "Diezmannstraße 5" ;
+  geo:lat 51.3191322 ;
+  geo:long 12.3179085 .
+
+<http://leipzig-data.de/Data/Adresse/04209.AlteSalzstrasse.59>
+  ld:hasHouseNumber "59" ;
+  ld:hasPostCode "04209" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/AlteSalzstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way23308717> ;
+  a ld:Adresse ;
+  rdfs:label "Alte Salzstraße 59" ;
+  geo:lat 51.3215737 ;
+  geo:long 12.2972325 .
+
+<http://leipzig-data.de/Data/Adresse/04209.AlteSalzstrasse.63>
+  ld:hasHouseNumber "63" ;
+  ld:hasPostCode "04209" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/AlteSalzstrasse> ;
+  a ld:Adresse ;
+  rdfs:label "Alte Salzstraße 63" .
+
+<http://leipzig-data.de/Data/Adresse/04209.HeilbronnerStrasse.16>
+  ld:hasHouseNumber "16" ;
+  ld:hasPostCode "04209" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/HeilbronnerStrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way24993816> ;
+  a ld:Adresse ;
+  rdfs:label "Heilbronner Straße 16" ;
+  geo:lat 51.3207297 ;
+  geo:long 12.2849217 .
+
+<http://leipzig-data.de/Data/Adresse/04229.WeissenfelserStrasse.32>
+  ld:hasHouseNumber "32" ;
+  ld:hasPostCode "04229" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/WeissenfelserStrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node1454830899> ;
+  a ld:Adresse ;
+  rdfs:label "Weißenfelser Straße 32" ;
+  geo:lat 51.3312201 ;
+  geo:long 12.3364596 .
+
+<http://leipzig-data.de/Data/Adresse/04275.August-Bebel-Strasse.2>
+  ld:hasHouseNumber "2" ;
+  ld:hasPostCode "04275" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/August-Bebel-Strasse> ;
+  a ld:Adresse ;
+  rdfs:label "August-Bebel-Straße 2" .
+
+<http://leipzig-data.de/Data/Adresse/04275.Karl-Liebknecht-Strasse.46>
+  ld:hasHouseNumber "46" ;
+  ld:hasPostCode "04275" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Karl-Liebknecht-Strasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way149827704> ;
+  a ld:Adresse ;
+  rdfs:label "Karl-Liebknecht-Straße 46" ;
+  geo:lat 51.3251322133374 ;
+  geo:long 12.3733241133172 .
+
+<http://leipzig-data.de/Data/Adresse/04275.Karl-Liebknecht-Strasse.95>
+  ld:hasHouseNumber "95" ;
+  ld:hasPostCode "04275" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Karl-Liebknecht-Strasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way40522874> ;
+  a ld:Adresse ;
+  rdfs:label "Karl-Liebknecht-Straße 95" ;
+  geo:lat 51.3215634286456 ;
+  geo:long 12.3738714729816 .
+
+<http://leipzig-data.de/Data/Adresse/04275.Kurt-Eisner-Strasse.108>
+  ld:hasHouseNumber "108" ;
+  ld:hasPostCode "04275" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Kurt-Eisner-Strasse> ;
+  a ld:Adresse ;
+  rdfs:label "Kurt-Eisner-Straße 108" .
+
+<http://leipzig-data.de/Data/Adresse/04277.Bernhard-Goering-Strasse.152>
+  ld:hasHouseNumber "152" ;
+  ld:hasPostCode "04277" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Bernhard-Goering-Strasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/node94847901> ;
+  a ld:Adresse ;
+  rdfs:label "Bernhard-Göring-Straße 152" ;
+  geo:lat 51.3108007 ;
+  geo:long 12.3762637 .
+
+<http://leipzig-data.de/Data/Adresse/04277.KoburgerStrasse.12A>
+  ld:hasHouseNumber "12A" ;
+  ld:hasPostCode "04277" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/KoburgerStrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way37935467> ;
+  a ld:Adresse ;
+  rdfs:label "Koburger Straße 12A" ;
+  geo:lat 51.3016982 ;
+  geo:long 12.3731197 .
+
+<http://leipzig-data.de/Data/Adresse/04277.Kochstrasse.132>
+  ld:hasHouseNumber "132" ;
+  ld:hasPostCode "04277" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Kochstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way33768801> ;
+  a ld:Adresse ;
+  rdfs:label "Kochstraße 132" ;
+  geo:lat 51.310057128245 ;
+  geo:long 12.3713328476493 .
+
+<http://leipzig-data.de/Data/Adresse/04277.Wolfgang-Heinze-Strasse.12A>
+  ld:hasHouseNumber "12A" ;
+  ld:hasPostCode "04277" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Wolfgang-Heinze-Strasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way24006397> ;
+  a ld:Adresse ;
+  rdfs:label "Wolfgang-Heinze-Straße 12A" ;
+  geo:lat 51.3100414 ;
+  geo:long 12.3729202 .
+
+<http://leipzig-data.de/Data/Adresse/04299.Friedhofsweg.3>
+  ld:hasHouseNumber "3" ;
+  ld:hasPostCode "04299" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Friedhofsweg> ;
+  a ld:Adresse ;
+  rdfs:label "Friedhofsweg 3" .
+
+<http://leipzig-data.de/Data/Adresse/04315.Lutherstrasse.10>
+  ld:hasHouseNumber "10" ;
+  ld:hasPostCode "04315" ;
+  ld:inStreet <http://leipzig-data.de/Data/Strasse/Lutherstrasse> ;
+  geonames:nearbyFeatures <http://linkedgeodata.org/triplify/way8566573> ;
+  a ld:Adresse ;
+  rdfs:label "Lutherstraße 10" ;
+  geo:lat 51.3449737 ;
+  geo:long 12.3960304 .
+
+<http://leipzig-data.de/Data/Jugendstadtplan/AlleeCenter>
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 7 ;
+  a jsp:Ort ;
+  rdfs:label "Allee-Center" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Alpenmax
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 7 ;
+  a jsp:Ort ;
+  rdfs:label "Alpenmax" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/AlpenmaxLeipzig> .
+
+jsp:AlteDamenhandschuhfabrik
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Alte Damenhandschuhfabrik" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:AlteHandelsboerse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Alte Handelsbörse" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/AlteHandelsboerse> .
+
+jsp:AlteMesse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Alte Messe" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:AltesLandratsamt
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Altes Landratsamt" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:AltesRathaus
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 3 ;
+  a jsp:Ort ;
+  rdfs:label "Altes Rathaus" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Anker
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Anker" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Anker> .
+
+jsp:Apart
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Apart" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:ArcheNoah
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Arche Noah" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:AuerbachsKeller
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Auerbachs Keller" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/AuerbachsKeller> .
+
+jsp:Augustusplatz
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 30 ;
+  a jsp:Ort ;
+  rdfs:label "Augustusplatz" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Bachmuseum
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Bachmuseum" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Bandhaus
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Bandhaus" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Barfussgaesschen
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 12 ;
+  a jsp:Ort ;
+  rdfs:label "Barfußgässchen" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Belantis
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "Belantis" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:BilderMuseum
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Bildermuseum" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Museum.BildendeKuenste> .
+
+jsp:Bowlinggipfel
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Bowlinggipfel" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:BrauhausanderThomaskirche
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Brauhaus an der Thomaskirche" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:BrunoPlacheStrasse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Bruno-Plache-Straße" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:CVJM
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 5 ;
+  a jsp:Ort ;
+  rdfs:label "CVJM" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:CafeBaum
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Café Baum" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:CafeGrundmann
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Café Grundmann" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Cafe-Grundmann> .
+
+jsp:CafeWaldi
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 5 ;
+  a jsp:Ort ;
+  rdfs:label "Café Waldi" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/CafeWaldi> .
+
+jsp:CentralTheater
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 3 ;
+  a jsp:Ort ;
+  rdfs:label "Central Theater" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/CentraltheaterLeipzig> .
+
+jsp:Chillhouse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 6 ;
+  a jsp:Ort ;
+  rdfs:label "Chillhouse" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Cinestar
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 11 ;
+  a jsp:Ort ;
+  rdfs:label "Cinestar" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/CineStar> .
+
+jsp:CityClub
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 5 ;
+  a jsp:Ort ;
+  rdfs:label "City Club" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:ClaraZetkinPark
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gruenanlage> ;
+  jsp:numberOfVotes 30 ;
+  a jsp:Ort ;
+  rdfs:label "Clara-Zetkin-Park" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Cocobar
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Cocobar" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:ComicCombo
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Comic Combo" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:ConneIsland
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 11 ;
+  a jsp:Ort ;
+  rdfs:label "Conne Island" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:CospudenerSee
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 14 ;
+  a jsp:Ort ;
+  rdfs:label "Cospudener See" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Darkflower
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 7 ;
+  a jsp:Ort ;
+  rdfs:label "Darkflower" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Darkflower> .
+
+jsp:DieBruecke
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Die Brücke - Jugendcafé" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:DieSCHAUPLATZ
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 9 ;
+  a jsp:Ort ;
+  rdfs:label "Die SCHAUPLATZ" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/DieSCHAUPLATZ> .
+
+jsp:DieVilla
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 5 ;
+  a jsp:Ort ;
+  rdfs:label "Die Villa" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Villa> .
+
+jsp:Distillery
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Distillery" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Distillery> .
+
+jsp:DivinoGrill
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Divino Grill" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Druckbox
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Druckbox" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:EiscafeMiltitz
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Eiscafé Miltitz" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:EishalleTaucha
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Eishalle Taucha" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Enchilada
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Enchilada" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Feinkost
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 6 ;
+  a jsp:Ort ;
+  rdfs:label "Feinkost" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/FeinkostLeipzig> .
+
+jsp:Fockeberg
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gruenanlage> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Fockeberg" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:FreibadSchoenefeld
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Freibad Schönefeld" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:GFZK
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "GFZK" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/GfZK> .
+
+jsp:Gewandhaus
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 19 ;
+  a jsp:Ort ;
+  rdfs:label "Gewandhaus" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/GewandhausLeipzig> .
+
+jsp:Giesserstrasse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Gießerstraße" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:GrassiMuseum
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Grassi-Museum" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Museum.Grassi> .
+
+jsp:Grillhouse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Grillhouse" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:HGB
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "HGB" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/HGBLeipzig> .
+
+jsp:Halle5
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Halle 5" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Hauptbahnhof
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 48 ;
+  a jsp:Ort ;
+  rdfs:label "Hauptbahnhof" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:HausAuensee
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Haus Auensee" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:HausSteinstrasse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Haus Steinstraße" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Heizhaus
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 11 ;
+  a jsp:Ort ;
+  rdfs:label "Heizhaus" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Heizhaus.Gruenau> .
+
+jsp:Helheim
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Helheim" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Helheim> .
+
+jsp:HoefeamBruehl
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 53 ;
+  a jsp:Ort ;
+  rdfs:label "Höfe am Brühl" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Hundertwasser
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Hundertwasser" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:IlsesErika
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Ilses Erika" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/IlsesErika> .
+
+jsp:Inspirata
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Inspirata" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Inspirata> .
+
+jsp:JCHolzhausen
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "JC Holzhausen" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:JCLiebertwolkwitz
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "JC Liebertwolkwitz" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:JCMessemagistrale
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "JC Messemagistrale" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:JCUfoGohlis
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "JC Ufo Gohlis" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:JenkinsShishabar
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Jenkins Shishabar" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Johannapark
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gruenanlage> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Johannapark" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:KULT
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "KULT" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Kanal28
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Kanal 28" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Kaos
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Kaos e.V." ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/KaosLeipzig> .
+
+jsp:KarlHeineStrasse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 10 ;
+  a jsp:Ort ;
+  rdfs:label "Karl-Heine-Straße" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:KarlLiebknechtStrasse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 26 ;
+  a jsp:Ort ;
+  rdfs:label "Karl-Liebknecht-Straße" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:KiJu
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 10 ;
+  a jsp:Ort ;
+  rdfs:label "KiJu" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/KiJu.Gruenau> .
+
+jsp:KickersInn
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Kickers-Inn" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:KillyWilly
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "KillyWilly" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Kinderland
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Kinderland" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:KinoCineplex
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Kino Cineplex" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Kiwi
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gruenanlage> ;
+  jsp:numberOfVotes 10 ;
+  a jsp:Ort ;
+  rdfs:label "Kiwi" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:KoJuLE
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "KoJuLE" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Koenigspassage
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Königspassage" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Kristallpalast
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Kristallpalast" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/KrystallpalastVariete> .
+
+jsp:KulkwitzerCampingplatz
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Kulkwitzer Campingplatz" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:KulkwitzerSee
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gruenanlage> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Kulkwitzer See" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:L1
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "L1" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:LaBoum
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "La Boum" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:LaPlaya
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "La Playa" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:LeipzigerMesse
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "Leipziger Messe" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:LeosBrasserie
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 9 ;
+  a jsp:Ort ;
+  rdfs:label "Leo's Brasserie" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Linxxnet
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Linxxnet" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Lofft
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Lofft" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:MDRStudiogelaende
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "MDR Studiogelände" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:MadFlavaInk
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Mad Flava Ink" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Maedlerpassage
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Mädlerpassage" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Maredo
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Maredo" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:MarkleebergerSee
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Markleeberger See" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Markt
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 3 ;
+  a jsp:Ort ;
+  rdfs:label "Markt" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Messe
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Messe" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Metropolis
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gruenanlage> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Metropolis" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:MokauerEisdiele
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Mokauer Eisdiele" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Moritzbastei
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 14 ;
+  a jsp:Ort ;
+  rdfs:label "Moritzbastei" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Moritzbastei> .
+
+jsp:MorrisonPub
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Morrison Pub" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:MrsHippie
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Mrs. Hippie" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:MuseumderbildendenKuenste
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "Museum der bildenden Künste" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Museum.BildendeKuenste> .
+
+jsp:Musikerviertel
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Musikerviertel" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:NATO
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "NATO" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/naTo> .
+
+jsp:Nachtcafe
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 7 ;
+  a jsp:Ort ;
+  rdfs:label "Nachtcafé" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Nationalbibliothek
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Nationalbibliothek" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:NeuesRathaus
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 6 ;
+  a jsp:Ort ;
+  rdfs:label "Neues Rathaus" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/StadtLeipzig.NeuesRathaus> .
+
+jsp:Nikolaikirche
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Kirche> ;
+  jsp:numberOfVotes 6 ;
+  a jsp:Ort ;
+  rdfs:label "Nikolaikirche" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Nikolaikirche> .
+
+jsp:Nochbesserleben
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Noch besser leben" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Oper
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 12 ;
+  a jsp:Ort ;
+  rdfs:label "Oper" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:PRClub
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff>, <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "P.R.Club" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Panometer
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 3 ;
+  a jsp:Ort ;
+  rdfs:label "Panometer" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:PaunsdorfCenter
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 11 ;
+  a jsp:Ort ;
+  rdfs:label "Paunsdorf-Center" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Perlentaucher
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Perlentaucher" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Peterskirche
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Kirche> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Peterskirche" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:PragerFruehling
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Prager Frühling" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Puschkin
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Puschkin" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:RedBullArena
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 14 ;
+  a jsp:Ort ;
+  rdfs:label "Red Bull Arena" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/ArenaLeipzig> .
+
+jsp:Rosental
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gruenanlage> ;
+  jsp:numberOfVotes 5 ;
+  a jsp:Ort ;
+  rdfs:label "Rosental" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:RundeEcke
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Runde Ecke" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:RussischeKirche
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Kirche> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Russische Kirche" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/RussischeGedaechtniskirche> .
+
+jsp:SJR
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "JuPaLe und SJR" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Sachsenbruecke
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 6 ;
+  a jsp:Ort ;
+  rdfs:label "Sachsenbrücke" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Sachsentherme
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 6 ;
+  a jsp:Ort ;
+  rdfs:label "Sachsentherme" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Sansibar
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Sansibar" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Saxx
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "Saxx" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:SchaubuehneLindenfels
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Schaubühne Lindenfels" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:SchulclubamAdler
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Jugendtreff> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Schulclub am Adler" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Schulmuseum
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Schulmuseum" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:ShishabarWunderlampe
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Shishabar Wunderlampe" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Sixtina
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "Sixtina" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Sixtina> .
+
+jsp:SkateparkAlleepark
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Skatepark Alleepark" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:SkateparkReudnitzerPark
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 3 ;
+  a jsp:Ort ;
+  rdfs:label "Skatepark Reudnitzer Park" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:SkyClub
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Sky Club" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Soccerworld
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Soccerworld" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Spatzennest
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Spatzennest" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Spinnerei
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 3 ;
+  a jsp:Ort ;
+  rdfs:label "Spinnerei" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/LeipzigerBaumwollspinnerei> .
+
+jsp:Spizz
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 10 ;
+  a jsp:Ort ;
+  rdfs:label "Spizz" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:StMartin
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Kirche> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "St.Martin" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Stadtbibliothek
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 3 ;
+  a jsp:Ort ;
+  rdfs:label "Stadtbibliothek" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:StadtgeschichtlichesMuseum
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Stadtgeschichtliches Museum" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Starlight
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Starlight" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Starlight-Bowling> .
+
+jsp:Staubsauger
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Staubsauger" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Staubsauger> .
+
+jsp:Suedfriedhof
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Südfriedhof" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/SuedfriedhofLeipzig> .
+
+jsp:Sweat
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Sweat" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:TheaterderjungenWelt
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 3 ;
+  a jsp:Ort ;
+  rdfs:label "Theater der jungen Welt" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/TheaterDerJungenWelt> .
+
+jsp:Theatrium
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 2 ;
+  a jsp:Ort ;
+  rdfs:label "Theatrium" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Theatrium> .
+
+jsp:Thomaskirche
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Kirche> ;
+  jsp:numberOfVotes 9 ;
+  a jsp:Ort ;
+  rdfs:label "Thomaner und Thomaskirche" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Thomaskirche> .
+
+jsp:Twentyone
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Twenty one" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:UTConnewitz
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "UT Connewitz" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/UTConnewitz> .
+
+jsp:Unikatum
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Kindermuseum Unikatum" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Uniriese
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 28 ;
+  a jsp:Ort ;
+  rdfs:label "Uniriese" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/City-HochhausLeipzig> .
+
+jsp:Universitaet
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 5 ;
+  a jsp:Ort ;
+  rdfs:label "Universität" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Vapiano
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gastronomie> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "Vapiano" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Voelkerschlachtdenkmal
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Sehenswuerdigkeit> ;
+  jsp:numberOfVotes 74 ;
+  a jsp:Ort ;
+  rdfs:label "Völkerschlachtdenkmal" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Voelkerschlachtdenkmal> .
+
+jsp:WerkII
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Nachtleben> ;
+  jsp:numberOfVotes 9 ;
+  a jsp:Ort ;
+  rdfs:label "Werk II" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/Werk-2> .
+
+jsp:Westend
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Westend" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Westwerk
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Shopping> ;
+  jsp:numberOfVotes 4 ;
+  a jsp:Ort ;
+  rdfs:label "Westwerk" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Wildpark
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Gruenanlage> ;
+  jsp:numberOfVotes 6 ;
+  a jsp:Ort ;
+  rdfs:label "Wildpark" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/WildparkLeipzig> .
+
+jsp:WilhelmLeuschnerPlatz
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Wilhelm-Leuschner-Platz" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:Wolfswinkel
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "Wolfswinkel" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:ZeitgeschichtlichesForum
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Museum> ;
+  jsp:numberOfVotes 3 ;
+  a jsp:Ort ;
+  rdfs:label "Zeitgeschichtliches Forum" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/NN> .
+
+jsp:ZentralKabarett
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/Freizeit> ;
+  jsp:numberOfVotes 1 ;
+  a jsp:Ort ;
+  rdfs:label "ZentralKabarett" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/LeipzigerCentralKabarett> .
+
+jsp:Zoo
+  jsp:hasKeyword <http://leipzig-data.de/Data/Tag/NoTag> ;
+  jsp:numberOfVotes 35 ;
+  a jsp:Ort ;
+  rdfs:label "Zoo" ;
+  owl:sameAs <http://leipzig-data.de/Data/Ort/ZooLeipzig> .
+
+ld:Adresse
+  a owl:Class ;
+  rdfs:label "Adresse in der Stadt Leipzig" .
+
+ld:Ort
+  a owl:Class ;
+  rdfs:label "Ort" .
+
+ld:Tag
+  a owl:Class ;
+  rdfs:comment "Genormtes Schlagwort zur Klassifizierung" ;
+  rdfs:label "Tag" .
+
+ld:Traeger
+  a owl:Class ;
+  rdfs:label "Träger" .
+
+<http://leipzig-data.de/Data/Ort/AlpenmaxLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.GrosseFleischergasse.12> ;
+  ld:hasTelefon "341-2248605" ;
+  ld:hasURL <http://www.alpenmax-leipzig.de/drp/> ;
+  a ld:Club, ld:Ort ;
+  rdfs:label "Alpenmax Leipzig" .
+
+<http://leipzig-data.de/Data/Ort/AlteHandelsboerse>
+  ld:contactPerson "FIXME: Kathleen Belger" ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Naschmarkt.2> ;
+  ld:hasEmail "alteboerse-leipzig@leipzig.de" ;
+  ld:hasTelefon "341-2617766" ;
+  ld:hasURL <http://www.stadtgeschichtliches-museum-leipzig.de/site_deutsch/alteboerse/index.php> ;
+  a ld:Ort ;
+  rdfs:comment "Die Alte Handelsbörse ist Leipzigs ältestes Versammlungsgebäude der Kaufmannschaft und eines der ältesten Barockbauwerke der Stadt." ;
+  rdfs:label "Alte Handesbörse" .
+
+<http://leipzig-data.de/Data/Ort/Anker>
+  ld:Art "soziokulturelles Stadtteilzentrum" ;
+  ld:Kosten "teilweise" ;
+  ld:Zielgruppe "Kinder-und Jugendliche, Senioren" ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04159.Renftstrasse.1> ;
+  ld:hasEmail "info@anker-Leipzig.de" ;
+  ld:hasFax "0341-9123910" ;
+  ld:hasStatus "aktiv" ;
+  ld:hasSupplier <http://leipzig-data.de/Data/Traeger/Anker> ;
+  ld:hasTelefon "0341-9128327" ;
+  ld:hasURL "http://www.anker-Leipzig" ;
+  a ld:Ort ;
+  rdfs:comment "Im Angebot: Schauspiel, Theater, Kreativwerkstatt, Mediencenter, Modellbau, Fotolabor, Kinderfeste, offener Treff, Jugendclub, Ferienangebote, Jugendgesprächsrunde" ;
+  rdfs:label "Der Anker" .
+
+<http://leipzig-data.de/Data/Ort/ArenaLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04105.AmSportforum.2> ;
+  ld:hasEmail "i.rackwitz@sportforum-leipzig.com", "office@arena-leipzig.com" ;
+  ld:hasFax "341-2341111" ;
+  ld:hasTelefon "0341-2341-0", "341-2341122" ;
+  ld:hasURL <http://www.sportforum-leipzig.com/> ;
+  a ld:ConcertHall, ld:Ort ;
+  rdfs:comment "Träger: ZSL Betreibergesellschaft mbH" ;
+  rdfs:label "Arena Leipzig", "Red Bull Arena" .
+
+<http://leipzig-data.de/Data/Ort/AuerbachsKeller>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.GrimmaischeStrasse.2-4> ;
+  ld:hasEmail "info@auerbachs-keller-leipzig.de" ;
+  ld:hasFax "341-21610-11" ;
+  ld:hasTelefon "341-21610-0" ;
+  ld:hasURL <http://www.auerbachs-keller-leipzig.de/> ;
+  a ld:Ort, ld:Restaurant ;
+  rdfs:comment "Historisches Restaurant im Herzen der Leipziger Altstadt" ;
+  rdfs:label "Auerbachs Keller" .
+
+<http://leipzig-data.de/Data/Ort/Cafe-Grundmann>
+  ld:hasAPIId "Venue.65" ;
+  ld:hasAPIRef <http://leipzig-data.de/Data/APIId/Venue.65> ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04275.August-Bebel-Strasse.2>, <http://leipzig-data.de/Data/Adresse/04315.Lutherstrasse.10> ;
+  ld:hasURL "http://www.cafe-grundmann.de" ;
+  a ld:Ort ;
+  rdfs:label "Café Grundmann" .
+
+<http://leipzig-data.de/Data/Ort/CafeWaldi>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04107.Peterssteinweg.10> ;
+  ld:hasEmail "cafewaldi@googlemail.com" ;
+  ld:hasFax "0341-3373219" ;
+  ld:hasTelefon "0341-4625667" ;
+  ld:hasURL <http://www.cafewaldi.de/> ;
+  a ld:Cafe, ld:Ort ;
+  rdfs:label "Café Waldi" .
+
+<http://leipzig-data.de/Data/Ort/CentraltheaterLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Bosestrasse.1> ;
+  ld:hasURL <http://www.centraltheater-leipzig.de> ;
+  a ld:Ort, ld:Theater ;
+  rdfs:label "Centraltheater Leipzig", "Schauspiel Leipzig" .
+
+<http://leipzig-data.de/Data/Ort/CineStar>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Petersstrasse.44> ;
+  ld:hasTelefon "341-3366300" ;
+  ld:hasURL <http://www.cinestar.de/de/kino/leipzig-cinestar/> ;
+  a ld:Cinema, ld:Ort ;
+  rdfs:comment "Theaterleiter: Rainer Weber" ;
+  rdfs:label "Cinestar" .
+
+<http://leipzig-data.de/Data/Ort/City-HochhausLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Augustusplatz.9> ;
+  a ld:Ort ;
+  rdfs:label "City-Hochhaus Leipzig", "Uni-Riese", "Weisheitszahn" .
+
+<http://leipzig-data.de/Data/Ort/Darkflower>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Hainstrasse.12> ;
+  ld:hasEmail "marko@darkflower.de" ;
+  ld:hasFax "34298-48577" ;
+  ld:hasTelefon "163-6330011" ;
+  ld:hasURL <http://www.darkflower.de/> ;
+  a ld:Club, ld:Ort ;
+  rdfs:comment "Alternative Club", "Geschäftsführer: Marko Meyer", "Steuernummer: 231/248/10728", "zurSzene: Schwarzes Leipzig" ;
+  rdfs:label "Darkflower" .
+
+<http://leipzig-data.de/Data/Ort/DieSCHAUPLATZ>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04129.BerlinerStrasse.69> ;
+  ld:hasEmail "schauplatz@gtb-leipzig.de" ;
+  ld:hasFax "0341/90998019" ;
+  ld:hasTelefon "0341-9099800" ;
+  ld:hasURL "http://www.produktionsschuleleipzig.de/" ;
+  a ld:Ort ;
+  rdfs:label "Die SCHAUPLATZ" .
+
+<http://leipzig-data.de/Data/Ort/Distillery>
+  ld:hasAPIId "Venue.18" ;
+  ld:hasAPIRef <http://leipzig-data.de/Data/APIId/Venue.18> ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04275.Kurt-Eisner-Strasse.108> ;
+  a ld:Ort ;
+  rdfs:label "Distillery" .
+
+<http://leipzig-data.de/Data/Ort/FeinkostLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04107.Karl-Liebknecht-Strasse.36> ;
+  ld:hasBlog "http://feinkostblog.wordpress.com/" ;
+  ld:hasEmail "feinkostbuero@yahoo.de" ;
+  ld:hasFax "0341-9627757" ;
+  ld:hasTelefon "0341-9627755" ;
+  ld:hasURL <http://www.feinkostgenossenschaft.de/> ;
+  a ld:Ort ;
+  rdfs:label "Feinkost", "Kunst- und Gewerbegenossenschaft Feinkost eG" .
+
+<http://leipzig-data.de/Data/Ort/GewandhausLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Augustusplatz.8> ;
+  ld:hasTelefon "0341-1270-280" ;
+  ld:hasURL <http://www.gewandhaus.de/> ;
+  a ld:ConcertHall, ld:Ort ;
+  rdfs:label "Gewandhaus Leipzig" .
+
+<http://leipzig-data.de/Data/Ort/GfZK>
+  ld:hasAPIId "Venue.66" ;
+  ld:hasAPIRef <http://leipzig-data.de/Data/APIId/Venue.66> ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04107.Karl-Tauchnitz-Strasse.11> ;
+  ld:hasEmail "foryou@gfzk.de" ;
+  ld:hasStatus "aktiv" ;
+  ld:hasTelefon "0341-1408118" ;
+  ld:hasURL "http://www.gfzk.de" ;
+  a ld:Ort ;
+  rdfs:label "Galerie für Zeitgenössische Kunst" .
+
+<http://leipzig-data.de/Data/Ort/HGBLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04107.Waechterstrasse.11> ;
+  ld:hasTelefon "341-21350" ;
+  ld:hasURL <http://www.hgb-leipzig.de/> ;
+  a ld:Academy, ld:Ort ;
+  rdfs:label "Academy of Visual Arts Leipzig", "HGB", "Hochschule für Grafik und Buchkunst" .
+
+<http://leipzig-data.de/Data/Ort/Heizhaus.Gruenau>
+  ld:Kurzinformation "Skate- und Jugendzentrum" ;
+  ld:contactPerson <http://leipzig-data.de/Data/Person/Bielig_Sven> ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04209.AlteSalzstrasse.63> ;
+  ld:hasEmail "info@heizhaus-leipzig.de" ;
+  ld:hasMehrAlsChillenRef <http://leipzig-data.de/Data/MehrAlsChillen/Standort.8> ;
+  ld:hasStatus "aktiv" ;
+  ld:hasSupplier <http://leipzig-data.de/Data/Traeger/UrbanSouls> ;
+  ld:hasTag <http://leipzig-data.de/Data/Tags/Gruenau.MehrAlsChillen> ;
+  ld:hasTelefon "341-46369100" ;
+  ld:hasURL "http://www.heizhaus-leipzig.de/" ;
+  a ld:Ort, ld:YouthCenter ;
+  rdfs:label "Heizhaus Leipzig" .
+
+<http://leipzig-data.de/Data/Ort/Helheim>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04229.WeissenfelserStrasse.32> ;
+  ld:hasTelefon "341-8706376" ;
+  a ld:Bar, ld:Club, ld:Ort ;
+  rdfs:comment "zurSzene: Metal" ;
+  rdfs:label "Helheim" .
+
+<http://leipzig-data.de/Data/Ort/IlsesErika>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04277.Bernhard-Goering-Strasse.152> ;
+  ld:hasTelefon "341-3065111" ;
+  ld:hasURL <http://www.ilseserika.de/> ;
+  a ld:Bar, ld:Ort ;
+  rdfs:label "Ilses Erika" .
+
+<http://leipzig-data.de/Data/Ort/Inspirata>
+  ld:Auszeichnungen "2011 als Idee für die Bildungsrepublik (Initiative Deutschland – Land der Ideen unter Schirmherrschaft von Bundesbildungsministerin Prof. Dr. A. Schavan)", "Familienfreundlichkeitspreis 2010", "Leipziger Agenda-Preis 2011" ;
+  ld:Hintergrund "Die INSPIRATA wurde im Herbst 2008 im Zusammenhang mit dem Jahr der Mathematik gegründet. Nach Zwischenstationen im Kinosaal des Schulmuseums und im Uni-Interim Brühl-Hochhaus finden Sie die INSPIRATA seit Januar 2010 auf dem Gelände der Alten Messe." ;
+  ld:Kosten "2,00 Euro je Kind", "3,00 Euro je Erwachsener", "8,00 Euro Familienticket" ;
+  ld:Kurzinformation "Die INSPIRATA fördert die mathematisch-naturwissenschaftliche Bildung für jedermann, hauptsächlich für Schulklassen. Ihr Kern ist eine Sammlung von Exponaten, an Hand derer die Besucher Naturgesetze erfahren bzw. verinnerlichen können. Ferner werden lehrplanbezogene Workshops und spezielle Führungen angeboten. Charakteristisch ist ein intensives pädagogisches Betreuungssystem.", "Mathematisch-naturwissenschaftliches Bildungszentrum nach Vorbild des Gießeners Mathematikums, Exponate zum Experimentieren, Workshops, Lehrerfortbildungen" ;
+  ld:Langinformation <http://leipzig-data.de/Data/Orte/Inspirata.Lang> ;
+  ld:Leistungsangebot "Kindergeburtstagsbetreuungen mit Experimenten", "Mitmachmuseum mit mathematisch-naturwissenschaftlichen Exponaten und fachlicher Betreuung", "Thematische Führungen", "Thematische Weiterbildungen für Pädagogen", "Vorträge zu naturwissenschaftlichen und pädagogischen Inhalten", "Workshops zu mathematisch-naturwissenschaftlichen (Unterrichts-)Themen" ;
+  ld:Oeffnungszeiten "Einzelbesucher/Fam.: am 2. Samstag jedes Monats", "Ferien-Angebote und individuelle Besuchszeiten nach Abstimmung", "für Gruppen (nach Anmeldung): mo.-fr. 8:30, 10:30, 12:30, 14:30 Uhr" ;
+  ld:Teilnahmebedingungen "keine" ;
+  ld:Zielgruppe "Schulklassen aller Schulformen und Alter (ab Grundschule), aber auch regelmäßig offen für jedermann" ;
+  ld:Zielstellung "Spielerische Kontakte mit Mathe und Physik für Kinder und Jugendliche und Interessierte aller Altersklassen unter Anleitung durch eingewiesene Lehramtsstudenten, Erarbeitung und Einrichtung von Workshops und anderen Unterrichtsangeboten zur Unterstützung des Lehramtsstudiums" ;
+  ld:contactPerson <http://leipzig-data.de/Data/Person/Petzschler_Ines> ;
+  ld:engagedPerson <http://leipzig-data.de/Data/Person/Klimesch_Holger>, <http://leipzig-data.de/Data/Person/Koenig_Wolfgang>, <http://leipzig-data.de/Data/Person/Petzschler_Ines> ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04103.DeutscherPlatz.4> ;
+  ld:hasEmail "kontakt@inspirata.de" ;
+  ld:hasStatus "aktiv" ;
+  ld:hasSupplier <http://leipzig-data.de/Data/Traeger/Inspirata> ;
+  ld:hasTag <http://leipzig-data.de/Data/Tag/MINT> ;
+  ld:hasTelefon "0341-1259757" ;
+  ld:hasURL "http://www.inspirata.de" ;
+  a ld:Ort ;
+  rdfs:comment "Unterstützung durch Partner (Uni Leipzig, MPI MIS, SBA, HTWK Leipzig, Stadtverwaltung) und Sponsoren" ;
+  rdfs:label "Inspirata – Zentrum für mathematisch-naturwissenschaftliche Bildung" .
+
+<http://leipzig-data.de/Data/Ort/KaosLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04177.Wasserstrasse.18> ;
+  ld:hasEmail "info@kaos-leipzig.de" ;
+  ld:hasStatus "aktiv" ;
+  ld:hasTelefon "0341-4803841" ;
+  ld:hasURL "http://www.kaos-leipzig.de" ;
+  a ld:Ort ;
+  rdfs:label "KV Kulturwerkstatt KAOS" .
+
+<http://leipzig-data.de/Data/Ort/KiJu.Gruenau>
+  ld:Kurzinformation "Schwerpunkte der Arbeit: offene Kinder- und Jugendarbeit, erlebnispädagogische Projekte, Medienarbeit, Jugendbildung, Nachwuchsförderung und Ferienangebote." ;
+  ld:contactPerson <http://leipzig-data.de/Data/Person/Roeser_Sascha> ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04209.HeilbronnerStrasse.16> ;
+  ld:hasEmail "info-kijuleipzig@gmx.de", "kijuleipzig@gmx.de" ;
+  ld:hasMehrAlsChillenRef <http://leipzig-data.de/Data/MehrAlsChillen/Standort.9> ;
+  ld:hasStatus "aktiv" ;
+  ld:hasSupplier <http://leipzig-data.de/Data/Traeger/KiJu.Gruenau> ;
+  ld:hasTelefon "0341-4113196" ;
+  ld:hasURL <http://www.kijuleipzig.de> ;
+  a ld:Ort ;
+  rdfs:label "Kinder- u. Jugendtreff Grünau" .
+
+<http://leipzig-data.de/Data/Ort/KrystallpalastVariete>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Magazingasse.4> ;
+  ld:hasURL <http://www.krystallpalast.de/> ;
+  a ld:Ort, ld:Theater ;
+  rdfs:label "Krystallpalast Varieté" .
+
+<http://leipzig-data.de/Data/Ort/LeipzigerBaumwollspinnerei>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04179.Spinnereistrasse.7> ;
+  ld:hasEmail "mail@spinnerei.de" ;
+  ld:hasFax "0341-4980375" ;
+  ld:hasTelefon "0341-4980200" ;
+  ld:hasURL <http://www.spinnerei.de/> ;
+  a ld:Ort ;
+  rdfs:label "Leipziger Baumwollspinnerei", "Spinnerei" .
+
+<http://leipzig-data.de/Data/Ort/LeipzigerCentralKabarett>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Markt.9> ;
+  ld:hasTelefon "341-52903052" ;
+  ld:hasURL <http://www.centralkabarett.de/> ;
+  a ld:Kabarett, ld:Ort ;
+  rdfs:label "Leipziger Central Kabarett" .
+
+<http://leipzig-data.de/Data/Ort/Moritzbastei>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Universitaetsstrasse.9> ;
+  ld:hasURL <http://www.moritzbastei.de/> ;
+  a ld:Ort ;
+  rdfs:label "Moritzbastei" .
+
+<http://leipzig-data.de/Data/Ort/Museum.BildendeKuenste>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Katharinenstrasse.10> ;
+  ld:hasEmail "mdbk@leipzig.de" ;
+  ld:hasStatus "aktiv" ;
+  ld:hasTag <http://leipzig-data.de/Data/Tag/Museum> ;
+  ld:hasTelefon "0341-21699914" ;
+  ld:hasURL "http://www.mdbk.de" ;
+  a ld:Ort ;
+  rdfs:label "Bildermuseum", "Museum der bildenden Künste" .
+
+<http://leipzig-data.de/Data/Ort/Museum.Grassi>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04103.Johannisplatz.5-11> ;
+  ld:hasEmail "grassimuseum@leipzig.de" ;
+  ld:hasStatus "aktiv" ;
+  ld:hasTag <http://leipzig-data.de/Data/Tag/Museum> ;
+  ld:hasTelefon "0341-2229114" ;
+  ld:hasURL "http://www.grassimuseum.de" ;
+  a ld:Ort ;
+  rdfs:label "GRASSI Museum für angewandte Kunst" .
+
+<http://leipzig-data.de/Data/Ort/Nikolaikirche>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Nikolaikirchhof.3> ;
+  ld:hasEmail "pfarramt@nikolaikirche-leipzig.de" ;
+  ld:hasFax "341-1245380-29" ;
+  ld:hasTelefon "341-1245380" ;
+  ld:hasURL <http://www.nikolaikirche-leipzig.de/> ;
+  a ld:Church, ld:Ort ;
+  rdfs:comment "Evangelisch-Lutherisch" ;
+  rdfs:label "Nikolaikirche" .
+
+<http://leipzig-data.de/Data/Ort/RussischeGedaechtniskirche>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04103.Philipp-Rosenthal-Strasse.51A> ;
+  ld:hasTelefon "341-8781453" ;
+  ld:hasURL <http://www.russische-kirche-l.de/> ;
+  a ld:Church, ld:Ort ;
+  rdfs:label "Russische Gedächtniskirche" .
+
+<http://leipzig-data.de/Data/Ort/Sixtina>
+  ld:hasAdress <http://leipzig-data.de/Data/Adresse/04109.Katharinenstrasse.11> ;
+  ld:hasTelefon "0175-1464694" ;
+  ld:hasURL <http://www.sixtina.de/> ;
+  a ld:Bar, ld:Ort ;
+  rdfs:label "Absintherie Sixtina" .
+
+<http://leipzig-data.de/Data/Ort/StadtLeipzig.NeuesRathaus>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Martin-Luther-Ring.4> ;
+  a ld:Ort ;
+  rdfs:label "Neues Rathaus" .
+
+<http://leipzig-data.de/Data/Ort/Starlight-Bowling>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04207.Diezmannstrasse.5> ;
+  ld:hasTelefon "0341-4155555" ;
+  ld:hasURL <http://www.starlight-bowling.de/> ;
+  a ld:Ort ;
+  rdfs:label "Starlight-Bowling" .
+
+<http://leipzig-data.de/Data/Ort/Staubsauger>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04275.Karl-Liebknecht-Strasse.95> ;
+  ld:hasTelefon "0341-4626865" ;
+  ld:hasURL <http://www.staub-sauger.de/> ;
+  a ld:Club, ld:Ort ;
+  rdfs:label "Staubsauger" .
+
+<http://leipzig-data.de/Data/Ort/SuedfriedhofLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04299.Friedhofsweg.3> ;
+  ld:hasTelefon "341-1235700" ;
+  a ld:Cemetery, ld:Ort ;
+  rdfs:label "Südfriedhof Leipzig" .
+
+<http://leipzig-data.de/Data/Ort/TheaterDerJungenWelt>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04177.LindenauerMarkt.21> ;
+  ld:hasTelefon "341-4866016" ;
+  ld:hasURL <http://www.theaterderjungenweltleipzig.de/> ;
+  a ld:Ort, ld:Theater ;
+  rdfs:label "Theater der Jungen Welt" .
+
+<http://leipzig-data.de/Data/Ort/Theatrium>
+  ld:Hintergrund "Seit 1995 bieten wir in Leipzig-Grünau Theaterprojekte für Kinder und Jugendliche an. Ab 1996 wurde dafür die ehemalige Gaststätte \"Atrium\" in der Miltitzer Allee 52 von der Stadt Leipzig zur Verfügung gestellt und von den Vereinsgründern zum Theater \"Theatrium\" umgebaut. Nach jahrelanger Suche nach einem neuen, geeigneteren Domizil für unsere Theaterprojekte konnte, Dank der tatkräftigen Unterstützung durch die Stadt Leipzig und die Akteure des Stadtbezirks, im November 2010 das \"Neue Theatrium\" in der Alten Salzstraße 59 eröffnet werden und bietet nun beste Bedingungen, sowohl für die Arbeit in unseren Projekten, als auch für unsere Besucher. " ;
+  ld:contactPerson <http://leipzig-data.de/Data/Person/Roch_Beate> ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04209.AlteSalzstrasse.59> ;
+  ld:hasAdress <http://leipzig-data.de/Data/Adresse/04209.AlteSalzstrasse.59> ;
+  ld:hasEmail "theatrium@gmx.de" ;
+  ld:hasFax "0341-9406064" ;
+  ld:hasMehrAlsChillenRef <http://leipzig-data.de/Data/MehrAlsChillen/Standort.14> ;
+  ld:hasStatus "aktiv" ;
+  ld:hasTag <http://leipzig-data.de/Data/Tags/Gruenau.MehrAlsChillen> ;
+  ld:hasTelefon "0341-9413640", "341-9413640" ;
+  ld:hasURL "http://www.theatrium-leipzig.de", <http://www.theatrium-leipzig.de/> ;
+  a ld:Ort ;
+  rdfs:label "Theatrium" .
+
+<http://leipzig-data.de/Data/Ort/Thomaskirche>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Thomaskirchhof.18> ;
+  ld:hasEmail "info@thomaskirche.org" ;
+  ld:hasFax "341-22224-105" ;
+  ld:hasTelefon "341-2222440" ;
+  ld:hasURL <http://www.thomaskirche.org/> ;
+  a ld:Church, ld:Ort ;
+  rdfs:comment "Bachgrab", "Evangelisch-Lutherisch" ;
+  rdfs:label "Thomaskirche" .
+
+<http://leipzig-data.de/Data/Ort/UTConnewitz>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04277.Wolfgang-Heinze-Strasse.12A> ;
+  ld:hasFax "341-4626782" ;
+  ld:hasTelefon "341-4626776" ;
+  ld:hasURL <http://www.utconnewitz.de/> ;
+  a ld:Cinema, ld:Ort ;
+  rdfs:comment "Träger: UT Connewitz e.V." ;
+  rdfs:label "UT Connewitz" .
+
+<http://leipzig-data.de/Data/Ort/Villa>
+  ld:hasAPIId "Venue.64" ;
+  ld:hasAPIRef <http://leipzig-data.de/Data/APIId/Venue.64> ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Lessingstrasse.7> ;
+  ld:hasEmail "jugendarbeit@villa-leipzig.de" ;
+  ld:hasStatus "aktiv" ;
+  ld:hasSupplier <http://leipzig-data.de/Data/Traeger/Villa> ;
+  ld:hasTelefon "0341-3552040" ;
+  ld:hasURL "http://www.villa-Leipzig.de" ;
+  a ld:Ort ;
+  rdfs:label "Soziokulturelles Zentrum \"Die Villa\"" .
+
+<http://leipzig-data.de/Data/Ort/Voelkerschlachtdenkmal>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04103.Strassedes18Oktober.100> ;
+  ld:hasTelefon "0341-2416870" ;
+  a ld:Museum, ld:Ort ;
+  rdfs:label "Völkerschlachtdenkmal" .
+
+<http://leipzig-data.de/Data/Ort/Werk-2>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04277.Kochstrasse.132> ;
+  ld:hasEmail "info@werk-2.de" ;
+  ld:hasStatus "aktiv" ;
+  ld:hasTelefon "0341-3080140" ;
+  ld:hasURL "http://www.werk-2.de" ;
+  a ld:Ort ;
+  rdfs:label "Werk II - Kulturfabrik e. V." .
+
+<http://leipzig-data.de/Data/Ort/WildparkLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04277.KoburgerStrasse.12A> ;
+  ld:hasTelefon "341-309410" ;
+  a ld:Ort, ld:Zoo ;
+  rdfs:label "Wildpark der Stadt Leipzig" .
+
+<http://leipzig-data.de/Data/Ort/ZooLeipzig>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04105.PfaffendorferStrasse.29> ;
+  ld:hasURL <http://www.zoo-leipzig.de> ;
+  a ld:Ort, ld:Zoo ;
+  rdfs:label "Zoo Leipzig" .
+
+<http://leipzig-data.de/Data/Ort/naTo>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04275.Karl-Liebknecht-Strasse.46> ;
+  ld:hasEmail "info@nato-leipzig.de" ;
+  ld:hasFax "0341-3014399" ;
+  ld:hasTelefon "341-3014397", "341-3014398" ;
+  ld:hasURL <http://www.nato-leipzig.de/> ;
+  a ld:Ort ;
+  rdfs:label "die naTo", "naTo Leipzig" .
+
+<http://leipzig-data.de/Data/Person/Klimesch_Holger>
+  a foaf:Person ;
+  rdfs:comment "Vereinsvorstand Inspirata e.V." ;
+  foaf:name "Holger Klimesch" .
+
+<http://leipzig-data.de/Data/Person/Koenig_Wolfgang>
+  a foaf:Person ;
+  rdfs:comment "Vereinsvorsitzender Inspirata e.V." ;
+  foaf:name "Prof. Wolfgang König" .
+
+<http://leipzig-data.de/Data/Person/Petzschler_Ines>
+  a foaf:Person ;
+  rdfs:comment "Vereinsvorstand Inspirata e.V." ;
+  foaf:name "Ines Petzschler" .
+
+<http://leipzig-data.de/Data/Person/Roeser_Sascha>
+  a foaf:Person ;
+  foaf:name "Sascha Roeser" .
+
+<http://leipzig-data.de/Data/Strasse/AlteSalzstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.06113> ;
+  a ld:Strasse ;
+  rdfs:label "Alte Salzstraße" .
+
+<http://leipzig-data.de/Data/Strasse/AmSportforum>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.05187> ;
+  a ld:Strasse ;
+  rdfs:label "Am Sportforum" .
+
+<http://leipzig-data.de/Data/Strasse/August-Bebel-Strasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.05173> ;
+  a ld:Strasse ;
+  rdfs:label "August-Bebel-Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Augustusplatz>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01049> ;
+  a ld:Strasse ;
+  rdfs:label "Augustusplatz" .
+
+<http://leipzig-data.de/Data/Strasse/BerlinerStrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.02050> ;
+  a ld:Strasse ;
+  rdfs:label "Berliner Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Bernhard-Goering-Strasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04050> ;
+  a ld:Strasse ;
+  rdfs:label "Bernhard-Göring-Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Bosestrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.05024> ;
+  a ld:Strasse ;
+  rdfs:label "Bosestraße" .
+
+<http://leipzig-data.de/Data/Strasse/DeutscherPlatz>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04074> ;
+  a ld:Strasse ;
+  rdfs:label "Deutscher Platz" .
+
+<http://leipzig-data.de/Data/Strasse/Diezmannstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.06038> ;
+  a ld:Strasse ;
+  rdfs:label "Diezmannstraße" .
+
+<http://leipzig-data.de/Data/Strasse/Friedhofsweg>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04076> ;
+  a ld:Strasse ;
+  rdfs:label "Friedhofsweg" .
+
+<http://leipzig-data.de/Data/Strasse/GrimmaischeStrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01017> ;
+  a ld:Strasse ;
+  rdfs:label "Grimmaische Straße" .
+
+<http://leipzig-data.de/Data/Strasse/GrosseFleischergasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01041> ;
+  a ld:Strasse ;
+  rdfs:label "Große Fleischergasse" .
+
+<http://leipzig-data.de/Data/Strasse/Hainstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01042> ;
+  a ld:Strasse ;
+  rdfs:label "Hainstraße" .
+
+<http://leipzig-data.de/Data/Strasse/HeilbronnerStrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.05062> ;
+  a ld:Strasse ;
+  rdfs:label "Heilbronner Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Johannisplatz>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.03044> ;
+  a ld:Strasse ;
+  rdfs:label "Johannisplatz" .
+
+<http://leipzig-data.de/Data/Strasse/Karl-Liebknecht-Strasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04139> ;
+  a ld:Strasse ;
+  rdfs:label "Karl-Liebknecht-Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Karl-Tauchnitz-Strasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.05027> ;
+  a ld:Strasse ;
+  rdfs:label "Karl-Tauchnitz-Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Katharinenstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01043> ;
+  a ld:Strasse ;
+  rdfs:label "Katharinenstraße" .
+
+<http://leipzig-data.de/Data/Strasse/KoburgerStrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04260> ;
+  a ld:Strasse ;
+  rdfs:label "Koburger Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Kochstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.05157> ;
+  a ld:Strasse ;
+  rdfs:label "Kochstraße" .
+
+<http://leipzig-data.de/Data/Strasse/Kurt-Eisner-Strasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04058> ;
+  a ld:Strasse ;
+  rdfs:label "Kurt-Eisner-Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Lessingstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.05006> ;
+  a ld:Strasse ;
+  rdfs:label "Lessingstraße" .
+
+<http://leipzig-data.de/Data/Strasse/LindenauerMarkt>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.07126> ;
+  a ld:Strasse ;
+  rdfs:label "Lindenauer Markt" .
+
+<http://leipzig-data.de/Data/Strasse/Lutherstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.02096> ;
+  a ld:Strasse ;
+  rdfs:label "Lutherstraße" .
+
+<http://leipzig-data.de/Data/Strasse/Magazingasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01034> ;
+  a ld:Strasse ;
+  rdfs:label "Magazingasse" .
+
+<http://leipzig-data.de/Data/Strasse/Markt>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01016> ;
+  a ld:Strasse ;
+  rdfs:label "Markt" .
+
+<http://leipzig-data.de/Data/Strasse/Martin-Luther-Ring>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01005> ;
+  a ld:Strasse ;
+  rdfs:label "Martin-Luther-Ring" .
+
+<http://leipzig-data.de/Data/Strasse/Naschmarkt>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01050> ;
+  a ld:Strasse ;
+  rdfs:label "Naschmarkt" .
+
+<http://leipzig-data.de/Data/Strasse/Nikolaikirchhof>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01021> ;
+  a ld:Strasse ;
+  rdfs:label "Nikolaikirchhof" .
+
+<http://leipzig-data.de/Data/Strasse/Peterssteinweg>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04001> ;
+  a ld:Strasse ;
+  rdfs:label "Peterssteinweg" .
+
+<http://leipzig-data.de/Data/Strasse/Petersstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01046> ;
+  a ld:Strasse ;
+  rdfs:label "Petersstraße" .
+
+<http://leipzig-data.de/Data/Strasse/PfaffendorferStrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.02343> ;
+  a ld:Strasse ;
+  rdfs:label "Pfaffendorfer Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Philipp-Rosenthal-Strasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04025> ;
+  a ld:Strasse ;
+  rdfs:label "Philipp-Rosenthal-Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Renftstrasse>
+  a ld:Strasse ;
+  rdfs:label "Renftstraße" .
+
+<http://leipzig-data.de/Data/Strasse/Spinnereistrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.06102> ;
+  a ld:Strasse ;
+  rdfs:label "Spinnereistraße" .
+
+<http://leipzig-data.de/Data/Strasse/Strassedes18Oktober>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04033> ;
+  a ld:Strasse ;
+  rdfs:label "Straße des 18. Oktober" .
+
+<http://leipzig-data.de/Data/Strasse/Thomaskirchhof>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01018> ;
+  a ld:Strasse ;
+  rdfs:label "Thomaskirchhof" .
+
+<http://leipzig-data.de/Data/Strasse/Universitaetsstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.01048> ;
+  a ld:Strasse ;
+  rdfs:label "Universitätsstraße" .
+
+<http://leipzig-data.de/Data/Strasse/Waechterstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.05184> ;
+  a ld:Strasse ;
+  rdfs:label "Wächterstraße" .
+
+<http://leipzig-data.de/Data/Strasse/Wasserstrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.07131> ;
+  a ld:Strasse ;
+  rdfs:label "Wasserstraße" .
+
+<http://leipzig-data.de/Data/Strasse/WeissenfelserStrasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.05083> ;
+  a ld:Strasse ;
+  rdfs:label "Weißenfelser Straße" .
+
+<http://leipzig-data.de/Data/Strasse/Wolfgang-Heinze-Strasse>
+  ld:hasStadtRef <http://leipzig-data.de/Data/StadtId/Street.04140> ;
+  a ld:Strasse ;
+  rdfs:label "Wolfgang-Heinze-Straße" .
+
+<http://leipzig-data.de/Data/Tag/Freizeit>
+  a ld:Tag ;
+  rdfs:label "Freizeit" .
+
+<http://leipzig-data.de/Data/Tag/MINT>
+  a ld:Tag ;
+  rdfs:label "Bereich MINT" .
+
+<http://leipzig-data.de/Data/Tag/Museum>
+  a ld:Tag ;
+  rdfs:label "Museum" .
+
+<http://leipzig-data.de/Data/Traeger/Inspirata>
+  ld:engagedPerson <http://leipzig-data.de/Data/Person/Koenig_Wolfgang> ;
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04103.DeutscherPlatz.4> ;
+  ld:hasAddressAddendum "Eingang G (3. Etage)" ;
+  ld:hasEmail "kontakt@inspirata.de" ;
+  ld:hasTelefon "0341-1259757" ;
+  ld:hasURL <http://www.inspirata.de> ;
+  a ld:Traeger ;
+  rdfs:label "Inspirata" .
+
+<http://leipzig-data.de/Data/Traeger/KiJu.Gruenau>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04209.HeilbronnerStrasse.16> ;
+  ld:hasEmail "kijuleipzig@gmx.de" ;
+  ld:hasSupplierNumber "279" ;
+  ld:hasTelefon "0341-4113196" ;
+  ld:hasURL "http://www.kijuleipzig.de" ;
+  a ld:Traeger ;
+  rdfs:label "Kinder- u. Jugendtreff Grünau e.V." .
+
+<http://leipzig-data.de/Data/Traeger/UrbanSouls>
+  ld:hasSupplierNumber "364" ;
+  a ld:Traeger ;
+  rdfs:label "Urban Souls" .
+
+<http://leipzig-data.de/Data/Traeger/Villa>
+  ld:hasAddress <http://leipzig-data.de/Data/Adresse/04109.Lessingstrasse.7> ;
+  ld:hasEmail "jugendarbeit@villa-leipzig.de" ;
+  ld:hasTelefon "0341-3552040" ;
+  ld:hasURL "http://www.villa-Leipzig.de" ;
+  a ld:Traeger ;
+  rdfs:label "Soziokulturelles Zentrum \"Die Villa\"" .
+
+owl:Class
+  a rdfs:Class ;
+  rdfs:label "Class" ;
+  rdfs:subClassOf rdfs:Class .
+
+foaf:Person
+  a owl:Class ;
+  rdfs:comment "A person." ;
+  rdfs:label "Person" ;
+  owl:disjointWith foaf:Document, foaf:Organization, foaf:Project .
+

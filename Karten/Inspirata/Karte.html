@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inspirata-Karte</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="leaflet/leaflet.css" />
+  <script src="leaflet/leaflet.js"></script>
+  <script>
+function onMapClick(e) {
+    alert("Es wurde bei "+e.latlng+" geklickt");
+}
+
+function initMap() {
+    var map = L.map('map').setView([51.320457, 12.397470], 14);
+    var tile = L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+	maxZoom: 18, minZoom: 14, 
+	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+	    '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>,  ' +
+	    'Imagery © <a href="http://mapbox.com">Mapbox</a><br/>' + 
+	    '„S-Bahn-Logo“ von Jürgen Siebert, Quelle http://wikimedia.org',
+	id: 'examples.map-20v6611k'
+    });
+    var BahnIcon = new L.Icon({
+	iconUrl: 'images/S-Bahn-Logo.svg', 
+	iconSize: [20,20], iconAnchor: [10,10], popupAnchor: [0,0]
+    });
+    var StrabaIcon = new L.Icon({
+	iconUrl: 'images/Zeichen_224.svg', 
+	iconSize: [20,20], iconAnchor: [10,10], popupAnchor: [0,0]
+    });
+    var InspirataIcon = new L.Icon({
+	iconUrl: 'images/inspirata_mockup.png', 
+	iconSize: [50,50], iconAnchor: [25, 25], popupAnchor: [0, 0]
+    });
+    var inspirata = L.marker([51.320457, 12.397470], {icon: InspirataIcon})
+	.bindPopup('Die Inspirata');
+    var sbahn_mdr = L.marker([51.3194554047498,12.386741638183594],{icon: BahnIcon})
+	.bindPopup('S-Bahn-Haltestelle MDR<br/> alle Linien');
+    var sbahn_vsd = L.marker([51.31602217169266,12.403564453125], {icon: BahnIcon})
+	.bindPopup('S-Bahn-Haltestelle Völkerschlachtdenkmal<br/> Linien Richtung Stötteritz, Wurzen ');
+    var lvb_nb = L.marker([51.32308952383796,12.39382266998291], {icon: StrabaIcon})
+	.bindPopup('Straßenbahn-Haltestelle Nationalbibliothek<br/> Linie 16');
+    var lvb_tk = L.marker([51.31827525986827,12.394638061523438], {icon: StrabaIcon})
+	.bindPopup('Straßenbahn-Haltestelle An den Tierkliniken<br/> Linie 16');
+    var lvb_tr = L.marker([51.32439022711651,12.40133285522461], {icon: StrabaIcon})
+	.bindPopup('Straßenbahn-Haltestelle Technisches Rathaus<br/> Linie 15');
+    var lvb_dp = L.marker([51.323290665931324,12.396376132965088], {icon: StrabaIcon})
+	.bindPopup('Straßenbahn-Haltestelle Deutscher Platz<br/> Linie 2');
+    var lvb_am = L.marker([51.32131943537887,12.40405797958374], {icon: StrabaIcon})
+	.bindPopup('Straßenbahn-Haltestelle Alte Messe<br/> Linie 2, 15');
+    tile.addTo(map);
+    sbahn_mdr.addTo(map);
+    inspirata.addTo(map);
+    sbahn_vsd.addTo(map);
+    lvb_nb.addTo(map);
+    lvb_tk.addTo(map);
+    lvb_tr.addTo(map);
+    lvb_dp.addTo(map);
+    lvb_am.addTo(map);
+    map.on('click', onMapClick);
+}
+</script>
+</head>
+<body onLoad="javascript:initMap();">
+   <div id="map" style="height: 300px; width:500px;"></div>
+</body>
+</html>

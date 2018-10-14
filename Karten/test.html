@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!--  Include leaflet javascript and css -->
+  <link rel="stylesheet" href="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.css">
+  <script src="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.js"></script>
+  <!--  Include r360.js -->
+  <script src="https://apps.route360.net/releases/r360-js/latest.js"></script>
+
+  <style>
+    html, body { width: 100%; height: 100%; margin: 0; font-family: sans-serif; }
+    #map { width: 100%; height: 100%; }
+    .button-group {
+      position: absolute; right: 10px; top: 10px;
+      box-shadow: 0 1px 5px rgba(0,0,0,.4);
+      background-color: rgba(255,255,255,1);
+    }
+    .button {
+      font-family: sans-serif; text-transform: uppercase;
+      color: #666; cursor: pointer;
+      padding: 15px 30px; display: inline-block;
+    }
+    .button:hover { background-color: #EEE; }
+    .button.active { color: rgb(63,81,181); }
+  </style>
+
+</head>
+<body>
+  <!--  where the map will live  -->
+  <div id="map"></div>
+  <div id="selectionBar" class="button-group">
+    <div id="btn-union" onclick="changeMode(&apos;union&apos;)" class="button active">union</div>
+    <div id="btn-intersection" onclick="changeMode(&apos;intersection&apos;)" class="button">intersection</div>
+    <div id="btn-average" onclick="changeMode(&apos;average&apos;)" class="button">average</div>
+  </div>
+  
+  <script>
+    var intersectionMode = 'union';
+    var latlons = {
+      map: [52.51, 13.37],
+      src1: [52.51042282571668, 13.38984489440918],
+      src2: [52.50956088985956, 13.377184867858887]
+    };
+    var map = L.map('map', { zoomControl: false }).setView(latlons.map, 14);
+    L.control.zoom({ position:'bottomleft' }).addTo(map);
+
+    // attribution to give credit to OSM map data and VBB for public transportation
+    var attribution ="<a href='https://www.mapbox.com/about/maps/' target='_blank'>© Mapbox © OpenStreetMap</a> | ÖPNV Daten © <a href='https://www.vbb.de/de/index.html' target='_blank'>VBB</a> | developed by <a href='https://www.route360.net/de/' target='_blank'>Route360°</a>";
+
+    // initialise the base map
+    // note that mapbox is a subscription service, and you need a mapID to use it
+    // feel free to use any basemap you want... http://leafletjs.com/plugins.html#basemap-providers
+    // L.tileLayer('https://a.tiles.mapbox.com/v3/{mapID}/{z}/{x}/{y}.png',
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+        { maxZoom: 18, attribution: attribution, mapID: 'unlimitedone.k3inkm7m' }).addTo(map);
+
+    // create a source and a two target markers and add them to the map
+    var sourceMarker1 = L.marker(latlons.src1, { draggable: true }).addTo(map);
+    var sourceMarker2 = L.marker(latlons.src2, { draggable: true }).addTo(map);
+
+    // create the layer to add the polygons
+    var polygonLayer = r360.leafletPolygonLayer().addTo(map);
+
+    // helper function to encapsulate the show polygon action
+    var showPolygons = function(rezoom) {
+      // you need to define some options for the polygon service
+      // for more travel options check out the other tutorials
+      var travelOptions = r360.travelOptions();
+      // add the predefined source to the map
+      travelOptions.addSource(sourceMarker1);
+      travelOptions.addSource(sourceMarker2);
+      // add some travle time values
+      travelOptions.setTravelTimes([300, 600, 900]);
+      // lets go via bike
+      travelOptions.setTravelType('bike');
+      // set the service API-key, this is a demo key
+      // please contact us and request your own key
+      travelOptions.setServiceKey('__your-route360-api-key__');
+      // set the service url for your area
+      travelOptions.setServiceUrl('https://service.route360.net/germany/');
+      // intersection means that areas are marker in a certain color
+      // if they are reach from both locations in the same time
+      travelOptions.setIntersectionMode(intersectionMode);
+
+      // call the service
+      r360.PolygonService.getTravelTimePolygons(travelOptions, function(polygons) {
+        // in case there are already polygons on the map/layer clear them
+        // and possibly don't fit the map to the polygon bounds ('false' parameter)
+        polygonLayer.clearAndAddLayers(polygons, rezoom || false);
+      });
+    };
+
+    // call the helper function to display polygons with initial value
+    showPolygons(true);
+    // re-run the polygons when we move a marker
+    sourceMarker1.on('dragend', function(){ showPolygons(true); });
+    sourceMarker2.on('dragend', function(){ showPolygons(true); });
+
+    // change polygons on button click
+    var changeMode = function(value) {
+      intersectionMode = value;
+      $("#selectionBar .active").removeClass('active');
+      $("#btn-"+value).addClass('active');
+      showPolygons();
+    }
+
+  </script>
+</body>
+</html>

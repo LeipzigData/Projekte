@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="default" name="Create JAR for Calendar API example." basedir="../">
+
+	<target name="default" depends="setup,compile,buildjar,deploy" />
+
+	<property name="BIN" value="bin" />
+	<property name="DIST" value="dist" />
+	<property name="LIB" value="lib" />
+	<property name="JAR" value="calendarAPI.jar" />
+
+	<target name="setup">
+		<!-- some preparation -->
+	</target>
+
+	<target name="compile">
+		<delete dir="${BIN}" />
+		<mkdir dir="${BIN}" />
+		<javac destdir="${BIN}" srcdir="src" target="1.6" source="1.6">
+			<!--
+			<classpath>
+				<fileset dir="${LIB}">
+					<include name="*" />
+				</fileset>
+			</classpath>
+			-->
+		</javac>
+		<copy todir="${BIN}">
+			<fileset dir="src">
+				<include name="**/*.properties" />
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="buildjar">
+		<mkdir dir="${DIST}" />
+		<delete dir="${DIST}/${JAR}" />
+
+		<!--
+		<unjar dest="${BIN}">
+			<fileset dir="${LIB}">
+				<include name="someLib.jar" />
+			</fileset>
+		</unjar>
+		-->
+		
+		<jar destfile="${DIST}/${JAR}">
+			<fileset dir="${BIN}">
+				<include name="calendarApi/*" />
+				<include name="calendarApi/**" />
+			</fileset>
+
+			<manifest>
+				<attribute name="Main-Class" value="calendarApi.Main" />
+				<attribute name="Class-Path" value="." />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="deploy">
+		<!-- <copy file="${DIST}/${JAR}" todir="${deploydir}" /> -->
+	</target>
+
+</project>

@@ -2,3 +2,6 @@
 *.aux
 *.log
 *.dvi
+composer.phar
+vendor/
+composer.lock

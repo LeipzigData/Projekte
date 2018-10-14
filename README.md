@@ -1,6 +1,6 @@
 # Projekte
 
-Dieses repo enthält Materialien verschiedener studentischer Arbeiten im Rahmen
+Dieses Repo enthält Materialien verschiedener studentischer Arbeiten im Rahmen
 des Leipzig Data Projekts.
 
 ## Gentri-14
@@ -18,3 +18,14 @@ zusammengefasst.
 
 Das Projekt ist ein Spin-off eines größeren Vorhabens, das auf
 http://einundleipzig.de genauer erläutert wird.
+
+## Jugendstadtplan-13
+
+
+
+## Karten
+
+## JavaExamples
+
+Code, den Christof Pieloth in der Anfangszeit von Leipzig Data für ein
+Interface zu API Leipzig entwickelt hat.

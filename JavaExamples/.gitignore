@@ -1,0 +1,16 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IDE Files #
+bin/
+build/
+dist/
+lib/
+.classpath
+.project
+.settings
+

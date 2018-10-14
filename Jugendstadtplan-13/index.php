@@ -20,7 +20,7 @@ function preamble($lang) {
     <title>Jugendstadtplan 2013</title>
 
     <!-- Java Scripts -->
-    <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js" type="text/javascript"></script>
+    <script src="javascript/leaflet.js" type="text/javascript"></script>
     <script src="javascript/jquery-1.10.1.min.js" type="text/javascript"></script>
     <script src="javascript/functions.js" type="text/javascript"></script>
     <script src="javascript/leaflet.awesome-markers.js" type="text/javascript"></script>

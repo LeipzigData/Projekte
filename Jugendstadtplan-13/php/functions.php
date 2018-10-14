@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-require_once "php/easyrdf/lib/EasyRdf.php"; // Loads the EasyRdf Framework
+require 'vendor/autoload.php';
 
 function getTextElements() {
     $text_elements=array();

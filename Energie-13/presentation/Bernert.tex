@@ -1,0 +1,145 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{a4wide,german,amsmath,url}
+\usepackage[utf8]{inputenc}
+\parindent0cm
+\parskip3pt
+
+\title{Bericht zum Energie-Projekt: Solarstromprognose\\ Wintersemester
+  2013/14}
+
+\author{Ramon Bernert}
+\date{Januar 2014}
+
+\begin{document}
+\maketitle
+
+\section{Einleitung} 
+Die EEG-Stammdaten enthielten zu jeder Anlage die Eigenschaft „Leistung“.
+Diese Kennzahl bezeichnet die installierte bzw.\ maximale elektrische
+Leistung, die durch die entsprechende Anlage unter optimalen Bedingungen
+geliefert werden kann. Zu diesen optimalen Bedingungen gehören insbesondere
+bei den erneuerbaren Energien der Standort und die Wettereinflüsse. Da im
+normalen Betrieb diese Bedingungen nie bzw.\ sehr selten erfüllt sind, weicht
+die tatsächlich eingespeiste Leistung zum Teil erheblich von der maximal
+möglichen Leistung ab. Da die Vergütung der Anlagenbetreiber über die wirklich
+eingespeiste Leistung berechnet wird und die Netzbetreiber die Menge der ein-
+und ausgespeisten Energie im Gleichgewicht halten müssen, um die
+Stromversorgungsnetze stabil zu halten, haben diese ein besonderes Interesse,
+die eingespeiste Leistung zu prognostizieren, damit evtl.\ auftretende Über-
+bzw.\ Unterproduktion am Besten schon im Voraus eingeplant und durch
+entsprechende Regelenergie abgefangen werden kann. Deshalb wurden für die
+verschiedenen Energieträger zahlreiche Modelle entwickelt, um mit Hilfe von
+Wetterprognosen diese Leistung vorherzusagen.
+
+Auch innerhalb unserer Projektgruppe kam nach den ersten Treffen recht schnell
+die Frage auf, wie viel elektrische Leistung eine Anlage in Zukunft einspeisen
+wird. Da die innerhalb unseres Projekts vorliegenden Daten zu einem großen
+Teil Daten zu Photovoltaikanlagen enthielten, beschränke ich mich bei den
+weiteren Ausführungen auf Prognosen für den Solarstrom.
+
+\section{Solarstromprognose}
+\subsection{Allgemein}
+Die Solarstromprognose bezeichnet die Vorhersage der elektrischen Leistung
+einer Photovoltaikanlage (PV-Anlage) im Verlauf der nächsten Tage. Die
+wichtigsten Einflussfaktoren sind die eintreffende Strahlung der Sonne auf die
+Erde sowie die Aufstellungsrichtung, der Neigungswinkel und die Art der
+PV-Anlage.  Mittlerweile haben sich viele Anbieter von Solarstromprognosen
+innerhalb der Energiewirtschaft etabliert, welche aber die zugrunde liegenden
+Modelle weder veröffentlichen oder gar dokumentieren. Das Institute of Energy
+and Transport (IET) der Europäische Kommission stellt jedoch das
+\emph{Photovoltaic Geographical Information System} (PVGIS) öffentlich zur
+Verfügung. Dieses System ermöglicht durch Eingabe der oben genannten Parameter
+eine einfache monatliche Leistungsprognose. Dabei werden die ablaufenden
+Berechnungen zu einem Großteil gut dokumentiert dargestellt.
+
+\subsection{Photovoltaic Geographical Information System (PVGIS)}
+Das grundlegende mathematische Modell des PVGIS beruht auf folgender Formel,
+wobei $P$ die tatsächlich abgegebene Leistung bezeichnet:
+\begin{gather*}
+  P=\frac{G(\alpha,\beta)}{1000}\, P_{pk}\,
+  \mathit{eff}_{rel}(G(\alpha,\beta),T_m)\,.
+\end{gather*}
+Dabei steht $G(\alpha,\beta)$ für die Globalstrahlung der Sonne unter
+Berücksichtigung des Azimuts $\alpha$ und des Neigungswinkels der
+Aufstellfläche $\beta$. Der Azimut ist dabei der nach der Himmelsrichtung
+orientierte Horizontalwinkel. Die Globalstrahlung setzt sich aus folgenden
+Komponenten zusammen:
+\begin{gather*}
+  G(\alpha,\beta)=I(\alpha,\beta)+D(\alpha,\beta)+R(\alpha,\beta)\,.
+\end{gather*}
+Die Direktstrahlung $I(\alpha,\beta)$ bezeichnet die direkt auf die
+Erdoberfläche auftreffende Sonnenstrahlung, während die Diffusstrahlung
+$D(\alpha,\beta)$ jegliche Sonnenstrahlung beinhaltet, welche durch die
+Erdatmosphäre diffus gestreut wird. $R(\alpha,\beta)$ fasst die reflektierte
+Strahlung von der Erdoberfläche zusammen.
+
+Die Kenngröße $P_{pk}$ beschreibt die im Photovoltaik-Bereich übliche, aber
+nicht normgerechte, abgegebene elektrische Leistung unter
+Standard-Testbedingungen.  Diese Angabe wird üblicherweise bei jeder PV-Anlage
+genannt und ist abhängig von der Fläche und dem Wirkungsgrad des Solarmoduls.
+Die Standard-Testbedingungen umfassen die Zelltemperatur
+($25^\circ\mathrm{C}$), die Bestrahlungsstärke $1000\,\frac{W}{m^2}$ und das
+Sonnenlichtspektrum $AM=1.5$.
+
+Die Einflussgröße $\mathit{eff}_{rel}(G(\alpha,\beta),T_m)$ bezeichnet den
+relativen Wirkungsgrad, welchervon der Umgebungstemperatur und der verwendeten
+PV-Technologie abhängt. Mathematisch wird diese Größe wie folgt beschrieben:
+\begin{align*}
+  \mathit{eff}_{rel}(G(\alpha,\beta),T_m) &= l +k_1\,\ln(G') +k_2\,\ln(G')^2+
+  k_3\,T_m +k_4\,T_m\,\ln(G')\\ &\qquad +k_5\,T_m\,\ln(G')^2 +k_6\, T_m^2\,.
+\end{align*}
+Dabei fließt in $T_m$ die Umgebungstemperatur $T_{amb}$, die Globalstrahlung
+$G(\alpha,\beta)$ und die Art der Errichtung $k_T$ ein:
+\begin{gather*}
+  T_m= T_{amb}+k_T\,G(\alpha,\beta)-25\,\mathrm{{^\circ}C}\,.
+\end{gather*}
+Der Koeffizient $k_T$ beträgt bei einer freistehenden Anlage
+$k_T=0.035\frac{{^\circ}C}{W\,m^2}$ und bei der Errichtung auf einem Dach
+$k_T=0.05\frac{{^\circ}C}{W\,m^2}$.  Dieser Unterschied entsteht durch die
+unterschiedliche Qualität der Belüftung der Anlage. Um eine freistehende
+Anlage kann die Luft besser zirkulieren, dadurch erhitzt sich das Solarmodul
+weniger stark. Die Temperatur eines Moduls ist ein wesentlicher Einflussfaktor
+auf den Wirkungsgrad der ablaufenden Prozesse.
+
+Der Parameter $G'$ lässt sich einfach durch $G'=\frac{G}{1000}$ beschreiben.
+
+Die Koeffizienten $k_1,\dots,k_6$ sind abhängig davon, ob die PV-Anlage aus
+kristallinen Silizium-Zellen oder aus Dünnschicht-Modulen besteht, wobei hier
+die verwendeten Werkstoffe Einfluss haben. Diese Parameter wurden
+experimentell bestimmt, sind aber leider nicht dokumentiert und können deshalb
+nicht näher erläutert werden.
+
+Die Kennzahl $l$ bezeichnet die witterungsunabhängigen Verluste, welche durch
+Wechselrichter, weitere Elektronik und Leitungen hervorgerufen werden.
+
+Die Globalstrahlung bezieht PVGIS durch Messungen aus Bodenstationen, welche
+größtenteils durch Pyranometer durchgeführt werden. Da diese Messgeräte die
+horizontal auf die Erde auftreffende Sonneneinstrahlung bestimmen, muss
+$G(\alpha,\beta)$ aus diesen Messungen unter Berücksichtigung von $\alpha$ und
+$\beta$ berechnet werden. Leider wird die Art der Umrechnung nicht näher
+erläutert.
+
+\section{Schlussbetrachtung}
+
+Mit Hilfe der uns vorliegenden EEG-Stammdaten lässt sich keine Prognose über
+die zu erwartende einspeisbare elektrische Leistung erstellen, da viele
+benötigte Parameter zu den einzelnen Anlagen nicht vorliegen. Zusätzlich wird
+dieses Vorhaben durch die komplexen physikalischen und meteorologischen
+Prozesse, welche in der Atmosphäre und innerhalb der PV-Anlage ablaufen,
+erschwert. Obwohl mit dem  PVGIS ein gut dokumentiertes System vorliegt,
+reicht die Dokumentation dazu nicht aus, um die ablaufenden Berechnungen
+wirklich vollständig nachvollziehen zu können. Wenn auch diese letzten
+Unklarheiten beseitigt und entweder verpflichtend durch das EEG oder über eine
+öffentliche Plattform auf freiwilliger Basis die Anlagenbetreiber mehr
+Kennzahlen zu den einzelnen Anlagen zur Verfügung stellen würden, wäre
+zumindest eine ungefähre Prognose über die zu erwartende Leistung
+realisierbar.
+
+\section{Quellen}
+\begin{itemize}
+\item \url{http://re.jrc.ec.europa.eu/pvgis/apps4/pvest.php}
+\item \url{http://re.jrc.ec.europa.eu/pvgis/apps4/PVcalchelp_de.html}
+\item
+  \url{http://www.powerparc.de/uploads/media/Gutachten_Bad_Mergentheim.pdf} 
+\end{itemize}
+\end{document}

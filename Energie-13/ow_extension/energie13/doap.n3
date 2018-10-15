@@ -1,0 +1,42 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owconfig: <http://ns.ontowiki.net/SysOnt/ExtensionConfig/> .
+@prefix extension: <http://ns.ontowiki.net/Extensions/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix event: <http://ns.ontowiki.net/SysOnt/Events/> .
+@prefix : <http://ns.ontowiki.net/Extensions/dispedia/> .
+
+<> foaf:primaryTopic :this .
+:this a doap:Project ;
+  doap:name "dispedia" ;
+  owconfig:privateNamespace <http://ns.ontowiki.net/Extensions/dispedia/> ;
+  owconfig:pluginEvent event:onDrugCheck ;
+  owconfig:templates "public/templates" ;
+  owconfig:languages "public/languages" ;
+  owconfig:enabled "true"^^xsd:boolean ;
+  owconfig:hasModule :Cda2rdf ;
+  owconfig:hasModule :Rdf2cda ;
+  rdfs:label "Dispedia" ;
+  doap:description "" ;
+  owconfig:authorLabel "Dispedia" ;
+  doap:maintainer <http://www.dispedia.de> ;
+  doap:release :v1-0 .
+:v1-0 a doap:Version ;
+  doap:revision "1.0" .
+  
+:this owconfig:config [
+      a owconfig:Config;
+      owconfig:id "registrationmail";
+      :destAddress "uweber@informatik.uni-leipzig.de"
+] .
+
+:Cda2rdf a owconfig:Module ;
+  rdfs:label "CDA2RDF Module" ;
+  owconfig:priority "1" ;
+  owconfig:context "extensions.formgenerator.cda2rdf.newform" .
+
+:Rdf2cda a owconfig:Module ;
+  rdfs:label "RDS2CDA Module" ;
+  owconfig:priority "1" ;
+  owconfig:context "extensions.formgenerator.rdf2cda.form" .

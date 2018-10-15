@@ -1,0 +1,106 @@
+Anlagenschlüssel;Übertragungsnetzbetreiber;Netzbetreiber;Netzbetreiber Betriebsnummer;Energieträger;Einspeisungsebene;Leistung;Leistungsgemessene Anlage;Zeitreihentyp;Regelbarkeit;Biomasse KWK-Anteil;Biomassetechnologie;Zeitpunkt der Inbetriebnahme;Zeitpunkt der Ausserbetriebnahme;Zeitpunkt des Netzzugangs;Zeitpunkt des Netzabgangs;Bundeslandkürzel;Ort;Ortsteil;PLZ;Strasse;Nummer;Flur;Flurstück;Quelle
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000005863500001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;3.0;nein;;;nein;null;20.03.2012;;;;SN;Leipzig;;04357;Gontscharowstr.;23;;;50hertz.com
+E40770010000010000000005863500001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;3;nein;;;;;02.07.2012;;;;SN;Leipzig;;04357;Gontscharowstr.;23;;;eeg-kwk.net
+E40770010000010000000005863500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;02.07.2012;;;;SN;Leipzig;;04357;Gontscharowstr.;23;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000005666500001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.8;nein;;70 % Begrenzung;nein;null;28.03.2012;;;;SN;Leipzig;;04205;Lauschaer Weg;5;;;50hertz.com
+E40770010000010000000005666500001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.8;nein;;70 % Begrenzung;;;27.04.2012;;;;SN;Leipzig;;04205;Lauschaer Weg;5;;;eeg-kwk.net
+E40770010000010000000005666500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.800;;;;;;27.04.2012;;;;SN;Leipzig;;04205;Lauschaer Weg;5;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000005673800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.0;nein;;70 % Begrenzung;nein;null;30.03.2012;;;;SN;Leipzig;;04177;Jordanstr.;1;;;50hertz.com
+E40770010000010000000005673800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7;nein;;70 % Begrenzung;;;27.04.2012;;;;SN;Leipzig;;04177;Jordanstr.;1;;;eeg-kwk.net
+E40770010000010000000005673800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.000;;;;;;27.04.2012;;;;SN;Leipzig;;04177;Jordanstr.;1;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;Fehler;Fehler;;;
+E40770010000010000000005322600001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;9.0;nein;;;nein;null;04.08.2011;;;;SN;Leipzig;;04329;Goldene Hufe;71;;;50hertz.com
+E40770010000010000000005322600001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;9;nein;;;;;04.08.2011;;;;SN;Leipzig;;04329;Goldene Hufe Flst;1,1407;;;eeg-kwk.net
+E40770010000010000000005322600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.000;;;;;;04.08.2011;;;;SN;Leipzig;;04329;Goldene Hufe Flst;1,1407;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;Fehler;Fehler;;;
+E40770010000010000000006111600001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;40.0;nein;;;nein;null;28.11.2012;;;;SN;Leipzig;;04249;Dieskaustr.;401a;;;50hertz.com
+E40770010000010000000006111600001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;40;nein;;;;;28.11.2012;;;;SN;Leipzig;;04249;Dieskaustr. Flst;3,69;;;eeg-kwk.net
+E40770010000010000000006111600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;40.000;;;;;;28.11.2012;;;;SN;Leipzig;;04249;Dieskaustr. Flst;3,69;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000006081100001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;150.0;ja;;regelbar nach § 6 Abs. 1 EEG;nein;null;25.09.2012;;;;SN;Leipzig;;04347;Brahestr.1;;;;50hertz.com
+E40770010000010000000006081100001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;150;ja;;regelbar nach § 6 Abs. 1 EEG;;;25.09.2012;;;;SN;Leipzig;;04347;Brahestr.1;;;;eeg-kwk.net
+E40770010000010000000006081100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;150.000;;;;;;25.07.2012;;;;SN;Leipzig;;04347;Brahestr.1;;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;Fehler;;;;;
+E40770010000010000000005387200001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.6;nein;;;nein;null;06.12.2011;;;;SN;Leipzig;;04347;Bodenreformweg;37a;;;50hertz.com
+E40770010000010000000005387200001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.6;nein;;;;;06.12.2011;;;;SN;Leipzig;;04347;Bodenreformweg;37a;;;eeg-kwk.net
+E40770010000010000000005387200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;06.12.2011;;;;SN;Leipzig;;04347 ;Bodenreformweg;37a;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;Fehler;;;;;;;;;;;;;;;;;;;;
+E40770010000010000000006216900001;50Hertz;Netz Leipzig GmbH;10001882;Bio;NS;19.0;nein;;;nein;null;28.08.2012;;;;SN;Leipzig;;04155;Lindenthaler Str.;19;;;50hertz.com
+E40770010000010000000006216900001;50Hertz;Netz Leipzig GmbH;10001882;Bio;NS;19;nein;;;;;28.08.2012;;;;SN;Leipzig;;04155;Lindenthaler Str.;19;;;eeg-kwk.net
+E40770010000010000000006216900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;19.000;;;;;;28.08.2012;;;;SN;Leipzig;;04155;Lindenthaler Str.;19;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;Fehler;;;;;
+E40770010000010000000005863800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.5;nein;;;nein;null;07.08.2012;;;;SN;Leipzig;;04329;Stünz-Mölkauer Weg;34;;;50hertz.com
+E40770010000010000000005863800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.5;nein;;;;;07.08.2012;;;;SN;Leipzig;;04329;Stünz-Mölkauer Weg;34;;;eeg-kwk.net
+E40770010000010000000005863800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.500;;;;;;07.08.2012;;;;SN;Leipzig;;04329 ;Stünz-Mölkauer Weg;34;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000005997900001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.5;nein;;;nein;null;30.07.2012;;;;SN;Leipzig;;04357;Lermontowstr.;36;;;50hertz.com
+E40770010000010000000005997900001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.5;nein;;;;;30.07.2012;;;;SN;Leipzig;;04357;Lermontowstr.;36;;;eeg-kwk.net
+E40770010000010000000005997900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.500;;;;;;09.08.2012;;;;SN;Leipzig;;04357;Lermontowstr.;36;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000005972800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.6;nein;;;nein;null;13.09.2012;;;;SN;Leipzig;;04289;Schwarzenbergweg;6;;;50hertz.com
+E40770010000010000000005972800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.6;nein;;;;;14.09.2012;;;;SN;Leipzig;;04289;Schwarzenbergweg;6;;;eeg-kwk.net
+E40770010000010000000005972800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;14.09.2012;;;;SN;Leipzig;;04289;Schwarzenbergweg;6;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;Fehler;;;;;
+E40770010000010000000006170100001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.0;nein;;;nein;null;21.12.2012;;;;SN;Leipzig;;04349;Altes Dorf;8;;;50hertz.com
+E40770010000010000000006170100001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4;nein;;;;;21.12.2012;;;;SN;Leipzig;;04349;Altes Dorf;8;;;eeg-kwk.net
+E40770010000010000000006170100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;21.12.2012;;;;SN;Leipzig;;04349 ;Altes Dorf;8;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;Fehler;;;;;;;;;;;;;;;;;;;;
+E41081010000000000000000000035061;50Hertz;Mitteldeutsche Netzgesellschaft Strom mbH;10001645;Gas;MS;1727.0;ja;GAL;regelbar nach § 6 Abs. 1 EEG;nein;null;26.02.1997;;;;SN;Leipzig;Wiederitzsch;04356;Maximilianallee;80;;;50hertz.com
+E41081010000000000000000000035061;50Hertz;Mitteldeutsche Netzgesellschaft Strom mbH;10001645;Deponiegas;MS;1727;ja;;regelbar nach § 6 Abs. 1 EEG;;;26.02.1997;;;;SN;Leipzig;Wiederitzsch;04356;Maximilianallee;80;;;eeg-kwk.net
+E41081010000000000000000000035061;50Hertz;Mitteldeutsche Netzgesellschaft Strom mbH;;Deponiegas;MS;1727;;GAL;;;;26.02.1997;;;;SN;Leipzig;Wiederitzsch;04356;Maximilianallee;80;;;MitNetz.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000005911700001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;8.0;nein;;;nein;null;20.07.2012;;;;SN;Leipzig;;04347;Taubestr.;54;;;50hertz.com
+E40770010000010000000005911700001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;8;nein;;;;;30.04.2012;;;;SN;Leipzig;;04347;Taubestr.;54;;;eeg-kwk.net
+E40770010000010000000005911700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;30.04.2012;;;;SN;Leipzig;;04347;Taubestr.;54;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000006129400001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.0;nein;;;nein;null;23.11.2012;;;;SN;Leipzig;;04349;Hainburger Weg;43;;;50hertz.com
+E40770010000010000000006129400001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7;nein;;;;;30.10.2012;;;;SN;Leipzig;;04349;Hainburger Weg;43;;;eeg-kwk.net
+E40770010000010000000006129400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.000;;;;;;30.10.2012;;;;SN;Leipzig;;04349;Hainburger Weg;43;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000005792000001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.6;nein;;70 % Begrenzung;nein;null;21.12.2011;;;;SN;Leipzig;;04159;Georg-Schumann-Str.;317;;;50hertz.com
+E40770010000010000000005792000001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.6;nein;;70 % Begrenzung;;;20.03.2012;;;;SN;Leipzig;;04159;Georg-Schumann-Str.;317;;;eeg-kwk.net
+E40770010000010000000005792000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;20.03.2012;;;;SN;Leipzig;;04159;Georg-Schumann-Str.;317;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;Fehler;;;;;;;;;;;;;;Fehler;;;;
+E40770010000010000000001169800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.9;nein;;;nein;null;16.12.2005;;;;SN;Leipzig;;04129;Dübener Landstr.;3;;;50hertz.com
+E40770010000010000000001169800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.94;nein;;;;;16.12.2005;;;;SN;Leipzig;;04129;Dübener Landstr.;3;;;eeg-kwk.net
+E40770010000010000000001169800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.940;;;;;;16.12.2005;;;;SN;Leipzig;;04129;Dübener Lnadstr.;3;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;Fehler;;;;;;;;;;;;;Fehler;;;;;
+E40770010000010000000005544000001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.4;nein;;;nein;null;19.12.2011;;;;SN;Leipzig;;04179;Margeritenweg;18;;;50hertz.com
+E40770010000010000000005544000001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.41;nein;;;;;19.12.2011;;;;SN;Leipzig;;04179;Margeritenweg;18;;;eeg-kwk.net
+E40770010000010000000005544000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.410;;;;;;19.12.2011;;;;SN;Leipzig;;04179 ;Margeritenweg;18;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;Fehler;;;;;;;;;;;;;;;;;;;;
+E41081010000000000000000000006363;50Hertz;Mitteldeutsche Netzgesellschaft Strom mbH;10001645;Gas;MS;469.0;ja;GAL;regelbar nach § 6 Abs. 1 EEG;nein;null;08.10.1998;;;;SN;Leipzig;Liebertwolkwitz;04288;Ostende;999;;;50hertz.com
+E41081010000000000000000000006363;50Hertz;Mitteldeutsche Netzgesellschaft Strom mbH;10001645;Deponiegas;MS;469;ja;;regelbar nach § 6 Abs. 1 EEG;;;08.10.1998;;;;SN;Leipzig;Liebertwolkwitz;04288;Ostende;999;;;eeg-kwk.net
+E41081010000000000000000000006363;50Hertz;Mitteldeutsche Netzgesellschaft Strom mbH;;Deponiegas;MS;469;;GAL;;;;08.10.1998;;;;SN;Leipzig;Liebertwolkwitz;04288;Ostende;999;;;MitNetz.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Fehler;;;;;;;;;;;;
+E40770010000010000000005727600001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;10.0;nein;;regelbar nach § 6 Abs. 2 EEG;nein;null;23.03.2012;;;;SN;Leipzig;;04357;Herzenstr.;74;;;50hertz.com
+E40770010000010000000005727600001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;10;nein;;regelbar nach § 6 Abs. 2 EEG;;;04.04.2012;;;;SN;Leipzig;;04357;Herzenstr.;74;;;eeg-kwk.net
+E40770010000010000000005727600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;10.000;;;;;;04.04.2012;;;;SN;Leipzig;;04357;Herzenstr.;74;;;NetzLeipzig.pdf
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;Fehler;;;;;
+E40770010000010000000005455500001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;30.0;nein;;;nein;null;22.12.2011;;;;SN;Leipzig;;04315;Kreuzstr.;40;;;50hertz.com
+E40770010000010000000005455500001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;30;nein;;;;;22.12.2011;;;;SN;Leipzig;;04315;Kreuzstr.;40;;;eeg-kwk.net
+E40770010000010000000005455500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;22.12.2011;;;;SN;Leipzig;;04315 ;Kreuzstr.;40;;;NetzLeipzig.pdf

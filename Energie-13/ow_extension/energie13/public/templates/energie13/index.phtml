@@ -1,0 +1,8 @@
+<script type="text/javascript">
+    var plants = $.parseJSON('<?php echo json_encode($this->plantsWithGeo) ?>');
+</script>
+<?php $this->placeholder('main.window.title')->set("Energiewende Projekt 2013"); ?>
+<div>Anzahl aller Anlagen: <?php echo $this->countPlants ?></div>
+<div>Anlagen mit Geokoordinaten: <?php echo $this->countPlantsWithGeo ?></div>
+<div>Anlagen ohne Geokoordinaten: <?php echo $this->countPlantsWithoutGeo ?></div>
+<div id="map"></div>

@@ -1,0 +1,6391 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ld: <http://leipzig-data.de/Data/Model/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://netz-leipzig.de/Anlagenstammdaten2012/> a owl:Ontology ;
+   rdfs:label "Anlagenstammdaten 2012 der Netz Leipzig GmbH" ;
+   rdfs:comment "Die vorliegenden Anlagenstammdaten 2012 wurden aus der von der Netz Leipzig GmbH veröffentlichten Übersicht im pdf-Format mit 'pdftotext' extrahiert, einer genaueren Analyse der Textstruktur und händischer Nachbearbeitung als strukturierte Daten rekonstruiert, die zumindest syntaktisch korrekt sind. Ein wesentliches Problem ergab sich aus der spaltenweisen Struktur des pdf-Dokuments, so dass die zeilenweisen Datensätze durch Abzählen rekonstruiert werden mussten. Eine genauere Bewertung der Datenqualität durch stichprobenartigen Vergleich mit dem Original oder gar Zugang zu einer strukturierten Quelle stehen aus." ; 
+   dct:source <http://www.netz-leipzig.de/netzanschluesse/erzeugungsanlagen/?eID=dam_frontend_push&docID=358> ;
+   dct:creator <http://leipzig-data.de/Data/Person/Graebe_HansGert> .
+
+<http://netz-leipzig.de/Anlage/1> 
+ld:hasENR "E40770010000010000000004273600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Vollhardtstraße 16" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "10.09.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Wasser" .
+
+<http://netz-leipzig.de/Anlage/2> 
+ld:hasENR "E40770010000209311801949960000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seebenischer Straße" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "600,000" ;
+ld:Inbetriebnahmedatum "02.12.1996" ; 
+ld:Einspeiseebene "MS" ; 
+ld:Energietraeger "Wind" .
+
+<http://netz-leipzig.de/Anlage/3> 
+ld:hasENR "E40770010000209311801949960000002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seebenischer Straße" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "800,000" ;
+ld:Inbetriebnahmedatum "04.05.2006" ; 
+ld:Einspeiseebene "MS" ; 
+ld:Energietraeger "Wind" .
+
+<http://netz-leipzig.de/Anlage/4> 
+ld:hasENR "E40770010000010000000001452500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Paulinenstraße 13" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "25,000" ;
+ld:Inbetriebnahmedatum "12.04.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Bio" .
+
+<http://netz-leipzig.de/Anlage/5> 
+ld:hasENR "E40770010000010000000004783800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Braunstraße 7" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "0,000" ;
+ld:Inbetriebnahmedatum "01.12.2010" ; 
+ld:Einspeiseebene "MS" ; 
+ld:Energietraeger "Bio" .
+
+<http://netz-leipzig.de/Anlage/6> 
+ld:hasENR "E40770010000010000000000476400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Heinrich-Büchner-Straße 12" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "2,120" ;
+ld:Inbetriebnahmedatum "17.06.1993" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/7> 
+ld:hasENR "E40770010000010000000000563200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Mainzer Straße 11" ; 
+ld:plz "04109" ; 
+ld:installierteLeistung "3,180" ;
+ld:Inbetriebnahmedatum "17.05.1993" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/8> 
+ld:hasENR "E40770010000010000000000477400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Anzengruberstraße 4" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "3,200" ;
+ld:Inbetriebnahmedatum "13.04.1994" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/9> 
+ld:hasENR "E40770010000010000000000477600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Eigenheimstraße 10b" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "2,000" ;
+ld:Inbetriebnahmedatum "05.05.2000" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/10> 
+ld:hasENR "E40770010000010000000000477800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sonnenwinkel 16" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "1,200" ;
+ld:Inbetriebnahmedatum "16.11.2000" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/11> 
+ld:hasENR "E40770010000010000000000478000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Nikolaikirchhof 3" ; 
+ld:plz "04109" ; 
+ld:installierteLeistung "4,840" ;
+ld:Inbetriebnahmedatum "20.07.2000" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/12> 
+ld:hasENR "E40770010000010000000000486300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lausner Weg 36b" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "2,200" ;
+ld:Inbetriebnahmedatum "24.10.2000" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/13> 
+ld:hasENR "E40770010000010000000000477700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Menzingerweg 31" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "2,720" ;
+ld:Inbetriebnahmedatum "07.11.2001" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/14> 
+ld:hasENR "E40770010000010000000000479200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße 34c" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "16.05.2001" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/15> 
+ld:hasENR "E40770010000010000000000479700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Badeweg 47c" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "2,600" ;
+ld:Inbetriebnahmedatum "04.04.2001" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/16> 
+ld:hasENR "E40770010000010000000000480300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Eichendorfstraße 7" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,000" ;
+ld:Inbetriebnahmedatum "29.05.2001" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/17> 
+ld:hasENR "E40770010000010000000000480600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Corotweg 16" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "1,500" ;
+ld:Inbetriebnahmedatum "27.06.2001" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/18> 
+ld:hasENR "E40770010000010000000000496200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Häußerweg 11" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "04.10.2001" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/19> 
+ld:hasENR "E40770010000010000000000496500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Geithainerstraße 60" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "9,200" ;
+ld:Inbetriebnahmedatum "14.03.2001" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/20> 
+ld:hasENR "E40770010000010000000000610000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Witzgallstraße 20" ; 
+ld:plz "04317" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "27.09.2001" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/21> 
+ld:hasENR "E40770010000010000000000233400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lauerscher Weg" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "28.10.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/22> 
+ld:hasENR "E40770010000010000000000486600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Fregestraße 28" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "1,100" ;
+ld:Inbetriebnahmedatum "22.02.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/23> 
+ld:hasENR "E40770010000010000000000486700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hubertusstraße 115" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "1,700" ;
+ld:Inbetriebnahmedatum "26.09.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/24> 
+ld:hasENR "E40770010000010000000000487300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schleußiger Weg 8" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "1,600" ;
+ld:Inbetriebnahmedatum "29.11.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/25> 
+ld:hasENR "E40770010000010000000000487500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Coppistraße 57" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "5,120" ;
+ld:Inbetriebnahmedatum "12.12.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/26> 
+ld:hasENR "E40770010000010000000000487800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ansbacher Straße 11" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "1,130" ;
+ld:Inbetriebnahmedatum "19.12.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/27> 
+ld:hasENR "E40770010000010000000000487900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Stallbaumstraße 5" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "3,020" ;
+ld:Inbetriebnahmedatum "13.12.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/28> 
+ld:hasENR "E40770010000010000000000488000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lazarusstraße 15" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "2,760" ;
+ld:Inbetriebnahmedatum "19.12.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/29> 
+ld:hasENR "E40770010000010000000000497000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Knautnaundorfer Straße 4" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "8,640" ;
+ld:Inbetriebnahmedatum "08.11.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/30> 
+ld:hasENR "E40770010000140961701980220000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Arno-Nitzsche-Straße 35" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "1,410" ;
+ld:Inbetriebnahmedatum "11.12.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/31> 
+ld:hasENR "E40770010000010000000000492700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gleitsmannstraße 6" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "2,100" ;
+ld:Inbetriebnahmedatum "25.08.2003" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/32> 
+ld:hasENR "E40770010000010000000000493200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Swiftstraße 15" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "06.11.2003" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/33> 
+ld:hasENR "E40770010000010000000000493500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße 135" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,900" ;
+ld:Inbetriebnahmedatum "29.10.2003" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/34> 
+ld:hasENR "E40770010000010000000000496700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Defoestraße 5" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "4,130" ;
+ld:Inbetriebnahmedatum "22.05.2003" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/35> 
+ld:hasENR "E40770010000010000000000502100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Melchthalweg 9" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "1,960" ;
+ld:Inbetriebnahmedatum "17.04.2003" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/36> 
+ld:hasENR "E40770010000010000000000559400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "R.-Lehmann-Straße 8" ; 
+ld:plz "04275" ; 
+ld:installierteLeistung "1,920" ;
+ld:Inbetriebnahmedatum "09.06.2003" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/37> 
+ld:hasENR "E40770010000010000000000241100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dieskaustraße 290" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,100" ;
+ld:Inbetriebnahmedatum "21.06.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/38> 
+ld:hasENR "E40770010000010000000000466100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Thärigenstraße 5" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "1,500" ;
+ld:Inbetriebnahmedatum "20.12.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/39> 
+ld:hasENR "E40770010000010000000000493700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ellernweg 5" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "1,360" ;
+ld:Inbetriebnahmedatum "13.02.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/40> 
+ld:hasENR "E40770010000010000000000493900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Mendelejewstraße 1a" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "3,125" ;
+ld:Inbetriebnahmedatum "06.02.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/41> 
+ld:hasENR "E40770010000010000000000494500002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Stallbaumstraße 5" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "1,270" ;
+ld:Inbetriebnahmedatum "06.04.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/42> 
+ld:hasENR "E40770010000010000000000494900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Nürnberger Straße 48" ; 
+ld:plz "04103" ; 
+ld:installierteLeistung "14,400" ;
+ld:Inbetriebnahmedatum "03.05.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/43> 
+ld:hasENR "E40770010000010000000000495400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kolmstraße 97" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "16.04.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/44> 
+ld:hasENR "E40770010000010000000000495600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Volbedingstraße 13" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "1,980" ;
+ld:Inbetriebnahmedatum "03.06.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/45> 
+ld:hasENR "E40770010000010000000000495700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Naunhofer Straße 89" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "02.12.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/46> 
+ld:hasENR "E40770010000010000000000496100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Büttnerweg 16" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,550" ;
+ld:Inbetriebnahmedatum "02.11.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/47> 
+ld:hasENR "E40770010000010000000000501200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weißenfelser Straße 5" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "7,740" ;
+ld:Inbetriebnahmedatum "29.11.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/48> 
+ld:hasENR "E40770010000010000000000609100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lausner Weg 16a" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "3,440" ;
+ld:Inbetriebnahmedatum "29.12.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/49> 
+ld:hasENR "E40770010000010000000000646400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Poser Straße 33" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "28.12.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/50> 
+ld:hasENR "E40770010000010000000000764100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schwarzdornweg 15" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "1,080" ;
+ld:Inbetriebnahmedatum "15.03.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/51> 
+ld:hasENR "E40770010000010000000001162400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Swiftstraße 7b" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "4,125" ;
+ld:Inbetriebnahmedatum "19.05.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/52> 
+ld:hasENR "E40770010000010000000001601800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zschortauer Straße 100" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "9,680" ;
+ld:Inbetriebnahmedatum "26.07.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/53> 
+ld:hasENR "E40770010000010000000002663800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Pfaffendorfer Straße 2" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "0,750" ;
+ld:Inbetriebnahmedatum "03.06.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/54> 
+ld:hasENR "E40770010000282929000931880000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Angerstraße 14" ; 
+ld:plz "04177" ; 
+ld:installierteLeistung "2,300" ;
+ld:Inbetriebnahmedatum "29.11.2004" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/55> 
+ld:hasENR "E40770010000010000000000335400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Markt 16" ; 
+ld:plz "04109" ; 
+ld:installierteLeistung "4,400" ;
+ld:Inbetriebnahmedatum "24.08.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/56> 
+ld:hasENR "E40770010000010000000000717200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Resedaweg 7" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "3,750" ;
+ld:Inbetriebnahmedatum "24.03.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/57> 
+ld:hasENR "E40770010000010000000000717400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lobensteiner Straße 9" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "16.03.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/58> 
+ld:hasENR "E40770010000010000000000869900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "W.-Zipperer-Straße 156" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "2,970" ;
+ld:Inbetriebnahmedatum "23.08.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/59> 
+ld:hasENR "E40770010000010000000000872400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lamprechtstraße 13" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "2,750" ;
+ld:Inbetriebnahmedatum "10.08.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/60> 
+ld:hasENR "E40770010000010000000000873300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Cröberner Straße 13" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "27.07.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/61> 
+ld:hasENR "E40770010000010000000000978600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sonnenwinkel 26" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "22.09.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/62> 
+ld:hasENR "E40770010000010000000001153100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Plösener Straße 13" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "2,460" ;
+ld:Inbetriebnahmedatum "01.12.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/63> 
+ld:hasENR "E40770010000010000000001154500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ilse-Decho-Weg 2" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "5,760" ;
+ld:Inbetriebnahmedatum "06.12.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/64> 
+ld:hasENR "E40770010000010000000001154800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ritterlingsweg 11" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,080" ;
+ld:Inbetriebnahmedatum "07.11.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/65> 
+ld:hasENR "E40770010000010000000001155200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Tauchaer Straße 272" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "7,200" ;
+ld:Inbetriebnahmedatum "01.12.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/66> 
+ld:hasENR "E40770010000010000000001156100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weinbrennerstraße 39" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "28.12.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/67> 
+ld:hasENR "E40770010000010000000001158900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "An der Querbreite 6" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "6,300" ;
+ld:Inbetriebnahmedatum "20.10.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/68> 
+ld:hasENR "E40770010000010000000001162400002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Swiftstraße 7b" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "2,375" ;
+ld:Inbetriebnahmedatum "23.12.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/69> 
+ld:hasENR "E40770010000010000000001169800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dübener Lnadstraße 3" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "4,940" ;
+ld:Inbetriebnahmedatum "16.12.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/70> 
+ld:hasENR "E40770010000010000000001177900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kötzschkestraße 10" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "2,460" ;
+ld:Inbetriebnahmedatum "25.11.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/71> 
+ld:hasENR "E40770010000010000000001471800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lausner Weg 51" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "5,610" ;
+ld:Inbetriebnahmedatum "28.12.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/72> 
+ld:hasENR "E40770010000010000000001471900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lausner Weg 51" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "3,630" ;
+ld:Inbetriebnahmedatum "28.12.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/73> 
+ld:hasENR "E40770010000010000000001603600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schwarzdornweg 21" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "0,950" ;
+ld:Inbetriebnahmedatum "02.12.2005" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/74> 
+ld:hasENR "E40770010000010000000001334600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kötzschkestraße 12" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "2,400" ;
+ld:Inbetriebnahmedatum "21.03.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/75> 
+ld:hasENR "E40770010000010000000001334900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Stockartstraße 26" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "7,920" ;
+ld:Inbetriebnahmedatum "06.02.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/76> 
+ld:hasENR "E40770010000010000000001386400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lobensteiner Straße 7" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "12.06.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/77> 
+ld:hasENR "E40770010000010000000001386600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seegeritzerstraße 15" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "31.05.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/78> 
+ld:hasENR "E40770010000010000000001395000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Turgenjewstraße 4" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "3,250" ;
+ld:Inbetriebnahmedatum "06.04.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/79> 
+ld:hasENR "E40770010000010000000001452400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Keulenberg 71" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "14.07.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/80> 
+ld:hasENR "E40770010000010000000001452600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Heinrich-Mann-Straße 46" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "4,100" ;
+ld:Inbetriebnahmedatum "27.06.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/81> 
+ld:hasENR "E40770010000010000000001469400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hubertusstraße 115" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "1,550" ;
+ld:Inbetriebnahmedatum "06.07.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/82> 
+ld:hasENR "E40770010000010000000001469500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Groitzscher Straße 65" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "31.07.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/83> 
+ld:hasENR "E40770010000010000000001469600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "U.-Götze-Straße 5" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "1,950" ;
+ld:Inbetriebnahmedatum "07.07.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/84> 
+ld:hasENR "E40770010000010000000001472000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Miltenberger Straße 11a" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "9,010" ;
+ld:Inbetriebnahmedatum "05.07.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/85> 
+ld:hasENR "E40770010000010000000001501200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rapsweg 163" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "5,850" ;
+ld:Inbetriebnahmedatum "20.07.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/86> 
+ld:hasENR "E40770010000010000000001604800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bärenfelser Weg 7" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "2,000" ;
+ld:Inbetriebnahmedatum "30.08.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/87> 
+ld:hasENR "E40770010000010000000001605100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rietzschkeweg 15" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "2,200" ;
+ld:Inbetriebnahmedatum "04.10.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/88> 
+ld:hasENR "E40770010000010000000001605200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Wegekreuz 3" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "11.10.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/89> 
+ld:hasENR "E40770010000010000000001728000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Logauweg 21" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "19.12.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/90> 
+ld:hasENR "E40770010000010000000001763200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Mainzer Straße 2" ; 
+ld:plz "04109" ; 
+ld:installierteLeistung "19,800" ;
+ld:Inbetriebnahmedatum "07.12.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/91> 
+ld:hasENR "E40770010000010000000001806200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Friedrichshafner Straße 172" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "30.10.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/92> 
+ld:hasENR "E40770010000010000000001806300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sanddornweg 22" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "2,000" ;
+ld:Inbetriebnahmedatum "18.10.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/93> 
+ld:hasENR "E40770010000010000000001845000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Trusetaler Weg 7" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "2,160" ;
+ld:Inbetriebnahmedatum "28.12.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/94> 
+ld:hasENR "E40770010000010000000001845100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gogolstraße 17" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "4,800" ;
+ld:Inbetriebnahmedatum "20.12.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/95> 
+ld:hasENR "E40770010000010000000001846400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hans-Marschwitza-Straße 28" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "29,400" ;
+ld:Inbetriebnahmedatum "21.12.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/96> 
+ld:hasENR "E40770010000010000000001846900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Paul-Küster-Straße 2" ; 
+ld:plz "04177" ; 
+ld:installierteLeistung "1,700" ;
+ld:Inbetriebnahmedatum "13.12.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/97> 
+ld:hasENR "E40770010000010000000001847000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Strümpelstraße 40" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "19,950" ;
+ld:Inbetriebnahmedatum "11.12.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/98> 
+ld:hasENR "E40770010000010000000001847100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ilmenauer Weg 3" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "06.12.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/99> 
+ld:hasENR "E40770010000010000000001847300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schönefelder Allee 23a" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "12,000" ;
+ld:Inbetriebnahmedatum "16.11.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/100> 
+ld:hasENR "E40770010000010000000001895000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Blochmann Straße 3" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "8,300" ;
+ld:Inbetriebnahmedatum "29.12.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/101> 
+ld:hasENR "E40770010000010000000000873300002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Cröberner Straße 13" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "1,520" ;
+ld:Inbetriebnahmedatum "07.05.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/102> 
+ld:hasENR "E40770010000010000000001806600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gohliser Straße 24" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "3,200" ;
+ld:Inbetriebnahmedatum "22.01.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/103> 
+ld:hasENR "E40770010000010000000001806800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Eisenacher Straße 26" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "1,980" ;
+ld:Inbetriebnahmedatum "11.01.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/104> 
+ld:hasENR "E40770010000010000000001916600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Tauchaer Straße 84" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "1,750" ;
+ld:Inbetriebnahmedatum "18.04.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/105> 
+ld:hasENR "E40770010000010000000001955900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Logauweg 2a" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "3,150" ;
+ld:Inbetriebnahmedatum "24.04.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/106> 
+ld:hasENR "E40770010000010000000002044600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gogolstraße 54" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "1,940" ;
+ld:Inbetriebnahmedatum "14.05.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/107> 
+ld:hasENR "E40770010000010000000002045600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Beethovenstraße 15" ; 
+ld:plz "04107" ; 
+ld:installierteLeistung "29,700" ;
+ld:Inbetriebnahmedatum "25.05.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/108> 
+ld:hasENR "E40770010000010000000002046500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Watestraße 12" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "22.06.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/109> 
+ld:hasENR "E40770010000010000000002046800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Watestraße 10" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "22.06.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/110> 
+ld:hasENR "E40770010000010000000002079800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Liebensteiner Weg 2" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "3,509" ;
+ld:Inbetriebnahmedatum "18.07.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/111> 
+ld:hasENR "E40770010000010000000002090200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Altdorferweg 14" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "3,300" ;
+ld:Inbetriebnahmedatum "24.07.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/112> 
+ld:hasENR "E40770010000010000000002090300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dantestraße 20" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "3,500" ;
+ld:Inbetriebnahmedatum "03.08.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/113> 
+ld:hasENR "E40770010000010000000002091000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Leo-Tolstoi-Straße 1" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "2,100" ;
+ld:Inbetriebnahmedatum "20.07.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/114> 
+ld:hasENR "E40770010000010000000002303800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Herzenstraße 83" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "7,530" ;
+ld:Inbetriebnahmedatum "28.08.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/115> 
+ld:hasENR "E40770010000010000000002304500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Eisenberger Ring 28" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "17.09.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/116> 
+ld:hasENR "E40770010000010000000002352400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rapsweg 128" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "2,380" ;
+ld:Inbetriebnahmedatum "09.11.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/117> 
+ld:hasENR "E40770010000010000000002352900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hüfnerstraße 2" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "1,650" ;
+ld:Inbetriebnahmedatum "26.07.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/118> 
+ld:hasENR "E40770010000010000000002370800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Meusdorfer Straße 16" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "7,140" ;
+ld:Inbetriebnahmedatum "23.11.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/119> 
+ld:hasENR "E40770010000010000000002377200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Magdeburger Straße 11" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "2,050" ;
+ld:Inbetriebnahmedatum "13.12.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/120> 
+ld:hasENR "E40770010000010000000002377700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wolfener Straße 12" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "11,500" ;
+ld:Inbetriebnahmedatum "26.11.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/121> 
+ld:hasENR "E40770010000010000000002423900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Georg-Fischer-Straße 3" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "116,000" ;
+ld:Inbetriebnahmedatum "28.12.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/122> 
+ld:hasENR "E40770010000010000000002445000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Österreicherweg 21" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "06.11.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/123> 
+ld:hasENR "E40770010000010000000002445100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dieskaustraße 358" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,900" ;
+ld:Inbetriebnahmedatum "19.12.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/124> 
+ld:hasENR "E40770010000010000000002445200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bärenfelser Weg 5c" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "3,500" ;
+ld:Inbetriebnahmedatum "11.07.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/125> 
+ld:hasENR "E40770010000010000000002445300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Liebensteiner Weg 37" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "20.11.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/126> 
+ld:hasENR "E40770010000010000000002453200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Fucikstraße 15b" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "7,820" ;
+ld:Inbetriebnahmedatum "21.12.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/127> 
+ld:hasENR "E40770010000010000000002453300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hoffmannstraße 2" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "2,420" ;
+ld:Inbetriebnahmedatum "14.12.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/128> 
+ld:hasENR "E40770010000010000000002489400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Meißner Straße 28" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "3,400" ;
+ld:Inbetriebnahmedatum "23.11.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/129> 
+ld:hasENR "E40770010000010000000002489800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Diezmannstraße 83" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "6,530" ;
+ld:Inbetriebnahmedatum "14.11.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/130> 
+ld:hasENR "E40770010000010000000002489900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Anna-Kuhnow-Straße 22" ; 
+ld:plz "04317" ; 
+ld:installierteLeistung "2,000" ;
+ld:Inbetriebnahmedatum "18.07.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/131> 
+ld:hasENR "E40770010000010000000002490600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Karl-Heine-Straße 11" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "1,630" ;
+ld:Inbetriebnahmedatum "03.12.2007" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/132> 
+ld:hasENR "E40770010000010000000002490000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Steinpilzweg 21" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,300" ;
+ld:Inbetriebnahmedatum "25.01.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/133> 
+ld:hasENR "E40770010000010000000002618800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Watestraße 31" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "3,800" ;
+ld:Inbetriebnahmedatum "19.03.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/134> 
+ld:hasENR "E40770010000010000000002682100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lützner Straße 27" ; 
+ld:plz "04177" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "02.04.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/135> 
+ld:hasENR "E40770010000010000000002682200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ritterlingsweg 31" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "09.05.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/136> 
+ld:hasENR "E40770010000010000000002682300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kutschweg 36" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "1,700" ;
+ld:Inbetriebnahmedatum "21.05.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/137> 
+ld:hasENR "E40770010000010000000002695000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Suhler Straße 33" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "7,600" ;
+ld:Inbetriebnahmedatum "21.04.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/138> 
+ld:hasENR "E40770010000010000000002700500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Shakespearestraße 43b" ; 
+ld:plz "04107" ; 
+ld:installierteLeistung "3,300" ;
+ld:Inbetriebnahmedatum "28.05.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/139> 
+ld:hasENR "E40770010000010000000002705800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rietzschkeweg 14" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "2,400" ;
+ld:Inbetriebnahmedatum "07.03.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/140> 
+ld:hasENR "E40770010000010000000002747700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Trattendorfer Weg 6" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "4,980" ;
+ld:Inbetriebnahmedatum "24.06.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/141> 
+ld:hasENR "E40770010000010000000002751500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Romain-Rolland-Weg 3" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "28.04.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/142> 
+ld:hasENR "E40770010000010000000002759600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Julius-Krause-Straße 45" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "3,300" ;
+ld:Inbetriebnahmedatum "15.07.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/143> 
+ld:hasENR "E40770010000010000000003008900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Blankenburger Straße 10" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "3,870" ;
+ld:Inbetriebnahmedatum "18.07.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/144> 
+ld:hasENR "E40770010000010000000003013900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Huberstraße 5" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "1,950" ;
+ld:Inbetriebnahmedatum "18.07.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/145> 
+ld:hasENR "E40770010000010000000003022500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rosmarinweg 18a" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "2,300" ;
+ld:Inbetriebnahmedatum "18.07.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/146> 
+ld:hasENR "E40770010000010000000003038800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Erich-Mühsam-Weg 16" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "06.08.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/147> 
+ld:hasENR "E40770010000010000000003040200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Färberstraße 3" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "06.08.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/148> 
+ld:hasENR "E40770010000010000000003080500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Roscherstraße 12" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "2,000" ;
+ld:Inbetriebnahmedatum "04.09.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/149> 
+ld:hasENR "E40770010000010000000003117900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Turgenjewstraße 14" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "3,500" ;
+ld:Inbetriebnahmedatum "12.09.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/150> 
+ld:hasENR "E40770010000010000000003118100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Fontanestraße 10" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "1,760" ;
+ld:Inbetriebnahmedatum "17.09.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/151> 
+ld:hasENR "E40770010000010000000003126700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Julius-Krause-Straße 11" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "15.07.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/152> 
+ld:hasENR "E40770010000010000000003157500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Strümpelstraße 4" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "10.10.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/153> 
+ld:hasENR "E40770010000010000000003174800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hirzelstraße 7" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "2,720" ;
+ld:Inbetriebnahmedatum "09.10.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/154> 
+ld:hasENR "E40770010000010000000003179500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Tauchaer Straße 50" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "3,500" ;
+ld:Inbetriebnahmedatum "09.09.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/155> 
+ld:hasENR "E40770010000010000000003183900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Suhler Straße 51" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "7,500" ;
+ld:Inbetriebnahmedatum "08.10.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/156> 
+ld:hasENR "E40770010000010000000003189000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Stollestraße 8" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "14.10.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/157> 
+ld:hasENR "E40770010000010000000003191200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Iltispfad 16" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "7,510" ;
+ld:Inbetriebnahmedatum "16.10.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/158> 
+ld:hasENR "E40770010000010000000003212600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gottfried-Keller-Straße 4" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "1,550" ;
+ld:Inbetriebnahmedatum "30.10.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/159> 
+ld:hasENR "E40770010000010000000003212800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sachsenstraße 11" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "2,200" ;
+ld:Inbetriebnahmedatum "03.11.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/160> 
+ld:hasENR "E40770010000010000000003277400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Häußerstraße 17" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "2,760" ;
+ld:Inbetriebnahmedatum "24.11.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/161> 
+ld:hasENR "E40770010000010000000003296500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sommerfelder Weg 2" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "26.11.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/162> 
+ld:hasENR "E40770010000010000000003297200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lausner Weg 38" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "17.10.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/163> 
+ld:hasENR "E40770010000010000000003325200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Koburger Straße 20" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "3,500" ;
+ld:Inbetriebnahmedatum "15.12.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/164> 
+ld:hasENR "E40770010000010000000003332900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gletschersteinstraße 9" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "8,280" ;
+ld:Inbetriebnahmedatum "19.12.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/165> 
+ld:hasENR "E40770010000010000000003334500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ernst-Toller-Straße 6" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "9,000" ;
+ld:Inbetriebnahmedatum "17.12.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/166> 
+ld:hasENR "E40770010000010000000003334700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Portitzer Winkel 7" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "11.12.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/167> 
+ld:hasENR "E40770010000010000000003341100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wiederitzscher Straße 44" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "13,800" ;
+ld:Inbetriebnahmedatum "30.12.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/168> 
+ld:hasENR "E40770010000010000000003341300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dammstraße 28" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "4,100" ;
+ld:Inbetriebnahmedatum "23.12.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/169> 
+ld:hasENR "E40770010000010000000003377500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße 52 a" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "9,800" ;
+ld:Inbetriebnahmedatum "29.12.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/170> 
+ld:hasENR "E40770010000010000000001452400002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Keulenberg 71" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "2,720" ;
+ld:Inbetriebnahmedatum "28.08.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/171> 
+ld:hasENR "E40770010000010000000001847100002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ilmenauer Weg 3" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "04.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/172> 
+ld:hasENR "E40770010000010000000002445300002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Liebensteiner Weg 37" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "2,990" ;
+ld:Inbetriebnahmedatum "22.09.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/173> 
+ld:hasENR "E40770010000010000000002682100002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lützner Straße 27" ; 
+ld:plz "04177" ; 
+ld:installierteLeistung "5,190" ;
+ld:Inbetriebnahmedatum "21.04.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/174> 
+ld:hasENR "E40770010000010000000003641200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Sommerfeld 21" ; 
+ld:plz "04319" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "06.02.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/175> 
+ld:hasENR "E40770010000010000000003717300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Suhler Straße 27" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "6,500" ;
+ld:Inbetriebnahmedatum "01.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/176> 
+ld:hasENR "E40770010000010000000003717400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Buttergasse 5" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "6,500" ;
+ld:Inbetriebnahmedatum "30.03.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/177> 
+ld:hasENR "E40770010000010000000003735100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Stammerstraße 40" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "70,000" ;
+ld:Inbetriebnahmedatum "11.08.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/178> 
+ld:hasENR "E40770010000010000000003760000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Carlebachstraße 1" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "24.04.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/179> 
+ld:hasENR "E40770010000010000000003760400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Arnds Hufen 27" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "08.05.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/180> 
+ld:hasENR "E40770010000010000000003767100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Würzburger Straße 22" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "3,800" ;
+ld:Inbetriebnahmedatum "18.05.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/181> 
+ld:hasENR "E40770010000010000000003774200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wolteritzer Weg 24" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "3,200" ;
+ld:Inbetriebnahmedatum "28.05.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/182> 
+ld:hasENR "E40770010000010000000003780000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Berlichingenweg  32" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,500" ;
+ld:Inbetriebnahmedatum "08.06.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/183> 
+ld:hasENR "E40770010000010000000003781800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dieskaustraße 363" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "29.05.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/184> 
+ld:hasENR "E40770010000010000000003836000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Albrecht-Dürer-Weg 8" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "5,750" ;
+ld:Inbetriebnahmedatum "26.06.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/185> 
+ld:hasENR "E40770010000010000000003836100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sonneberger Weg 5" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "6,500" ;
+ld:Inbetriebnahmedatum "06.07.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/186> 
+ld:hasENR "E40770010000010000000003836300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Humboldtstraße 2a" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "3,500" ;
+ld:Inbetriebnahmedatum "14.07.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/187> 
+ld:hasENR "E40770010000010000000003839300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Birkenpilzweg 4" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "15.07.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/188> 
+ld:hasENR "E40770010000010000000003842700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Teschstraße 35" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "6,550" ;
+ld:Inbetriebnahmedatum "22.07.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/189> 
+ld:hasENR "E40770010000010000000003866100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Franz-Mehring-Straße 11" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "5,040" ;
+ld:Inbetriebnahmedatum "03.07.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/190> 
+ld:hasENR "E40770010000010000000003866700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Blaufichtenweg 10" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "04.08.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/191> 
+ld:hasENR "E40770010000010000000003888000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Krätzbergstraße 40" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "2,300" ;
+ld:Inbetriebnahmedatum "05.08.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/192> 
+ld:hasENR "E40770010000010000000003914900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Friedrichshafner Straße 238" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "6,300" ;
+ld:Inbetriebnahmedatum "12.08.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/193> 
+ld:hasENR "E40770010000010000000003916000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Logauweg 2" ; 
+ld:plz "04389" ; 
+ld:installierteLeistung "3,800" ;
+ld:Inbetriebnahmedatum "09.07.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/194> 
+ld:hasENR "E40770010000010000000003954100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Buckyweg 1" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "4,800" ;
+ld:Inbetriebnahmedatum "02.09.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/195> 
+ld:hasENR "E40770010000010000000003975700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Albrecht-Dürer-Weg 9c" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "04.09.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/196> 
+ld:hasENR "E40770010000010000000003975800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Crensitzer Weg 10" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "2,970" ;
+ld:Inbetriebnahmedatum "17.09.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/197> 
+ld:hasENR "E40770010000010000000003977400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Linkelstraße Flst. 209/5" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "110,000" ;
+ld:Inbetriebnahmedatum "22.08.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/198> 
+ld:hasENR "E40770010000010000000003977900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Höltystraße 17" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "6,600" ;
+ld:Inbetriebnahmedatum "09.09.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/199> 
+ld:hasENR "E40770010000010000000003996500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kästnerbogen 4" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "5,750" ;
+ld:Inbetriebnahmedatum "25.09.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/200> 
+ld:hasENR "E40770010000010000000004017000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kulmbacher Straße 4" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "7,500" ;
+ld:Inbetriebnahmedatum "13.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/201> 
+ld:hasENR "E40770010000010000000004123100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Knautnaundorfer Straße 50" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,600" ;
+ld:Inbetriebnahmedatum "14.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/202> 
+ld:hasENR "E40770010000010000000004123200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ritterlingsweg 7" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,750" ;
+ld:Inbetriebnahmedatum "08.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/203> 
+ld:hasENR "E40770010000010000000004125500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Friederikenstraße 11" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "9,200" ;
+ld:Inbetriebnahmedatum "17.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/204> 
+ld:hasENR "E40770010000010000000004126100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Poserstraße 69" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/205> 
+ld:hasENR "E40770010000010000000004126200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Shukowstraße 32" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "28.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/206> 
+ld:hasENR "E40770010000010000000004126300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kreuzstraße 35" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/207> 
+ld:hasENR "E40770010000010000000004126400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Leonhard-Frank-Straße 18" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/208> 
+ld:hasENR "E40770010000010000000004126500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zolaweg 96" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "5,500" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/209> 
+ld:hasENR "E40770010000010000000004127000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ligusterweg 18" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "4,950" ;
+ld:Inbetriebnahmedatum "09.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/210> 
+ld:hasENR "E40770010000010000000004137100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Roseggerstraße 9 a" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "4,050" ;
+ld:Inbetriebnahmedatum "11.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/211> 
+ld:hasENR "E40770010000010000000004143200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Brambacher Straße 79" ; 
+ld:plz "04317" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/212> 
+ld:hasENR "E40770010000010000000004143300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gärtnerstraße 125" ; 
+ld:plz "04209" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/213> 
+ld:hasENR "E40770010000010000000004144000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Herzenstraße 41" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "24.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/214> 
+ld:hasENR "E40770010000010000000004150600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Illmenauer Weg 36" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/215> 
+ld:hasENR "E40770010000010000000004173600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Menckestraße 20" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "13.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/216> 
+ld:hasENR "E40770010000010000000004174000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Pappelblick 20" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "2,920" ;
+ld:Inbetriebnahmedatum "16.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/217> 
+ld:hasENR "E40770010000010000000004175300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Alexanderstraße 43" ; 
+ld:plz "04109" ; 
+ld:installierteLeistung "10,080" ;
+ld:Inbetriebnahmedatum "06.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/218> 
+ld:hasENR "E40770010000010000000004175600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kissinger Straße 17 a" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "09.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/219> 
+ld:hasENR "E40770010000010000000004192300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sternwartenstraße 67" ; 
+ld:plz "40103" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "20.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/220> 
+ld:hasENR "E40770010000010000000004198100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Groitzscher Straße 33" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "30.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/221> 
+ld:hasENR "E40770010000010000000004200400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bodenreformweg 37" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "4,900" ;
+ld:Inbetriebnahmedatum "26.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/222> 
+ld:hasENR "E40770010000010000000004202400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sanddornweg 7" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "19.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/223> 
+ld:hasENR "E40770010000010000000004203700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Roßmarktstraße 30" ; 
+ld:plz "04177" ; 
+ld:installierteLeistung "9,200" ;
+ld:Inbetriebnahmedatum "12.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/224> 
+ld:hasENR "E40770010000010000000004214200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kieler Straße 71" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "03.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/225> 
+ld:hasENR "E40770010000010000000004219600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Markranstädter Straße 29 b" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "20,250" ;
+ld:Inbetriebnahmedatum "18.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/226> 
+ld:hasENR "E40770010000010000000004230300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hornissenwinkel 25" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "7,820" ;
+ld:Inbetriebnahmedatum "10.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/227> 
+ld:hasENR "E40770010000010000000004230400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hornissenwinkel 27" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "01.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/228> 
+ld:hasENR "E40770010000010000000004230900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sattelhofstraße 7" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "16,600" ;
+ld:Inbetriebnahmedatum "11.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/229> 
+ld:hasENR "E40770010000010000000004236500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wildschweinpfad 45" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "09.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/230> 
+ld:hasENR "E40770010000010000000004236600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Samuel-Lampel-Straße 26" ; 
+ld:plz "04317" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/231> 
+ld:hasENR "E40770010000010000000004236700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Magnusstraße 16" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "30.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/232> 
+ld:hasENR "E40770010000010000000004236800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kunzestraße 18" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "56,000" ;
+ld:Inbetriebnahmedatum "17.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/233> 
+ld:hasENR "E40770010000010000000004236900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ritterlingsweg 37" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,850" ;
+ld:Inbetriebnahmedatum "02.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/234> 
+ld:hasENR "E40770010000010000000004237100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Magdeborner Straße 14" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "3,080" ;
+ld:Inbetriebnahmedatum "09.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/235> 
+ld:hasENR "E40770010000010000000004237200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sommerfelder Weg 4" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,000" ;
+ld:Inbetriebnahmedatum "18.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/236> 
+ld:hasENR "E40770010000010000000004238300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Mühlholzgasse 73" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,070" ;
+ld:Inbetriebnahmedatum "21.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/237> 
+ld:hasENR "E40770010000010000000004238500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sonnenwinkel 33" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "18.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/238> 
+ld:hasENR "E40770010000010000000004238600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hildegardstraße 20" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/239> 
+ld:hasENR "E40770010000010000000004241400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schwarzenbergweg 51" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "6,500" ;
+ld:Inbetriebnahmedatum "21.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/240> 
+ld:hasENR "E40770010000010000000004244400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hornstraße 11" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "18,000" ;
+ld:Inbetriebnahmedatum "17.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/241> 
+ld:hasENR "E40770010000010000000004245200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gerlindeweg 2" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "14,600" ;
+ld:Inbetriebnahmedatum "30.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/242> 
+ld:hasENR "E40770010000010000000004246900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Erdmannstraße 16" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "7,380" ;
+ld:Inbetriebnahmedatum "18.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/243> 
+ld:hasENR "E40770010000010000000004250700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Alfred-Kästner-Straße 21" ; 
+ld:plz "04275" ; 
+ld:installierteLeistung "9,200" ;
+ld:Inbetriebnahmedatum "21.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/244> 
+ld:hasENR "E40770010000010000000004250800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rapsweg 62" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "16.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/245> 
+ld:hasENR "E40770010000010000000004251000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bucksdorffstraße 43" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "18,000" ;
+ld:Inbetriebnahmedatum "22.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/246> 
+ld:hasENR "E40770010000010000000004251100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Maximilianallee 17" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "17,000" ;
+ld:Inbetriebnahmedatum "30.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/247> 
+ld:hasENR "E40770010000010000000004251200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Straße am Park 46" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "29.10.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/248> 
+ld:hasENR "E40770010000010000000004252600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Brodauer Weg 35" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "4,400" ;
+ld:Inbetriebnahmedatum "21.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/249> 
+ld:hasENR "E40770010000010000000004260500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hornissenwinkel 5" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "4,500" ;
+ld:Inbetriebnahmedatum "23.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/250> 
+ld:hasENR "E40770010000010000000004266300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weigandtweg 2" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "14.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/251> 
+ld:hasENR "E40770010000010000000004296500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Braunschweiger Straße 9" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "2,300" ;
+ld:Inbetriebnahmedatum "29.12.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/252> 
+ld:hasENR "E40770010000010000000003191200002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Iltispfad 16" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,525" ;
+ld:Inbetriebnahmedatum "09.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/253> 
+ld:hasENR "E40770010000010000000003735100002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Stammerstraße 40" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "7,000" ;
+ld:Inbetriebnahmedatum "26.10.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/254> 
+ld:hasENR "E40770010000010000000003977400002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Linkelstraße Flst.209/5" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "17,000" ;
+ld:Inbetriebnahmedatum "26.10.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/255> 
+ld:hasENR "E40770010000010000000004305300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kremserweg 4" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "9,600" ;
+ld:Inbetriebnahmedatum "19.02.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/256> 
+ld:hasENR "E40770010000010000000004322800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Moosbeerweg 9" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,300" ;
+ld:Inbetriebnahmedatum "02.03.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/257> 
+ld:hasENR "E40770010000010000000004377600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Friederikenstr 13" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "18.03.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/258> 
+ld:hasENR "E40770010000010000000004381700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Pittlerstraße 28" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "25,000" ;
+ld:Inbetriebnahmedatum "24.03.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/259> 
+ld:hasENR "E40770010000010000000004392400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Berthastraße 3" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "7,600" ;
+ld:Inbetriebnahmedatum "22.03.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/260> 
+ld:hasENR "E40770010000010000000004397100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Prager Straße 199" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "7,200" ;
+ld:Inbetriebnahmedatum "31.03.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/261> 
+ld:hasENR "E40770010000010000000004397300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Donarstraße 32" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "06.04.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/262> 
+ld:hasENR "E40770010000010000000004398600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Falterstraße 53" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,300" ;
+ld:Inbetriebnahmedatum "01.04.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/263> 
+ld:hasENR "E40770010000010000000004398700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Eichwinkel 29c" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "24.03.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/264> 
+ld:hasENR "E40770010000010000000004437000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kolmstraße 47" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "3,780" ;
+ld:Inbetriebnahmedatum "23.04.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/265> 
+ld:hasENR "E40770010000010000000004450400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Berthastraße 1" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "9,450" ;
+ld:Inbetriebnahmedatum "16.04.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/266> 
+ld:hasENR "E40770010000010000000004451600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Donarstraße 8" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "25.05.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/267> 
+ld:hasENR "E40770010000010000000004451700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Olbernhauer Straße 1" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "15.07.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/268> 
+ld:hasENR "E40770010000010000000004451800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hildburgstraße 2" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "19,300" ;
+ld:Inbetriebnahmedatum "13.04.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/269> 
+ld:hasENR "E40770010000010000000004453500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dessauer Straße 26" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "25,000" ;
+ld:Inbetriebnahmedatum "28.04.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/270> 
+ld:hasENR "E40770010000010000000004461300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Oberdorfstraße 29" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "2,100" ;
+ld:Inbetriebnahmedatum "04.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/271> 
+ld:hasENR "E40770010000010000000004482200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bernhard-Göring-Straße 152" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "28,200" ;
+ld:Inbetriebnahmedatum "10.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/272> 
+ld:hasENR "E40770010000010000000004483400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hagebuttenweg 30" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "8,100" ;
+ld:Inbetriebnahmedatum "25.05.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/273> 
+ld:hasENR "E40770010000010000000004484000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Brahestraße Flst.909/2" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "3.160,000" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "MS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/274> 
+ld:hasENR "E40770010000010000000004484300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Fuchspfad 1" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "9,900" ;
+ld:Inbetriebnahmedatum "28.05.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/275> 
+ld:hasENR "E40770010000010000000004489700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wasunger Straße 24" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "18.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/276> 
+ld:hasENR "E40770010000010000000004489900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Swiftstraße 19" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "6,120" ;
+ld:Inbetriebnahmedatum "28.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/277> 
+ld:hasENR "E40770010000010000000004490100002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Swiftstraße 15" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "2,700" ;
+ld:Inbetriebnahmedatum "28.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/278> 
+ld:hasENR "E40770010000010000000004491300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Raiffeisenstraße 51" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "240,000" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/279> 
+ld:hasENR "E40770010000010000000004499400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Horburger Straße 97" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "14,400" ;
+ld:Inbetriebnahmedatum "01.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/280> 
+ld:hasENR "E40770010000010000000004531500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Falterstraße 59" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,680" ;
+ld:Inbetriebnahmedatum "29.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/281> 
+ld:hasENR "E40770010000010000000004531700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Brodauer Weg 28" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "3,300" ;
+ld:Inbetriebnahmedatum "28.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/282> 
+ld:hasENR "E40770010000010000000004531900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hummelstraße 16" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "5,250" ;
+ld:Inbetriebnahmedatum "29.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/283> 
+ld:hasENR "E40770010000010000000004532100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windscheidstraße 41a" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "4,050" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/284> 
+ld:hasENR "E40770010000010000000004532300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windscheidstraße 41a" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,923" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/285> 
+ld:hasENR "E40770010000010000000004532500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windscheidstraße 41a" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,700" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/286> 
+ld:hasENR "E40770010000010000000004532700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Scherlstraße 6" ; 
+ld:plz "04103" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "14.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/287> 
+ld:hasENR "E40770010000010000000004532900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Brodauer Weg 13" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "23.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/288> 
+ld:hasENR "E40770010000010000000004533200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lermontowstraße 28" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "5,600" ;
+ld:Inbetriebnahmedatum "22.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/289> 
+ld:hasENR "E40770010000010000000004533400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Strümpelstraße 31a" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "24.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/290> 
+ld:hasENR "E40770010000010000000004533600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Österreicher Weg 24" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "2,820" ;
+ld:Inbetriebnahmedatum "24.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/291> 
+ld:hasENR "E40770010000010000000004533800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Pansastraße 34" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "35,200" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/292> 
+ld:hasENR "E40770010000010000000004534000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windscheidstraße 41a" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,700" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/293> 
+ld:hasENR "E40770010000010000000004534200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Liebensteiner Weg 6" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "08.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/294> 
+ld:hasENR "E40770010000010000000004534300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße 37" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/295> 
+ld:hasENR "E40770010000010000000004534600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Liebensteiner Weg 8" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "08.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/296> 
+ld:hasENR "E40770010000010000000004534800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Grimmaische Straße 12" ; 
+ld:plz "04109" ; 
+ld:installierteLeistung "18,480" ;
+ld:Inbetriebnahmedatum "25.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/297> 
+ld:hasENR "E40770010000010000000004535100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Universitätsstraße 3-7" ; 
+ld:plz "04109" ; 
+ld:installierteLeistung "23,320" ;
+ld:Inbetriebnahmedatum "25.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/298> 
+ld:hasENR "E40770010000010000000004535300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Fürther Straße 38" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "6,120" ;
+ld:Inbetriebnahmedatum "28.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/299> 
+ld:hasENR "E40770010000010000000004535500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sorbenstraße 1" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "7,400" ;
+ld:Inbetriebnahmedatum "29.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/300> 
+ld:hasENR "E40770010000010000000004535700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windscheidstraße 41a" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,700" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/301> 
+ld:hasENR "E40770010000010000000004536100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dieskaustraße 325" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "29.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/302> 
+ld:hasENR "E40770010000010000000004536200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windscheidstraße 41a" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,250" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/303> 
+ld:hasENR "E40770010000010000000004536600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windscheidstraße 41a" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,250" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/304> 
+ld:hasENR "E40770010000010000000004536800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Demmeringstraße 31" ; 
+ld:plz "04177" ; 
+ld:installierteLeistung "9,800" ;
+ld:Inbetriebnahmedatum "28.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/305> 
+ld:hasENR "E40770010000010000000004537000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kunzestraße 20" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "49,000" ;
+ld:Inbetriebnahmedatum "25.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/306> 
+ld:hasENR "E40770010000010000000004537400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Shakespearestraße 52" ; 
+ld:plz "04107" ; 
+ld:installierteLeistung "8,320" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/307> 
+ld:hasENR "E40770010000010000000004537600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gießerstraße 64" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "4,940" ;
+ld:Inbetriebnahmedatum "26.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/308> 
+ld:hasENR "E40770010000010000000004537800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schönauer Straße 240" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "74,800" ;
+ld:Inbetriebnahmedatum "29.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/309> 
+ld:hasENR "E40770010000010000000004538200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Shakespearestraße 34" ; 
+ld:plz "04275" ; 
+ld:installierteLeistung "5,640" ;
+ld:Inbetriebnahmedatum "10.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/310> 
+ld:hasENR "E40770010000010000000004538400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sanddornweg 6" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "2,100" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/311> 
+ld:hasENR "E40770010000010000000004538600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Maximilianallee 17" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "30.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/312> 
+ld:hasENR "E40770010000010000000004542000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Paul-Gruner-Straße42" ; 
+ld:plz "04107" ; 
+ld:installierteLeistung "12,000" ;
+ld:Inbetriebnahmedatum "29.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/313> 
+ld:hasENR "E40770010000010000000004545200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wodanstraße Flst. 186/9" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "1.000,000" ;
+ld:Inbetriebnahmedatum "29.06.2010" ; 
+ld:Einspeiseebene "MS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/314> 
+ld:hasENR "E40770010000010000000004562100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kunzestraße 16" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "25,600" ;
+ld:Inbetriebnahmedatum "27.04.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/315> 
+ld:hasENR "E40770010000010000000004591100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Defreggerweg 17" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "3,300" ;
+ld:Inbetriebnahmedatum "27.08.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/316> 
+ld:hasENR "E40770010000010000000004609400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Tilmann-Riemenscheider Weg" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "4,300" ;
+ld:Inbetriebnahmedatum "08.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/317> 
+ld:hasENR "E40770010000010000000004614700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Fuchspfad 1" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "8,800" ;
+ld:Inbetriebnahmedatum "03.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/318> 
+ld:hasENR "E40770010000010000000004641800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hebelstraße 16" ; 
+ld:plz "04177" ; 
+ld:installierteLeistung "9,600" ;
+ld:Inbetriebnahmedatum "24.08.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/319> 
+ld:hasENR "E40770010000010000000004643100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Eichwinkel 20" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "5,400" ;
+ld:Inbetriebnahmedatum "16.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/320> 
+ld:hasENR "E40770010000010000000004643400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sommerfelder Weg 22" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "15.10.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/321> 
+ld:hasENR "E40770010000010000000004658100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Falterstraße 55" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,200" ;
+ld:Inbetriebnahmedatum "21.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/322> 
+ld:hasENR "E40770010000010000000004658400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Tilmann-Riemenscheider Weg" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "9,000" ;
+ld:Inbetriebnahmedatum "27.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/323> 
+ld:hasENR "E40770010000010000000004659500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße 46" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "7,900" ;
+ld:Inbetriebnahmedatum "10.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/324> 
+ld:hasENR "E40770010000010000000004659800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Alte Salzstraße 133" ; 
+ld:plz "04209" ; 
+ld:installierteLeistung "3,300" ;
+ld:Inbetriebnahmedatum "07.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/325> 
+ld:hasENR "E40770010000010000000004669400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Heinrich-Mann-Straße 46" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "1,100" ;
+ld:Inbetriebnahmedatum "30.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/326> 
+ld:hasENR "E40770010000010000000004669800002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schleußiger Weg 8" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "1,920" ;
+ld:Inbetriebnahmedatum "26.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/327> 
+ld:hasENR "E40770010000010000000004670200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Raiffeisenstraße 35 a" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,030" ;
+ld:Inbetriebnahmedatum "29.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/328> 
+ld:hasENR "E40770010000010000000004670600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gerhard-Ellrodt-Straße40" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "11,700" ;
+ld:Inbetriebnahmedatum "30.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/329> 
+ld:hasENR "E40770010000010000000004671000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Eisenberger Ring 33" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "29.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/330> 
+ld:hasENR "E40770010000010000000004671500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wertheimer Straße 4" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "15.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/331> 
+ld:hasENR "E40770010000010000000004671700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Willi-Bredel-Straße 13" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "2,300" ;
+ld:Inbetriebnahmedatum "06.10.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/332> 
+ld:hasENR "E40770010000010000000004673100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Herwigstraße 33" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "4,050" ;
+ld:Inbetriebnahmedatum "01.10.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/333> 
+ld:hasENR "E40770010000010000000004673300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Färberstraße 5" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "29.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/334> 
+ld:hasENR "E40770010000010000000004679000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dreiecksweg 16" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "3,120" ;
+ld:Inbetriebnahmedatum "30.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/335> 
+ld:hasENR "E40770010000010000000004737200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kolmstraße 101" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "01.11.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/336> 
+ld:hasENR "E40770010000010000000004748200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am kleinen Feld 3" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "84,000" ;
+ld:Inbetriebnahmedatum "09.11.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/337> 
+ld:hasENR "E40770010000010000000004785200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schwarzdornweg 7" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "6,400" ;
+ld:Inbetriebnahmedatum "11.11.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/338> 
+ld:hasENR "E40770010000010000000004795400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Söhrerstraße 15" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "12,000" ;
+ld:Inbetriebnahmedatum "05.11.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/339> 
+ld:hasENR "E40770010000010000000004796300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rudi-Opitz-Straße26" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "17,000" ;
+ld:Inbetriebnahmedatum "25.10.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/340> 
+ld:hasENR "E40770010000010000000004815200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gerhard-Ellrodt-Straße2" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "16.11.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/341> 
+ld:hasENR "E40770010000010000000004819100002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ilse-Decho-Weg 59" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,600" ;
+ld:Inbetriebnahmedatum "30.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/342> 
+ld:hasENR "E40770010000010000000004819700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Berlichingenweg  21" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "7,560" ;
+ld:Inbetriebnahmedatum "07.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/343> 
+ld:hasENR "E40770010000010000000004836700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lützner Straße 452" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "27,000" ;
+ld:Inbetriebnahmedatum "17.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/344> 
+ld:hasENR "E40770010000010000000004836900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windorfer Straße 63" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "391,000" ;
+ld:Inbetriebnahmedatum "22.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/345> 
+ld:hasENR "E40770010000010000000004839600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Nimrodstraße 60 a" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,620" ;
+ld:Inbetriebnahmedatum "30.11.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/346> 
+ld:hasENR "E40770010000010000000004842500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Adelgunde-Gottsched-Weg 9 " ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "5,020" ;
+ld:Inbetriebnahmedatum "25.11.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/347> 
+ld:hasENR "E40770010000010000000004842800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Friederikenstraße 61" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "24,700" ;
+ld:Inbetriebnahmedatum "28.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/348> 
+ld:hasENR "E40770010000010000000004843200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Friederikenstraße 63" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "24,000" ;
+ld:Inbetriebnahmedatum "28.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/349> 
+ld:hasENR "E40770010000010000000004844100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zehmenstraße 11" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "7,520" ;
+ld:Inbetriebnahmedatum "30.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/350> 
+ld:hasENR "E40770010000010000000004845400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dessauer Straße 8" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "55,000" ;
+ld:Inbetriebnahmedatum "28.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/351> 
+ld:hasENR "E40770010000010000000004852600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Lösegraben 13" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "5,760" ;
+ld:Inbetriebnahmedatum "30.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/352> 
+ld:hasENR "E40770010000010000000004852800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schönefelder Straße 21 a" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "16,500" ;
+ld:Inbetriebnahmedatum "21.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/353> 
+ld:hasENR "E40770010000010000000004856200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wildschweinpfad 49" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "30.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/354> 
+ld:hasENR "E40770010000010000000004857600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weißenfelser Straße 33" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "5,630" ;
+ld:Inbetriebnahmedatum "28.10.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/355> 
+ld:hasENR "E40770010000010000000004857800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Emilienstraße 12" ; 
+ld:plz "04107" ; 
+ld:installierteLeistung "6,500" ;
+ld:Inbetriebnahmedatum "16.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/356> 
+ld:hasENR "E40770010000010000000004858000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Lindenhof 13" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,300" ;
+ld:Inbetriebnahmedatum "23.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/357> 
+ld:hasENR "E40770010000010000000004858200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Nimrodstraße 60" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,320" ;
+ld:Inbetriebnahmedatum "30.11.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/358> 
+ld:hasENR "E40770010000010000000004858500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gerhard-Ellrodt-Straße 24" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "12,000" ;
+ld:Inbetriebnahmedatum "23.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/359> 
+ld:hasENR "E40770010000010000000004863100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gerhard-Ellrodt-Straße 26" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "55,000" ;
+ld:Inbetriebnahmedatum "30.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/360> 
+ld:hasENR "E40770010000010000000004866000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ilse-Decho-Weg 45" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "30.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/361> 
+ld:hasENR "E40770010000010000000004867300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ilse-Decho-Weg 32" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,480" ;
+ld:Inbetriebnahmedatum "30.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/362> 
+ld:hasENR "E40770010000010000000004894500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sommerfelder Weg 2" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,600" ;
+ld:Inbetriebnahmedatum "22.12.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/363> 
+ld:hasENR "E40770010000010000000004903700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Friedrichshafener Straße149" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "14.02.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/364> 
+ld:hasENR "E40770010000010000000004903900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schildberger Weg 1" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "14.02.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/365> 
+ld:hasENR "E40770010000010000000004907700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Katzmannstraße13" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "14.02.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/366> 
+ld:hasENR "E40770010000010000000004998700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Senefelder Straße 18" ; 
+ld:plz "04317" ; 
+ld:installierteLeistung "29,900" ;
+ld:Inbetriebnahmedatum "09.03.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/367> 
+ld:hasENR "E40770010000010000000005002400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Prager Straße 332" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "9,890" ;
+ld:Inbetriebnahmedatum "01.04.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/368> 
+ld:hasENR "E40770010000010000000005044000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Grauwackeweg 6" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "11.04.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/369> 
+ld:hasENR "E40770010000010000000005091200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zur alten Bäckerei 12" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "7,260" ;
+ld:Inbetriebnahmedatum "26.05.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/370> 
+ld:hasENR "E40770010000010000000005095300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bautzner Straße 25" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "7,050" ;
+ld:Inbetriebnahmedatum "20.05.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/371> 
+ld:hasENR "E40770010000010000000005095800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gildemeisterring 47" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "6,500" ;
+ld:Inbetriebnahmedatum "06.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/372> 
+ld:hasENR "E40770010000010000000005100400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Lindenhof 8" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "4,950" ;
+ld:Inbetriebnahmedatum "07.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/373> 
+ld:hasENR "E40770010000010000000005107100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Berkaer Weg 16" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "09.03.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/374> 
+ld:hasENR "E40770010000010000000005108000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ursula-Götze-Straße 39" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "26.05.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/375> 
+ld:hasENR "E40770010000010000000005108600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Korolenkostraße15" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "10,200" ;
+ld:Inbetriebnahmedatum "19.05.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/376> 
+ld:hasENR "E40770010000010000000005110400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Mühlgraben 27" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "09.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/377> 
+ld:hasENR "E40770010000010000000005110600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wildschweinpfad 11" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,600" ;
+ld:Inbetriebnahmedatum "09.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/378> 
+ld:hasENR "E40770010000010000000005110800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Jöhstädter 3" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "5,280" ;
+ld:Inbetriebnahmedatum "07.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/379> 
+ld:hasENR "E40770010000010000000005113100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wuttkestraße 14" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "3,220" ;
+ld:Inbetriebnahmedatum "16.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/380> 
+ld:hasENR "E40770010000010000000005134400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Pahlenweg 15" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "22.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/381> 
+ld:hasENR "E40770010000010000000005134600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Fontanestraße 21" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "4,365" ;
+ld:Inbetriebnahmedatum "11.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/382> 
+ld:hasENR "E40770010000010000000005135000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Corotweg 21" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "14,800" ;
+ld:Inbetriebnahmedatum "05.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/383> 
+ld:hasENR "E40770010000010000000005135900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Braustraße 15" ; 
+ld:plz "04107" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "30.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/384> 
+ld:hasENR "E40770010000010000000005136300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kolmstraße 37b" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "27.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/385> 
+ld:hasENR "E40770010000010000000005139000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße 19" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "8,640" ;
+ld:Inbetriebnahmedatum "29.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/386> 
+ld:hasENR "E40770010000010000000005173200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Mockauer Straße 30" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "12,400" ;
+ld:Inbetriebnahmedatum "04.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/387> 
+ld:hasENR "E40770010000010000000005173400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dieskaustraße 361" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "8,640" ;
+ld:Inbetriebnahmedatum "29.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/388> 
+ld:hasENR "E40770010000010000000005173600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ilse-Decho-Weg 34" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "13.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/389> 
+ld:hasENR "E40770010000010000000005174200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße Flst. 369" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "6,160" ;
+ld:Inbetriebnahmedatum "24.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/390> 
+ld:hasENR "E40770010000010000000005196200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kolmstraße 63" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "5,600" ;
+ld:Inbetriebnahmedatum "05.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/391> 
+ld:hasENR "E40770010000010000000005205000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gogolstraße 45" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "5,650" ;
+ld:Inbetriebnahmedatum "21.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/392> 
+ld:hasENR "E40770010000010000000005205400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wolffstsr. 6" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "5,060" ;
+ld:Inbetriebnahmedatum "26.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/393> 
+ld:hasENR "E40770010000010000000005205700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Prager Straße 201" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "27.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/394> 
+ld:hasENR "E40770010000010000000005205900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rochlitzstraße36" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "28.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/395> 
+ld:hasENR "E40770010000010000000005236200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wettiner Straße 3" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "5,390" ;
+ld:Inbetriebnahmedatum "14.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/396> 
+ld:hasENR "E40770010000010000000005258100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Falterstraße 47" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,000" ;
+ld:Inbetriebnahmedatum "29.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/397> 
+ld:hasENR "E40770010000010000000005258500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Tauchaer Straße 52" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "5,700" ;
+ld:Inbetriebnahmedatum "11.08.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/398> 
+ld:hasENR "E40770010000010000000005258800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "An der Märchenwiese 38" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "1,550" ;
+ld:Inbetriebnahmedatum "22.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/399> 
+ld:hasENR "E40770010000010000000005259300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Lindenhof 24" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "27.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/400> 
+ld:hasENR "E40770010000010000000005259600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Möckernsche Straße 43" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "3,600" ;
+ld:Inbetriebnahmedatum "05.09.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/401> 
+ld:hasENR "E40770010000010000000005266100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Elli-Voigt-Straße 2" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "12,550" ;
+ld:Inbetriebnahmedatum "18.08.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/402> 
+ld:hasENR "E40770010000010000000005268700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Posastraße 21" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "4,400" ;
+ld:Inbetriebnahmedatum "16.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/403> 
+ld:hasENR "E40770010000010000000005269300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hendelweg 11" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "5,880" ;
+ld:Inbetriebnahmedatum "11.08.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/404> 
+ld:hasENR "E40770010000010000000005280200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße 33 b" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "15.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/405> 
+ld:hasENR "E40770010000010000000005283200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Altenburger Straße 9" ; 
+ld:plz "04275" ; 
+ld:installierteLeistung "93,000" ;
+ld:Inbetriebnahmedatum "27.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/406> 
+ld:hasENR "E40770010000010000000005283200002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Altenburger Straße 13" ; 
+ld:plz "04275" ; 
+ld:installierteLeistung "61,000" ;
+ld:Inbetriebnahmedatum "27.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/407> 
+ld:hasENR "E40770010000010000000005288400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Miltenberger Straße 10b" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "3,500" ;
+ld:Inbetriebnahmedatum "04.08.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/408> 
+ld:hasENR "E40770010000010000000005295200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Braunschweiger Straße 16" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "17.08.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/409> 
+ld:hasENR "E40770010000010000000005306400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Albersdorfer Straße 13" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,060" ;
+ld:Inbetriebnahmedatum "28.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/410> 
+ld:hasENR "E40770010000010000000005306600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ehrensteinstraße 8" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "11.10.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/411> 
+ld:hasENR "E40770010000010000000005306900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Altranstädter Straße 42" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "29.09.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/412> 
+ld:hasENR "E40770010000010000000005307200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bamberger Straße 34" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "1,890" ;
+ld:Inbetriebnahmedatum "05.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/413> 
+ld:hasENR "E40770010000010000000005308000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Breitenfelder Straße 39" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "10,000" ;
+ld:Inbetriebnahmedatum "02.09.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/414> 
+ld:hasENR "E40770010000010000000005308300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße 44" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "8,640" ;
+ld:Inbetriebnahmedatum "29.09.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/415> 
+ld:hasENR "E40770010000010000000005322600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Goldene Hufe Flst 1407/1" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "9,000" ;
+ld:Inbetriebnahmedatum "04.08.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/416> 
+ld:hasENR "E40770010000010000000005342800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lermontowstraße 12 a" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "12,840" ;
+ld:Inbetriebnahmedatum "21.10.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/417> 
+ld:hasENR "E40770010000010000000005351300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Herzenstraße 58" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "4,490" ;
+ld:Inbetriebnahmedatum "15.09.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/418> 
+ld:hasENR "E40770010000010000000005356400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wolteritzer Weg 35" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "3,800" ;
+ld:Inbetriebnahmedatum "26.08.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/419> 
+ld:hasENR "E40770010000010000000005356600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Heinrich-Budde-Straße 33" ; 
+ld:plz "04157" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "22.09.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/420> 
+ld:hasENR "E40770010000010000000005357400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Miltenberger Straße 6" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "12,000" ;
+ld:Inbetriebnahmedatum "04.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/421> 
+ld:hasENR "E40770010000010000000005357600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rehbacher Straße 51" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "11.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/422> 
+ld:hasENR "E40770010000010000000005357800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Grauwackeweg 24" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,560" ;
+ld:Inbetriebnahmedatum "29.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/423> 
+ld:hasENR "E40770010000010000000005373300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lützner Straße 175" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "29,610" ;
+ld:Inbetriebnahmedatum "18.10.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/424> 
+ld:hasENR "E40770010000010000000005373500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Saarländer Straße 1" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "27,260" ;
+ld:Inbetriebnahmedatum "13.09.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/425> 
+ld:hasENR "E40770010000010000000005383600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wendelin Hipler Weg 3" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "7,030" ;
+ld:Inbetriebnahmedatum "02.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/426> 
+ld:hasENR "E40770010000010000000005386300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Pistorisstraße 51" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "30.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/427> 
+ld:hasENR "E40770010000010000000005390300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Espenhainer Straße 26" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "2,400" ;
+ld:Inbetriebnahmedatum "28.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/428> 
+ld:hasENR "E40770010000010000000005392200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Pistorisstraße 2d" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "3,500" ;
+ld:Inbetriebnahmedatum "18.10.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/429> 
+ld:hasENR "E40770010000010000000005906000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Pahlenweg 13" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "09.05.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/430> 
+ld:hasENR "E40770010000010000000005387600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Wolfswinkel 50" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "3,800" ;
+ld:Inbetriebnahmedatum "21.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/431> 
+ld:hasENR "E40770010000010000000005436300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hüfnerstraße 7" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "4,950" ;
+ld:Inbetriebnahmedatum "08.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/432> 
+ld:hasENR "E40770010000010000000005465100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wendelin Hipler Weg 4" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "10,530" ;
+ld:Inbetriebnahmedatum "12.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/433> 
+ld:hasENR "E40770010000010000000005434600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windorfer Straße 106" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "9,660" ;
+ld:Inbetriebnahmedatum "16.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/434> 
+ld:hasENR "E40770010000010000000005434700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Mariannenstraße 44" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "5,920" ;
+ld:Inbetriebnahmedatum "13.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/435> 
+ld:hasENR "E40770010000010000000005465400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Herzenstraße 66" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "23.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/436> 
+ld:hasENR "E40770010000010000000005450300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Haferkornstraße 15" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "55,200" ;
+ld:Inbetriebnahmedatum "09.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/437> 
+ld:hasENR "E40770010000010000000005465800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Mottelerstraße 8" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "20,000" ;
+ld:Inbetriebnahmedatum "27.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/438> 
+ld:hasENR "E40770010000010000000005457700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sommerfelder Weg 110" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "5,590" ;
+ld:Inbetriebnahmedatum "29.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/439> 
+ld:hasENR "E40770010000010000000005452800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Witkowskistraße 13" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "21.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/440> 
+ld:hasENR "E40770010000010000000005461500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Klasingstraße 6" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "22.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/441> 
+ld:hasENR "E40770010000010000000005461200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Klosterneuburger Weg 8" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "5,760" ;
+ld:Inbetriebnahmedatum "20.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/442> 
+ld:hasENR "E40770010000010000000005468900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Tauchaer Straße 69" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "17.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/443> 
+ld:hasENR "E40770010000010000000005450700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hendelweg 18" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "3,430" ;
+ld:Inbetriebnahmedatum "24.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/444> 
+ld:hasENR "E40770010000010000000005385200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Leinestraße 14" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "02.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/445> 
+ld:hasENR "E40770010000010000000005452600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Katzmannstraße2" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "21.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/446> 
+ld:hasENR "E40770010000010000000005457000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Max-Borsdorf-Straße 11" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "22.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/447> 
+ld:hasENR "E40770010000010000000005455500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kreuzstraße 40" ; 
+ld:plz "04315 " ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "22.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/448> 
+ld:hasENR "E40770010000010000000005455800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schwantestraße 21" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "22.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/449> 
+ld:hasENR "E40770010000010000000005526600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Freiberger Straße 13" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "29,900" ;
+ld:Inbetriebnahmedatum "08.04.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/450> 
+ld:hasENR "E40770010000010000000005526400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gersterstraße 24" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "29,900" ;
+ld:Inbetriebnahmedatum "04.04.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/451> 
+ld:hasENR "E40770010000010000000005358000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gärtnerstraße 163" ; 
+ld:plz "04209" ; 
+ld:installierteLeistung "29,900" ;
+ld:Inbetriebnahmedatum "04.04.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/452> 
+ld:hasENR "E40770010000010000000005526200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sternwartenstraße 51" ; 
+ld:plz "04103" ; 
+ld:installierteLeistung "29,900" ;
+ld:Inbetriebnahmedatum "19.04.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/453> 
+ld:hasENR "E40770010000010000000005525900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windmühlenstraße 35" ; 
+ld:plz "04107" ; 
+ld:installierteLeistung "29,900" ;
+ld:Inbetriebnahmedatum "19.04.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/454> 
+ld:hasENR "E40770010000010000000005002200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Heimdallstraße 9" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "01.04.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/455> 
+ld:hasENR "E40770010000010000000005196000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lausner Weg 91" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "3,800" ;
+ld:Inbetriebnahmedatum "16.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/456> 
+ld:hasENR "E40770010000010000000005449900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dahlienstraße 26" ; 
+ld:plz "04209" ; 
+ld:installierteLeistung "79,920" ;
+ld:Inbetriebnahmedatum "19.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/457> 
+ld:hasENR "E40770010000010000000005451400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Demmeringstraße 72" ; 
+ld:plz "04177" ; 
+ld:installierteLeistung "14,400" ;
+ld:Inbetriebnahmedatum "21.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/458> 
+ld:hasENR "E40770010000010000000005352700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Elsterstraße 37" ; 
+ld:plz "04109" ; 
+ld:installierteLeistung "8,400" ;
+ld:Inbetriebnahmedatum "30.09.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/459> 
+ld:hasENR "E40770010000010000000005444100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Eichbergstraße 62" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "9,880" ;
+ld:Inbetriebnahmedatum "15.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/460> 
+ld:hasENR "E40770010000010000000005387200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bodenreformweg 37a" ; 
+ld:plz "04347 " ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "06.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/461> 
+ld:hasENR "E40770010000010000000005382700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Albersdorfer Straße 12" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "25.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/462> 
+ld:hasENR "E40770010000010000000005438000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ranftsche Gasse 14" ; 
+ld:plz "04103" ; 
+ld:installierteLeistung "27,500" ;
+ld:Inbetriebnahmedatum "15.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/463> 
+ld:hasENR "E40770010000010000000005544000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Margeritenweg 18" ; 
+ld:plz "04179 " ; 
+ld:installierteLeistung "7,410" ;
+ld:Inbetriebnahmedatum "19.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/464> 
+ld:hasENR "E40770010000010000000005389200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sommerfelder Weg 6" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "23.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/465> 
+ld:hasENR "E40770010000010000000005517000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Anton-Zickmantel-Straße 20" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "9,120" ;
+ld:Inbetriebnahmedatum "23.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/466> 
+ld:hasENR "E40770010000010000000004266300002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weigandtweg 2" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "12,000" ;
+ld:Inbetriebnahmedatum "14.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/467> 
+ld:hasENR "E40770010000010000000005516700002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gustav-Esche-Straße 1" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "9,120" ;
+ld:Inbetriebnahmedatum "21.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/468> 
+ld:hasENR "E40770010000010000000005499300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rapsweg Flst. 1446" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "4,900" ;
+ld:Inbetriebnahmedatum "20.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/469> 
+ld:hasENR "E40770010000010000000005514500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lausner Weg 38 b" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "2,070" ;
+ld:Inbetriebnahmedatum "23.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/470> 
+ld:hasENR "E40770010000010000000005436400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Windorfer Straße 106" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "9,660" ;
+ld:Inbetriebnahmedatum "16.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/471> 
+ld:hasENR "E40770010000010000000005576600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bucksdorffstraße 21" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "9,360" ;
+ld:Inbetriebnahmedatum "23.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/472> 
+ld:hasENR "E40770010000010000000005547500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Walter-Albrecht-Weg 139" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "8,820" ;
+ld:Inbetriebnahmedatum "21.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/473> 
+ld:hasENR "E40770010000010000000005434900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Reichpietschstraße 23" ; 
+ld:plz "04317" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "15.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/474> 
+ld:hasENR "E40770010000010000000005576300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Otterstraße 33" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "8,280" ;
+ld:Inbetriebnahmedatum "23.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/475> 
+ld:hasENR "E40770010000010000000005461400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Cröberner Straße 5" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "3,200" ;
+ld:Inbetriebnahmedatum "21.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/476> 
+ld:hasENR "E40770010000010000000005307400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Neubauernstraße 18" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "5,330" ;
+ld:Inbetriebnahmedatum "01.08.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/477> 
+ld:hasENR "E40770010000010000000005576000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Industriestraße 57" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "12,840" ;
+ld:Inbetriebnahmedatum "09.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/478> 
+ld:hasENR "E40770010000010000000005544200002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Am Keulenberg 71" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "4,590" ;
+ld:Inbetriebnahmedatum "12.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/479> 
+ld:hasENR "E40770010000010000000005405600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Permoser Straße 15" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "23,500" ;
+ld:Inbetriebnahmedatum "30.05.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/480> 
+ld:hasENR "E40770010000010000000005405600002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Permoser Straße 15" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "11,000" ;
+ld:Inbetriebnahmedatum "16.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/481> 
+ld:hasENR "E40770010000010000000005570700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Brünner Straße 26" ; 
+ld:plz "04209" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "23.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/482> 
+ld:hasENR "E40770010000010000000005640100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hainburger Weg 31" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "4,050" ;
+ld:Inbetriebnahmedatum "30.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/483> 
+ld:hasENR "E40770010000010000000005637000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sommerfelder Weg 2" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "3,700" ;
+ld:Inbetriebnahmedatum "30.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/484> 
+ld:hasENR "E40770010000010000000005645100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bornaische Straße 55" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "46,170" ;
+ld:Inbetriebnahmedatum "22.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/485> 
+ld:hasENR "E40770010000010000000004489700002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wasunger Straße 24" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "19.08.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/486> 
+ld:hasENR "E40770010000010000000005639100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Georg-Schumann-Straße 32" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "6,000" ;
+ld:Inbetriebnahmedatum "27.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/487> 
+ld:hasENR "E40770010000010000000005666500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lauschaer Weg 5" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "7,800" ;
+ld:Inbetriebnahmedatum "27.04.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/488> 
+ld:hasENR "E40770010000010000000005673300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Eduardstraße 15" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "02.04.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/489> 
+ld:hasENR "E40770010000010000000005668800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Plösener Straße 13" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "26.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/490> 
+ld:hasENR "E40770010000010000000005673500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gottleubaer Straße 3" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "2,340" ;
+ld:Inbetriebnahmedatum "23.04.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/491> 
+ld:hasENR "E40770010000010000000005674000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Saarländer Straße 3" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "29,610" ;
+ld:Inbetriebnahmedatum "05.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/492> 
+ld:hasENR "E40770010000010000000005674200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Calderonweg 4" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "5,270" ;
+ld:Inbetriebnahmedatum "04.05.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/493> 
+ld:hasENR "E40770010000010000000005673800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Jordanstraße 1" ; 
+ld:plz "04177" ; 
+ld:installierteLeistung "7,000" ;
+ld:Inbetriebnahmedatum "27.04.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/494> 
+ld:hasENR "E40770010000010000000005674400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dachsstraße 5" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "20.04.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/495> 
+ld:hasENR "E40009990443500000100005625900001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Gagarinring 23" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "4,800" ;
+ld:Inbetriebnahmedatum "11.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/496> 
+ld:hasENR "E40010810443500000100005644000001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Ernst-Thälmann-Straße 53" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "12,000" ;
+ld:Inbetriebnahmedatum "29.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/497> 
+ld:hasENR "E40009990443500000100005621500001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Gagariring 25" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "2,300" ;
+ld:Inbetriebnahmedatum "24.10.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/498> 
+ld:hasENR "E40009990443500000100005621700001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Delitzscher Straße 40" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "20.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/499> 
+ld:hasENR "E40009990443500000100005624300001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Ennewitzer Straße 3" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "3,100" ;
+ld:Inbetriebnahmedatum "12.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/500> 
+ld:hasENR "E40009990443500000100005620300001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Gagarinring 9" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "04.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/501> 
+ld:hasENR "E40009990443500000100005623200001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Lindenstraße 3" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "44,000" ;
+ld:Inbetriebnahmedatum "26.07.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/502> 
+ld:hasENR "E40770010000010000000005699000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lausner Weg 34b" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "06.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/503> 
+ld:hasENR "E40770010000010000000005661700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kapellenstraße 18" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "7,650" ;
+ld:Inbetriebnahmedatum "15.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/504> 
+ld:hasENR "E40770010000010000000005632700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Perlpilzweg 7" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "22.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/505> 
+ld:hasENR "E40770010000010000000005668800002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Plößner Straße 13" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "26.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/506> 
+ld:hasENR "E40770010000010000000005664200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Creuziger Straße 11" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "10,320" ;
+ld:Inbetriebnahmedatum "28.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/507> 
+ld:hasENR "E40770010000010000000005727600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Herzenstraße 74" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "10,000" ;
+ld:Inbetriebnahmedatum "04.04.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/508> 
+ld:hasENR "E40770010000010000000005751200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Merseburger Straße 1 HH" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "9,600" ;
+ld:Inbetriebnahmedatum "30.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/509> 
+ld:hasENR "E40770010000010000000005752500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hendelweg 16" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "07.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/510> 
+ld:hasENR "E40770010000010000000005760300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Grillenstraße 1" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "11.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/511> 
+ld:hasENR "E40770010000010000000005760600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sigebandweg 33" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "29.05.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/512> 
+ld:hasENR "E40770010000010000000005762000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Friedrichshafener Straße212" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "26.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/513> 
+ld:hasENR "E40770010000010000000005792000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Georg-Schumann-Straße 317" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "20.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/514> 
+ld:hasENR "E40770010000010000000005762600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ackerweg 6" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "5,500" ;
+ld:Inbetriebnahmedatum "14.05.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/515> 
+ld:hasENR "E40770010000010000000005683600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Blaufichtenweg 8" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "4,940" ;
+ld:Inbetriebnahmedatum "30.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/516> 
+ld:hasENR "E40770010000010000000005789700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sommerfelder Weg 114" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "20.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/517> 
+ld:hasENR "E40770010000010000000005842000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Föpplstraße 11" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "26,350" ;
+ld:Inbetriebnahmedatum "08.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/518> 
+ld:hasENR "E40770010000010000000005835600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Tauchaer Straße 2" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "14.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/519> 
+ld:hasENR "E40770010000010000000005835800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Straße am Park 28 " ; 
+ld:plz "04209" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "14.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/520> 
+ld:hasENR "E40770010000010000000005751000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Nürnberger Straße 27a" ; 
+ld:plz "04103" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "14.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/521> 
+ld:hasENR "E40770010000010000000005750800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Otto-Michael-Straße 16" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "14.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/522> 
+ld:hasENR "E40770010000010000000005751600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Markkleeberger Straße 49" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "2,660" ;
+ld:Inbetriebnahmedatum "11.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/523> 
+ld:hasENR "E40009990443500000100005580000001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Ernst-Thälmann-Straße 29" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "24,000" ;
+ld:Inbetriebnahmedatum "02.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/524> 
+ld:hasENR "E40770010000010000000005855800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hänselweg 22" ; 
+ld:plz "04277" ; 
+ld:installierteLeistung "2,850" ;
+ld:Inbetriebnahmedatum "29.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/525> 
+ld:hasENR "E40770010000010000000005890400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Albersdorfer Straße 24" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "23.05.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/526> 
+ld:hasENR "E40770010000010000000005892100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bochumer Straße8" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "4,700" ;
+ld:Inbetriebnahmedatum "25.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/527> 
+ld:hasENR "E40770010000010000000005544400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gogolstraße 73" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "2,500" ;
+ld:Inbetriebnahmedatum "30.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/528> 
+ld:hasENR "E40770010000010000000005894800002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Horburger Straße 97" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "19,200" ;
+ld:Inbetriebnahmedatum "23.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/529> 
+ld:hasENR "E40770010000010000000005891000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "An den Theklafeldern 18b" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "11,760" ;
+ld:Inbetriebnahmedatum "24.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/530> 
+ld:hasENR "E40770010000010000000005890800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kärrnerweg 14" ; 
+ld:plz "04299" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "03.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/531> 
+ld:hasENR "E40770010000010000000005886500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Auenhainer Straße 9" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "5,370" ;
+ld:Inbetriebnahmedatum "07.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/532> 
+ld:hasENR "E40770010000010000000005890100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kegelweg 3" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "20.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/533> 
+ld:hasENR "E40770010000010000000005930900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Taubestraße 52" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "30.04.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/534> 
+ld:hasENR "E40770010000010000000005940500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schongauer Straße 37" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "30,000" ;
+ld:Inbetriebnahmedatum "28.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/535> 
+ld:hasENR "E40770010000010000000005995600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hopfenweg 6" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "12.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/536> 
+ld:hasENR "E40770010000010000000005918300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ranstädter Steinweg 15" ; 
+ld:plz "04317" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "14.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/537> 
+ld:hasENR "E40770010000010000000005933100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zwickauer Straße 59" ; 
+ld:plz "04279" ; 
+ld:installierteLeistung "7,560" ;
+ld:Inbetriebnahmedatum "29.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/538> 
+ld:hasENR "E40770010000010000000005929000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seipelweg 16" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "12.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/539> 
+ld:hasENR "E40770010000010000000005929400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Losinskiweg 9" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "12.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/540> 
+ld:hasENR "E40770010000010000000005929600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Günselstraße 6" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "19.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/541> 
+ld:hasENR "E40770010000010000000005994200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Günselstraße 5" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "19.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/542> 
+ld:hasENR "E40770010000010000000005993800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gundermannstraße 35" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "19.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/543> 
+ld:hasENR "E40770010000010000000005924400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Elisabethstraße 4" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "26.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/544> 
+ld:hasENR "E40770010000010000000005916300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Platanenstraße 26" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "12.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/545> 
+ld:hasENR "E40770010000010000000005917200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lukasstraße 12" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "19.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/546> 
+ld:hasENR "E40770010000010000000005917500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weidmannstraße 17" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "12.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/547> 
+ld:hasENR "E40770010000010000000005917000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schwantestraße 8" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "19.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/548> 
+ld:hasENR "E40770010000010000000005917800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weidmannstraße 9" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "19.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/549> 
+ld:hasENR "E40770010000010000000005929200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zollikofer Straße 32" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "12.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/550> 
+ld:hasENR "E40770010000010000000005922500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zollikofer Straße 15" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "26.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/551> 
+ld:hasENR "E40770010000010000000005931000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zollikofer Straße 23" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "29,890" ;
+ld:Inbetriebnahmedatum "26.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/552> 
+ld:hasENR "E40770010000010000000005894600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Güntheritzer Weg 11" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "4,800" ;
+ld:Inbetriebnahmedatum "25.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/553> 
+ld:hasENR "E40770010000010000000005673000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Merseburger Straße 1 HH" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "12,960" ;
+ld:Inbetriebnahmedatum "30.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/554> 
+ld:hasENR "E40770010000010000000005863500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gontscharowstraße 23" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "02.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/555> 
+ld:hasENR "E40770010000010000000005863800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Stünz-Mölkauer Weg 34" ; 
+ld:plz "04329 " ; 
+ld:installierteLeistung "7,500" ;
+ld:Inbetriebnahmedatum "07.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/556> 
+ld:hasENR "E40770010000010000000005881100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kippenbergstraße 31" ; 
+ld:plz "04317" ; 
+ld:installierteLeistung "11,200" ;
+ld:Inbetriebnahmedatum "22.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/557> 
+ld:hasENR "E40770010000010000000005891400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Goldene Hufe 65" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "5,500" ;
+ld:Inbetriebnahmedatum "28.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/558> 
+ld:hasENR "E40770010000010000000005890600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Balderstraße 23" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "4,500" ;
+ld:Inbetriebnahmedatum "31.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/559> 
+ld:hasENR "E40770010000010000000005893800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Erlanger Straße 27 b" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "4,900" ;
+ld:Inbetriebnahmedatum "20.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/560> 
+ld:hasENR "E40770010000010000000005998200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dieskaustraße 403" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "7,350" ;
+ld:Inbetriebnahmedatum "21.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/561> 
+ld:hasENR "E40770010000010000000005932900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Goldene Hufe 61" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "17.09.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/562> 
+ld:hasENR "E40770010000010000000005929800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Alte Salzstraße 13" ; 
+ld:plz "04179" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "03.09.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/563> 
+ld:hasENR "E40770010000010000000005934500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Karlstädter Straße 1a" ; 
+ld:plz "04207" ; 
+ld:installierteLeistung "10,000" ;
+ld:Inbetriebnahmedatum "23.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/564> 
+ld:hasENR "E40770010000010000000005949200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weidmannweg 11" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,500" ;
+ld:Inbetriebnahmedatum "30.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/565> 
+ld:hasENR "E40770010000010000000005939800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Otterstraße 36" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "7,000" ;
+ld:Inbetriebnahmedatum "29.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/566> 
+ld:hasENR "E40770010000010000000005956600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schwarzdornweg 18" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "1,700" ;
+ld:Inbetriebnahmedatum "27.09.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/567> 
+ld:hasENR "E40770010000010000000005997900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lermontowstraße 36" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "4,500" ;
+ld:Inbetriebnahmedatum "09.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/568> 
+ld:hasENR "E40770010000010000000005952100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weigandtstraße 31" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "02.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/569> 
+ld:hasENR "E40770010000010000000005911700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Taubestraße 54" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "30.04.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/570> 
+ld:hasENR "E40770010000010000000005952300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weigandtweg 71" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "6,240" ;
+ld:Inbetriebnahmedatum "11.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/571> 
+ld:hasENR "E40770010000010000000005950600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weigandtweg 69" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "11.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/572> 
+ld:hasENR "E40770010000010000000005934200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zschortauer Straße 96" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "218,000" ;
+ld:Inbetriebnahmedatum "19.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/573> 
+ld:hasENR "E40770010000010000000005977200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Reuningsstraße 4" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "2,100" ;
+ld:Inbetriebnahmedatum "04.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/574> 
+ld:hasENR "E40770010000010000000005914300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zum Kleingartenpark 32E" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "5,000" ;
+ld:Inbetriebnahmedatum "18.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/575> 
+ld:hasENR "E40009990443500000100005956000001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Kölsaer Straße 3" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "18,820" ;
+ld:Inbetriebnahmedatum "04.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/576> 
+ld:hasENR "E40770010000010000000005952600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Otterstraße 55" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,500" ;
+ld:Inbetriebnahmedatum "28.09.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/577> 
+ld:hasENR "E40770010000010000000005914900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Elsterblick 19" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "3,900" ;
+ld:Inbetriebnahmedatum "24.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/578> 
+ld:hasENR "E40770010000010000000005870000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Perlickstraße 5" ; 
+ld:plz "04103" ; 
+ld:installierteLeistung "23,000" ;
+ld:Inbetriebnahmedatum "20.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/579> 
+ld:hasENR "E40770010000010000000005831300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Magnusstraße 26" ; 
+ld:plz "04129" ; 
+ld:installierteLeistung "5,900" ;
+ld:Inbetriebnahmedatum "02.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/580> 
+ld:hasENR "E40770010000010000000005953600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Kantatenweg 9a + 9b" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "15,600" ;
+ld:Inbetriebnahmedatum "28.06.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/581> 
+ld:hasENR "E40770010000010000000005972800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schwarzenbergweg 6" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "14.09.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/582> 
+ld:hasENR "E40770010000010000000006059800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hornissenwinkel 4" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "6,800" ;
+ld:Inbetriebnahmedatum "02.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/583> 
+ld:hasENR "E40770010000010000000006065300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Braustraße 24" ; 
+ld:plz "04107" ; 
+ld:installierteLeistung "11,180" ;
+ld:Inbetriebnahmedatum "30.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/584> 
+ld:hasENR "E40770010000010000000006066000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ludwigstraße 103" ; 
+ld:plz "04315" ; 
+ld:installierteLeistung "13,500" ;
+ld:Inbetriebnahmedatum "13.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/585> 
+ld:hasENR "E40770010000010000000006065600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sonnenwinkel 102" ; 
+ld:plz "04229" ; 
+ld:installierteLeistung "7,200" ;
+ld:Inbetriebnahmedatum "02.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/586> 
+ld:hasENR "E40770010000010000000006064900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Otterstraße 18" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "8,190" ;
+ld:Inbetriebnahmedatum "29.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/587> 
+ld:hasENR "E40770010000010000000006192800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Nordhäuser Weg 6" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "23.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/588> 
+ld:hasENR "E40770010000010000000006059700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lenzstraße 16" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "9,600" ;
+ld:Inbetriebnahmedatum "30.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/589> 
+ld:hasENR "E40770010000010000000005632900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Friedrichshafener Straße 242" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "5,160" ;
+ld:Inbetriebnahmedatum "17.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/590> 
+ld:hasENR "E40770010000010000000006038700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ilmenauer Weg 38" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "6,000" ;
+ld:Inbetriebnahmedatum "01.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/591> 
+ld:hasENR "E40770010000010000000006092400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Seumestraße 64" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "28.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/592> 
+ld:hasENR "E40770010000010000000005949200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weidmannweg 11" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,500" ;
+ld:Inbetriebnahmedatum "30.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/593> 
+ld:hasENR "E40770010000010000000005972800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Schwarzenbergweg 6" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "12.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/594> 
+ld:hasENR "E40770010000010000000006054400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dieskaustraße 348" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "2,160" ;
+ld:Inbetriebnahmedatum "22.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/595> 
+ld:hasENR "E40770010000010000000006038900002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Fregestraße 28" ; 
+ld:plz "04105" ; 
+ld:installierteLeistung "3,200" ;
+ld:Inbetriebnahmedatum "31.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/596> 
+ld:hasENR "E40770010000010000000006059700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lenzstraße 16" ; 
+ld:plz "04328" ; 
+ld:installierteLeistung "9,600" ;
+ld:Inbetriebnahmedatum "30.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/597> 
+ld:hasENR "E40770010000010000000006111600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Dieskaustraße Flst 69/3" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "40,000" ;
+ld:Inbetriebnahmedatum "28.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/598> 
+ld:hasENR "E40770010000010000000006016800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Jutta-Hipp-Weg 16" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "6,500" ;
+ld:Inbetriebnahmedatum "22.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/599> 
+ld:hasENR "E40770010000010000000005997900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lermontowstraße 36" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "4,500" ;
+ld:Inbetriebnahmedatum "30.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/600> 
+ld:hasENR "E40770010000010000000006038700002" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Ilmenauer Weg 38" ; 
+ld:plz "04205" ; 
+ld:installierteLeistung "6,000" ;
+ld:Inbetriebnahmedatum "01.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/601> 
+ld:hasENR "E40770010000010000000006147900001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Schäfergasse 10" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "9,360" ;
+ld:Inbetriebnahmedatum "30.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/602> 
+ld:hasENR "E40770010000010000000006103100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Weigandtweg 38" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "03.12.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/603> 
+ld:hasENR "E40770010000010000000006060100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Tollweg 62" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "4,250" ;
+ld:Inbetriebnahmedatum "23.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/604> 
+ld:hasENR "E40770010000010000000006129200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Krätzbergstraße 18" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "10,000" ;
+ld:Inbetriebnahmedatum "28.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/605> 
+ld:hasENR "E40770010000010000000006129600001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Freistraße 14" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "6,260" ;
+ld:Inbetriebnahmedatum "07.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/606> 
+ld:hasENR "E40770010000010000000006128100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bucksdorffstraße 19" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "4,200" ;
+ld:Inbetriebnahmedatum "30.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/607> 
+ld:hasENR "E40770010000010000000006065300001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Braustraße 24" ; 
+ld:plz "04107" ; 
+ld:installierteLeistung "11,180" ;
+ld:Inbetriebnahmedatum "30.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/608> 
+ld:hasENR "E40770010000010000000006129400001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Hainburger Weg 43" ; 
+ld:plz "04349" ; 
+ld:installierteLeistung "7,000" ;
+ld:Inbetriebnahmedatum "30.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/609> 
+ld:hasENR "E40770010000010000000006038500001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Karl-Liebknecht-Straße 25" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "6,240" ;
+ld:Inbetriebnahmedatum "30.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/610> 
+ld:hasENR "E40770010000010000000006150200001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gontscharowstraße 42" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "5,600" ;
+ld:Inbetriebnahmedatum "10.12.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/611> 
+ld:hasENR "E40770010000010000000005777800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Gerhard-Ellrodt-Straße 170" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "1.100,000" ;
+ld:Inbetriebnahmedatum "29.06.2012" ; 
+ld:Einspeiseebene "MS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/612> 
+ld:hasENR "E40770010000010000000006095800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Wendelin-Hipler-Weg 12" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "3,000" ;
+ld:Inbetriebnahmedatum "30.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/613> 
+ld:hasENR "E40009990443500000100005862100001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Grünstraße 36" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "2,600" ;
+ld:Inbetriebnahmedatum "17.11.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/614> 
+ld:hasENR "E40009990443500000100005620300001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Gagarinring 9" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "04.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/615> 
+ld:hasENR "E40009990443500000100005625900001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Gagarinring 23" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "4,800" ;
+ld:Inbetriebnahmedatum "03.11.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/616> 
+ld:hasENR "E40009990443500000100005621500001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Gagarinring 25" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "2,300" ;
+ld:Inbetriebnahmedatum "24.10.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/617> 
+ld:hasENR "E40009990443500000100005576500001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Gagarinring 21" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "4,400" ;
+ld:Inbetriebnahmedatum "10.07.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/618> 
+ld:hasENR "E40010810443500000100005580300001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Ernst-Thälmann-Straße 31" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "28,500" ;
+ld:Inbetriebnahmedatum "22.07.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/619> 
+ld:hasENR "E40010810443500000100005580500002" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Ernst-Thälmann-Straße 31" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "26,500" ;
+ld:Inbetriebnahmedatum "21.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/620> 
+ld:hasENR "E40010810443500000100005550900001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Ernst-Thälmann-Straße 43" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "64,000" ;
+ld:Inbetriebnahmedatum "27.06.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/621> 
+ld:hasENR "E40010810443500000100005608500001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Ernst-Thälmann-Straße 49z" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "29,700" ;
+ld:Inbetriebnahmedatum "08.06.2006" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/622> 
+ld:hasENR "E40010810443500000100001623000001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Ernst-Thälmann-Straße 32" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "25,000" ;
+ld:Inbetriebnahmedatum "04.06.2002" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/623> 
+ld:hasENR "E40010810443500000100005577100001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Am Brösen 22" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "2,200" ;
+ld:Inbetriebnahmedatum "12.11.2009" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/624> 
+ld:hasENR "E40010810443500000100005577500001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "An der Kleinbahn 17" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "6,500" ;
+ld:Inbetriebnahmedatum "27.11.2008" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/625> 
+ld:hasENR "E40009990443500000100005576900001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Freistraße 13" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "4,950" ;
+ld:Inbetriebnahmedatum "29.09.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/626> 
+ld:hasENR "E40009990443500000100005578300001" ; 
+ld:city "Schkeuditz" ; 
+ld:Adresse "Gagarinring 41" ; 
+ld:plz "04435" ; 
+ld:installierteLeistung "4,600" ;
+ld:Inbetriebnahmedatum "29.06.2010" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/627> 
+ld:hasENR "E40770010000010000000006152500001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Otterstraße 27" ; 
+ld:plz "04329" ; 
+ld:installierteLeistung "8,960" ;
+ld:Inbetriebnahmedatum "18.12.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/628> 
+ld:hasENR "E40770010000010000000006170100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Altes Dorf 8" ; 
+ld:plz "04349 " ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "21.12.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/629> 
+ld:hasENR "E40770010000010000000006150000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Knautnaundorfer Straße 50" ; 
+ld:plz "04249" ; 
+ld:installierteLeistung "2,800" ;
+ld:Inbetriebnahmedatum "30.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/630> 
+ld:hasENR "E40770010000010000000006152900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Rankestraße 6" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "9,180" ;
+ld:Inbetriebnahmedatum "28.12.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/631> 
+ld:hasENR "E40770010000010000000006152700001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Österreicher Weg 20" ; 
+ld:plz "04289" ; 
+ld:installierteLeistung "4,000" ;
+ld:Inbetriebnahmedatum "12.12.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/632> 
+ld:hasENR "E40770010000010000000005658600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Zweenfurther Straße 2a" ; 
+ld:plz "04318" ; 
+ld:installierteLeistung "6,440" ;
+ld:Inbetriebnahmedatum "30.03.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/633> 
+ld:hasENR "E40770010000010000000006216900001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Lindenthaler Straße 19" ; 
+ld:plz "04155" ; 
+ld:installierteLeistung "19,000" ;
+ld:Inbetriebnahmedatum "28.08.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/634> 
+ld:hasENR "E40770010000010000000006253600001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Bucksdorffstraße 43" ; 
+ld:plz "04159" ; 
+ld:installierteLeistung "15,000" ;
+ld:Inbetriebnahmedatum "05.12.2011" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/635> 
+ld:hasENR "E40770010000010000000006333800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sternwartenstraße 2" ; 
+ld:plz "04103" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "30.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/636> 
+ld:hasENR "E40770010000010000000006193000001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Vierzehn Bäumeweg 1" ; 
+ld:plz "04357" ; 
+ld:installierteLeistung "8,000" ;
+ld:Inbetriebnahmedatum "14.09.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/637> 
+ld:hasENR "E40770010000010000000006081100001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Brahestraße 1" ; 
+ld:plz "04347" ; 
+ld:installierteLeistung "150,000" ;
+ld:Inbetriebnahmedatum "25.07.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+
+<http://netz-leipzig.de/Anlage/638> 
+ld:hasENR "E40770010000010000000006333800001" ; 
+ld:city "Leipzig" ; 
+ld:Adresse "Sternwartenstraße 2" ; 
+ld:plz "04103" ; 
+ld:installierteLeistung "29,000" ;
+ld:Inbetriebnahmedatum "30.10.2012" ; 
+ld:Einspeiseebene "NS" ; 
+ld:Energietraeger "Solar" .
+

@@ -1,0 +1,613 @@
+Anlagenschlüssel;Übertragungsnetzbetreiber;Netzbetreiber;Netzbetreiber Betriebsnummer;Energieträger;Einspeisungsebene;Leistung;Leistungsgemessene Anlage;Zeitreihentyp;Regelbarkeit;Biomasse KWK-Anteil;Biomassetechnologie;Zeitpunkt der Inbetriebnahme;Zeitpunkt der Ausserbetriebnahme;Zeitpunkt des Netzzugangs;Zeitpunkt des Netzabgangs;Bundeslandkürzel;Ort;Ortsteil;PLZ;Strasse;Nummer;Flur;Flurstück;Quelle
+E40770010000010000000004273600001;50Hertz;Netz Leipzig GmbH;;Wasser;NS;5.000;;;;;;10.09.2009;;;;SN;Leipzig;;04279;Vollhardtstr.;16;;;NetzLeipzig.pdf
+E40770010000209311801949960000001;50Hertz;Netz Leipzig GmbH;;Wind;MS;600.000;;;;;;02.12.1996;;;;SN;Leipzig;;04249;Seebenischer Straße;;;;NetzLeipzig.pdf
+E40770010000209311801949960000002;50Hertz;Netz Leipzig GmbH;;Wind;MS;800.000;;;;;;04.05.2006;;;;SN;Leipzig;;04249;Seebenischer Straße;;;;NetzLeipzig.pdf
+E40770010000010000000001452500001;50Hertz;Netz Leipzig GmbH;;Bio;NS;25.000;;;;;;12.04.2006;;;;SN;Leipzig;;04315;Paulinenstr.;13;;;NetzLeipzig.pdf
+E40770010000010000000004783800001;50Hertz;Netz Leipzig GmbH;;Bio;MS;0.000;;;;;;01.12.2010;31.12.2011;;;SN;Leipzig;;04347;Braunstr; 7;;;NetzLeipzig.pdf
+E40770010000010000000000476400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.120;;;;;;17.06.1993;;;;SN;Leipzig;;04157;Heinrich-Büchner-Str.;12;;;NetzLeipzig.pdf
+E40770010000010000000000563200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.180;;;;;;17.05.1993;;;;SN;Leipzig;;04109;Mainzer Str.;11;;;NetzLeipzig.pdf
+E40770010000010000000000477400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.200;;;;;;13.04.1994;;;;SN;Leipzig;;04289;Anzengruberstr.;4;;;NetzLeipzig.pdf
+E40770010000010000000000477600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.000;;;;;;05.05.2000;;;;SN;Leipzig;;04279;Eigenheimstr.;10b;;;NetzLeipzig.pdf
+E40770010000010000000000477800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.200;;;;;;16.11.2000;;;;SN;Leipzig;;04299;Sonnenwinkel;16;;;NetzLeipzig.pdf
+E40770010000010000000000478000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.840;;;;;;20.07.2000;;;;SN;Leipzig;;04109;Nikolaikirchhof;3;;;NetzLeipzig.pdf
+E40770010000010000000000486300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.200;;;;;;24.10.2000;;;;SN;Leipzig;;04207;Lausner Weg;36b;;;NetzLeipzig.pdf
+E40770010000010000000000477700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.720;;;;;;07.11.2001;;;;SN;Leipzig;;04249;Menzingerweg;31;;;NetzLeipzig.pdf
+E40770010000010000000000479200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;16.05.2001;;;;SN;Leipzig;;04249;Seumestr.;34c;;;NetzLeipzig.pdf
+E40770010000010000000000479700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.600;;;;;;04.04.2001;;;;SN;Leipzig;;04249;Badeweg;47c;;;NetzLeipzig.pdf
+E40770010000010000000000480300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.000;;;;;;29.05.2001;;;;SN;Leipzig;;04277;Eichendorfstr.;7;;;NetzLeipzig.pdf
+E40770010000010000000000480600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.500;;;;;;27.06.2001;;;;SN;Leipzig;;04289;Corotweg;16;;;NetzLeipzig.pdf
+E40770010000010000000000496200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;04.10.2001;;;;SN;Leipzig;;04249;Häußerweg;11;;;NetzLeipzig.pdf
+E40770010000010000000000496500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.200;;;;;;14.03.2001;;;;SN;Leipzig;;04328;Geithainerstr.;60;;;NetzLeipzig.pdf
+E40770010000010000000000610000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;27.09.2001;;;;SN;Leipzig;;04317;Witzgallstr.;20;;;NetzLeipzig.pdf
+E40770010000010000000000233400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;28.10.2002;;;;SN;Leipzig;;04249;Lauerscher Weg;;;;NetzLeipzig.pdf
+E40770010000010000000000486600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.100;;;;;;22.02.2002;;;;SN;Leipzig;;04105;Fregestr.;28;;;NetzLeipzig.pdf
+E40770010000010000000000486700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.700;;;;;;26.09.2002;;;;SN;Leipzig;;04249;Hubertusstr.;115;;;NetzLeipzig.pdf
+E40770010000010000000000487300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.600;;;;;;29.11.2002;;;;SN;Leipzig;;04229;Schleußiger Weg;8;;;NetzLeipzig.pdf
+E40770010000010000000000487500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.120;;;;;;12.12.2002;;;;SN;Leipzig;;04157;Coppistr.;57;;;NetzLeipzig.pdf
+E40770010000010000000000487800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.130;;;;;;19.12.2002;;;;SN;Leipzig;;04207;Ansbacher Str.;11;;;NetzLeipzig.pdf
+E40770010000010000000000487900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.020;;;;;;13.12.2002;;;;SN;Leipzig;;04155;Stallbaumstr.;5;;;NetzLeipzig.pdf
+E40770010000010000000000488000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.760;;;;;;19.12.2002;;;;SN;Leipzig;;04347;Lazarusstr.;15;;;NetzLeipzig.pdf
+E40770010000010000000000497000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.640;;;;;;08.11.2002;;;;SN;Leipzig;;04249;Knautnaundorfer Str.;4;;;NetzLeipzig.pdf
+E40770010000140961701980220000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.410;;;;;;11.12.2002;;;;SN;Leipzig;;04277;Arno-Nitzsche-Str.;35;;;NetzLeipzig.pdf
+E40770010000010000000000492700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.100;;;;;;25.08.2003;;;;SN;Leipzig;;04249;Gleitsmannstr.;6;;;NetzLeipzig.pdf
+E40770010000010000000000493200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;06.11.2003;;;;SN;Leipzig;;04159;Swiftstr.;15;;;NetzLeipzig.pdf
+E40770010000010000000000493500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.900;;;;;;29.10.2003;;;;SN;Leipzig;;04249;Seumestr.;135;;;NetzLeipzig.pdf
+E40770010000010000000000496700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.130;;;;;;22.05.2003;;;;SN;Leipzig;;04159;Defoestr.;5;;;NetzLeipzig.pdf
+E40770010000010000000000502100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.960;;;;;;17.04.2003;;;;SN;Leipzig;;04129;Melchthalweg;9;;;NetzLeipzig.pdf
+E40770010000010000000000559400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.920;;;;;;09.06.2003;;;;SN;Leipzig;;04275;R.-Lehmann-Str.;8;;;NetzLeipzig.pdf
+E40770010000010000000000241100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.100;;;;;;21.06.2004;;;;SN;Leipzig;;04249;Dieskaustr.;290;;;NetzLeipzig.pdf
+E40770010000010000000000466100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.500;;;;;;20.12.2004;;;;SN;Leipzig;;04159;Thärigenstr.;5;;;NetzLeipzig.pdf
+E40770010000010000000000493700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.360;;;;;;13.02.2004;;;;SN;Leipzig;;04179;Ellernweg;5;;;NetzLeipzig.pdf
+E40770010000010000000000493900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.125;;;;;;06.02.2004;;;;SN;Leipzig;;04357;Mendelejewstr.;1a;;;NetzLeipzig.pdf
+E40770010000010000000000494500002;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.270;;;;;;06.04.2004;;;;SN;Leipzig;;04155;Stallbaumstr.;5;;;NetzLeipzig.pdf
+E40770010000010000000000494900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;14.400;;;;;;03.05.2004;;;;SN;Leipzig;;04103;Nürnberger Str.;48;;;NetzLeipzig.pdf
+E40770010000010000000000495400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;16.04.2004;;;;SN;Leipzig;;04299;Kolmstr.;97;;;NetzLeipzig.pdf
+E40770010000010000000000495600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.980;;;;;;03.06.2004;;;;SN;Leipzig;;04347;Volbedingstr.;13;;;NetzLeipzig.pdf
+E40770010000010000000000495700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;02.12.2004;;;;SN;Leipzig;;04299;Naunhofer Str.;89;;;NetzLeipzig.pdf
+E40770010000010000000000496100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.550;;;;;;02.11.2004;;;;SN;Leipzig;;04249;Büttnerweg;16;;;NetzLeipzig.pdf
+E40770010000010000000000501200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.740;;;;;;29.11.2004;;;;SN;Leipzig;;04229;Weißenfelser Str.;5;;;NetzLeipzig.pdf
+E40770010000010000000000609100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.440;;;;;;29.12.2004;;;;SN;Leipzig;;04207;Lausner Weg;16a;;;NetzLeipzig.pdf
+E40770010000010000000000646400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;28.12.2004;;;;SN;Leipzig;;04347;Poser Str.;33;;;NetzLeipzig.pdf
+E40770010000010000000000764100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.080;;;;;;15.03.2004;;;;SN;Leipzig;;04249;Schwarzdornweg;15;;;NetzLeipzig.pdf
+E40770010000010000000001162400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.125;;;;;;19.05.2004;;;;SN;Leipzig;;04159;Swiftstr.;7b;;;NetzLeipzig.pdf
+E40770010000010000000001601800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.680;;;;;;26.07.2004;;;;SN;Leipzig;;04157;Zschortauer Str.;100;;;NetzLeipzig.pdf
+E40770010000010000000002663800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;0.750;;;;;;03.06.2004;;;;SN;Leipzig;;04105;Pfaffendorfer Str.;2;;;NetzLeipzig.pdf
+E40770010000282929000931880000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.300;;;;;;29.11.2004;;;;SN;Leipzig;;04177;Angerstr.;14;;;NetzLeipzig.pdf
+E40770010000010000000000335400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.400;;;;;;24.08.2005;;;;SN;Leipzig;;04109;Markt;16;;;NetzLeipzig.pdf
+E40770010000010000000000717200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.750;;;;;;24.03.2005;;;;SN;Leipzig;;04318;Resedaweg;7;;;NetzLeipzig.pdf
+E40770010000010000000000717400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;16.03.2005;;;;SN;Leipzig;;04207;Lobensteiner Str.;9;;;NetzLeipzig.pdf
+E40770010000010000000000869900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.970;;;;;;23.08.2005;;;;SN;Leipzig;;04179;W.-Zipperer-Str.;156;;;NetzLeipzig.pdf
+E40770010000010000000000872400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.750;;;;;;10.08.2005;;;;SN;Leipzig;;04318;Lamprechtstr.;13;;;NetzLeipzig.pdf
+E40770010000010000000000873300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;27.07.2005;;;;SN;Leipzig;;04279;Cröberner Str.;13;;;NetzLeipzig.pdf
+E40770010000010000000000978600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;22.09.2005;;;;SN;Leipzig;;04299;Sonnenwinkel;26;;;NetzLeipzig.pdf
+E40770010000010000000001153100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.460;;;;;;01.12.2005;;;;SN;Leipzig;;04349;Plösener Str.;13;;;NetzLeipzig.pdf
+E40770010000010000000001154500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.760;;;;;;06.12.2005;;;;SN;Leipzig;;04329;Ilse-Decho-Weg;2;;;NetzLeipzig.pdf
+E40770010000010000000001154800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.080;;;;;;07.11.2005;;;;SN;Leipzig;;04249;Ritterlingsweg;11;;;NetzLeipzig.pdf
+E40770010000010000000001155200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.200;;;;;;01.12.2005;;;;SN;Leipzig;;04349;Tauchaer Str.;272;;;NetzLeipzig.pdf
+E40770010000010000000001156100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;28.12.2005;;;;SN;Leipzig;;04328;Weinbrennerstr.;39;;;NetzLeipzig.pdf
+E40770010000010000000001158900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.300;;;;;;20.10.2005;;;;SN;Leipzig;;04129;An der Querbreite;6;;;NetzLeipzig.pdf
+E40770010000010000000001162400002;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.375;;;;;;23.12.2005;;;;SN;Leipzig;;04159;Swiftstr.;7b;;;NetzLeipzig.pdf
+E40770010000010000000001169800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.940;;;;;;16.12.2005;;;;SN;Leipzig;;04129;Dübener Lnadstr.;3;;;NetzLeipzig.pdf
+E40770010000010000000001177900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.460;;;;;;25.11.2005;;;;SN;Leipzig;;04318;Kötzschkestr.;10;;;NetzLeipzig.pdf
+E40770010000010000000001471800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.610;;;;;;28.12.2005;;;;SN;Leipzig;;04207;Lausner Weg;51;;;NetzLeipzig.pdf
+E40770010000010000000001471900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.630;;;;;;28.12.2005;;;;SN;Leipzig;;04207;Lausner Weg;51;;;NetzLeipzig.pdf
+E40770010000010000000001603600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;0.950;;;;;;02.12.2005;;;;SN;Leipzig;;04249;Schwarzdornweg;21;;;NetzLeipzig.pdf
+E40770010000010000000001334600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.400;;;;;;21.03.2006;;;;SN;Leipzig;;04318;Kötzschkestr.;12;;;NetzLeipzig.pdf
+E40770010000010000000001334900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.920;;;;;;06.02.2006;;;;SN;Leipzig;;04277;Stockartstr.;26;;;NetzLeipzig.pdf
+E40770010000010000000001386400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;12.06.2006;;;;SN;Leipzig;;04207;Lobensteiner Str.;7;;;NetzLeipzig.pdf
+E40770010000010000000001386600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;31.05.2006;;;;SN;Leipzig;;04328;Seegeritzerstr.;15;;;NetzLeipzig.pdf
+E40770010000010000000001395000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.250;;;;;;06.04.2006;;;;SN;Leipzig;;04357;Turgenjewstr.;4;;;NetzLeipzig.pdf
+E40770010000010000000001452400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;14.07.2006;;;;SN;Leipzig;;04349;Am Keulenberg;71;;;NetzLeipzig.pdf
+E40770010000010000000001452600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.100;;;;;;27.06.2006;;;;SN;Leipzig;;04157;Heinrich-Mann-Str.;46;;;NetzLeipzig.pdf
+E40770010000010000000001469400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.550;;;;;;06.07.2006;;;;SN;Leipzig;;04249;Hubertusstr.;115;;;NetzLeipzig.pdf
+E40770010000010000000001469500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;31.07.2006;;;;SN;Leipzig;;04179;Groitzscher Str.;65;;;NetzLeipzig.pdf
+E40770010000010000000001469600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.950;;;;;;07.07.2006;;;;SN;Leipzig;;04349;U.-Götze-Str.;5;;;NetzLeipzig.pdf
+E40770010000010000000001472000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.010;;;;;;05.07.2006;;;;SN;Leipzig;;04207;Miltenberger Str.;11a;;;NetzLeipzig.pdf
+E40770010000010000000001501200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.850;;;;;;20.07.2006;;;;SN;Leipzig;;04207;Rapsweg;163;;;NetzLeipzig.pdf
+E40770010000010000000001604800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.000;;;;;;30.08.2006;;;;SN;Leipzig;;04207;Bärenfelser Weg;7;;;NetzLeipzig.pdf
+E40770010000010000000001605100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.200;;;;;;04.10.2006;;;;SN;Leipzig;;04289;Rietzschkeweg;15;;;NetzLeipzig.pdf
+E40770010000010000000001605200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;11.10.2006;;;;SN;Leipzig;;04349;Am Wegekreuz;3;;;NetzLeipzig.pdf
+E40770010000010000000001728000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;19.12.2006;;;;SN;Leipzig;;04289;Logauweg;21;;;NetzLeipzig.pdf
+E40770010000010000000001763200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;19.800;;;;;;07.12.2006;;;;SN;Leipzig;;04109;Mainzer Str.;2;;;NetzLeipzig.pdf
+E40770010000010000000001806200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;30.10.2006;;;;SN;Leipzig;;04357;Friedrichshafner Str.;172;;;NetzLeipzig.pdf
+E40770010000010000000001806300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.000;;;;;;18.10.2006;;;;SN;Leipzig;;04249;Sanddornweg;22;;;NetzLeipzig.pdf
+E40770010000010000000001845000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.160;;;;;;28.12.2006;;;;SN;Leipzig;;04205;Trusetaler Weg;7;;;NetzLeipzig.pdf
+E40770010000010000000001845100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.800;;;;;;20.12.2006;;;;SN;Leipzig;;04357;Gogolstr.;17;;;NetzLeipzig.pdf
+E40770010000010000000001846400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.400;;;;;;21.12.2006;;;;SN;Leipzig;;04279;Hans-Marschwitza-Str.;28;;;NetzLeipzig.pdf
+E40770010000010000000001846900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.700;;;;;;13.12.2006;;;;SN;Leipzig;;04177;Paul-Küster-Str.;2;;;NetzLeipzig.pdf
+E40770010000010000000001847000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;19.950;;;;;;11.12.2006;;;;SN;Leipzig;;04289;Strümpelstr.;40;;;NetzLeipzig.pdf
+E40770010000010000000001847100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;06.12.2006;;;;SN;Leipzig;;04205;Ilmenauer Weg;3;;;NetzLeipzig.pdf
+E40770010000010000000001847300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.000;;;;;;16.11.2006;;;;SN;Leipzig;;04347;Schönefelder Allee;23a;;;NetzLeipzig.pdf
+E40770010000010000000001895000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.300;;;;;;29.12.2006;;;;SN;Leipzig;;04105;Blochmann Str.;3;;;NetzLeipzig.pdf
+E40770010000010000000000873300002;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.520;;;;;;07.05.2007;;;;SN;Leipzig;;04279;Cröberner Str.;13;;;NetzLeipzig.pdf
+E40770010000010000000001806600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.200;;;;;;22.01.2007;;;;SN;Leipzig;;04155;Gohliser Str.;24;;;NetzLeipzig.pdf
+E40770010000010000000001806800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.980;;;;;;11.01.2007;;;;SN;Leipzig;;04155;Eisenacher Str.;26;;;NetzLeipzig.pdf
+E40770010000010000000001916600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.750;;;;;;18.04.2007;;;;SN;Leipzig;;04349;Tauchaer Str.;84;;;NetzLeipzig.pdf
+E40770010000010000000001955900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.150;;;;;;24.04.2007;;;;SN;Leipzig;;04289;Logauweg;2a;;;NetzLeipzig.pdf
+E40770010000010000000002044600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.940;;;;;;14.05.2007;;;;SN;Leipzig;;04357;Gogolstr.;54;;;NetzLeipzig.pdf
+E40770010000010000000002045600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.700;;;;;;25.05.2007;;;;SN;Leipzig;;04107;Beethovenstr.;15;;;NetzLeipzig.pdf
+E40770010000010000000002046500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;22.06.2007;;;;SN;Leipzig;;04279;Watestr.;12;;;NetzLeipzig.pdf
+E40770010000010000000002046800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;22.06.2007;;;;SN;Leipzig;;04279;Watestr.;10;;;NetzLeipzig.pdf
+E40770010000010000000002079800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.509;;;;;;18.07.2007;;;;SN;Leipzig;;04205;Liebensteiner Weg;2;;;NetzLeipzig.pdf
+E40770010000010000000002090200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.300;;;;;;24.07.2007;;;;SN;Leipzig;;04289;Altdorferweg;14;;;NetzLeipzig.pdf
+E40770010000010000000002090300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.500;;;;;;03.08.2007;;;;SN;Leipzig;;04159;Dantestr.;20;;;NetzLeipzig.pdf
+E40770010000010000000002091000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.100;;;;;;20.07.2007;;;;SN;Leipzig;;04357;Leo-Tolstoi-Str.;1;;;NetzLeipzig.pdf
+E40770010000010000000002303800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.530;;;;;;28.08.2007;;;;SN;Leipzig;;04357;Herzenstr.;83;;;NetzLeipzig.pdf
+E40770010000010000000002304500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;17.09.2007;;;;SN;Leipzig;;04205;Eisenberger Ring;28;;;NetzLeipzig.pdf
+E40770010000010000000002352400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.380;;;;;;09.11.2007;;;;SN;Leipzig;;04207;Rapsweg;128;;;NetzLeipzig.pdf
+E40770010000010000000002352900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.650;;;;;;26.07.2007;;;;SN;Leipzig;;04159;Hüfnerstr.;2;;;NetzLeipzig.pdf
+E40770010000010000000002370800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.140;;;;;;23.11.2007;;;;SN;Leipzig;;04277;Meusdorfer Str.;16;;;NetzLeipzig.pdf
+E40770010000010000000002377200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.050;;;;;;13.12.2007;;;;SN;Leipzig;;04155;Magdeburger Str.;11;;;NetzLeipzig.pdf
+E40770010000010000000002377700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;11.500;;;;;;26.11.2007;;;;SN;Leipzig;;04155;Wolfener Str.;12;;;NetzLeipzig.pdf
+E40770010000010000000002423900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;116.000;;;;;;28.12.2007;;;;SN;Leipzig;;04249;Georg-Fischer-Str.;3;;;NetzLeipzig.pdf
+E40770010000010000000002445000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;06.11.2007;;;;SN;Leipzig;;04289;Österreicherweg;21;;;NetzLeipzig.pdf
+E40770010000010000000002445100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.900;;;;;;19.12.2007;;;;SN;Leipzig;;04249;Dieskaustr.;358;;;NetzLeipzig.pdf
+E40770010000010000000002445200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.500;;;;;;11.07.2007;;;;SN;Leipzig;;04207;Bärenfelser Weg;5c;;;NetzLeipzig.pdf
+E40770010000010000000002445300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;20.11.2007;;;;SN;Leipzig;;04205;Liebensteiner Weg;37;;;NetzLeipzig.pdf
+E40770010000010000000002453200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.820;;;;;;21.12.2007;;;;SN;Leipzig;;04159;Fucikstr.;15b;;;NetzLeipzig.pdf
+E40770010000010000000002453300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.420;;;;;;14.12.2007;;;;SN;Leipzig;;04328;Hoffmannstr.;2;;;NetzLeipzig.pdf
+E40770010000010000000002489400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.400;;;;;;23.11.2007;;;;SN;Leipzig;;04315;Meißner Str.;28;;;NetzLeipzig.pdf
+E40770010000010000000002489800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.530;;;;;;14.11.2007;;;;SN;Leipzig;;04207;Diezmannstr.;83;;;NetzLeipzig.pdf
+E40770010000010000000002489900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.000;;;;;;18.07.2007;;;;SN;Leipzig;;04317;Anna-Kuhnow-Str.;22;;;NetzLeipzig.pdf
+E40770010000010000000002490600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.630;;;;;;03.12.2007;;;;SN;Leipzig;;04229;Karl-Heine-Str.;11;;;NetzLeipzig.pdf
+E40770010000010000000002490000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.300;;;;;;25.01.2008;;;;SN;Leipzig;;04249;Steinpilzweg;21;;;NetzLeipzig.pdf
+E40770010000010000000002618800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.800;;;;;;19.03.2008;;;;SN;Leipzig;;04279;Watestr.;31;;;NetzLeipzig.pdf
+E40770010000010000000002682100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;02.04.2008;;;;SN;Leipzig;;04177;Lützner Str.;27;;;NetzLeipzig.pdf
+E40770010000010000000002682200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;09.05.2008;;;;SN;Leipzig;;04249;Ritterlingsweg;31;;;NetzLeipzig.pdf
+E40770010000010000000002682300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.700;;;;;;21.05.2008;;;;SN;Leipzig;;04349;Kutschweg;36;;;NetzLeipzig.pdf
+E40770010000010000000002695000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.600;;;;;;21.04.2008;;;;SN;Leipzig;;04205;Suhler Str.;33;;;NetzLeipzig.pdf
+E40770010000010000000002700500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.300;;;;;;28.05.2008;;;;SN;Leipzig;;04107;Shakespearestr.;43b;;;NetzLeipzig.pdf
+E40770010000010000000002705800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.400;;;;;;07.03.2008;;;;SN;Leipzig;;04289;Rietzschkeweg;14;;;NetzLeipzig.pdf
+E40770010000010000000002747700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.980;;;;;;24.06.2008;;;;SN;Leipzig;;04207;Trattendorfer Weg;6;;;NetzLeipzig.pdf
+E40770010000010000000002751500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;28.04.2008;;;;SN;Leipzig;;04289;Romain-Rolland-Weg;3;;;NetzLeipzig.pdf
+E40770010000010000000002759600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.300;;;;;;15.07.2008;;;;SN;Leipzig;;04318;Julius-Krause-Str.;45;;;NetzLeipzig.pdf
+E40770010000010000000003008900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.870;;;;;;18.07.2008;;;;SN;Leipzig;;04207;Blankenburger Str.;10;;;NetzLeipzig.pdf
+E40770010000010000000003013900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.950;;;;;;18.07.2008;;;;SN;Leipzig;;04229;Huberstr.;5;;;NetzLeipzig.pdf
+E40770010000010000000003022500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.300;;;;;;18.07.2008;;;;SN;Leipzig;;04318;Rosmarinweg;18a;;;NetzLeipzig.pdf
+E40770010000010000000003038800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;06.08.2008;;;;SN;Leipzig;;04289;Erich-Mühsam-Weg;16;;;NetzLeipzig.pdf
+E40770010000010000000003040200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;06.08.2008;;;;SN;Leipzig;;04105;Färberstr.;3;;;NetzLeipzig.pdf
+E40770010000010000000003080500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.000;;;;;;04.09.2008;;;;SN;Leipzig;;04105;Roscherstr.;12;;;NetzLeipzig.pdf
+E40770010000010000000003117900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.500;;;;;;12.09.2008;;;;SN;Leipzig;;04357;Turgenjewstr.;14;;;NetzLeipzig.pdf
+E40770010000010000000003118100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.760;;;;;;17.09.2008;;;;SN;Leipzig;;04289;Fontanestr.;10;;;NetzLeipzig.pdf
+E40770010000010000000003126700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;15.07.2008;;;;SN;Leipzig;;04318;Julius-Krause-Str.;11;;;NetzLeipzig.pdf
+E40770010000010000000003157500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;10.10.2008;;;;SN;Leipzig;;04289;Strümpelstr.;4;;;NetzLeipzig.pdf
+E40770010000010000000003174800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.720;;;;;;09.10.2008;;;;SN;Leipzig;;04229;Hirzelstr.;7;;;NetzLeipzig.pdf
+E40770010000010000000003179500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.500;;;;;;09.09.2008;;;;SN;Leipzig;;04349;Tauchaer Str.;50;;;NetzLeipzig.pdf
+E40770010000010000000003183900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.500;;;;;;08.10.2008;;;;SN;Leipzig;;04205;Suhler Str.;51;;;NetzLeipzig.pdf
+E40770010000010000000003189000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;14.10.2008;;;;SN;Leipzig;;04155;Stollestr.;8;;;NetzLeipzig.pdf
+E40770010000010000000003191200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.510;;;;;;16.10.2008;;;;SN;Leipzig;;04249;Iltispfad;16;;;NetzLeipzig.pdf
+E40770010000010000000003212600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.550;;;;;;30.10.2008;;;;SN;Leipzig;;04289;Gottfried-Keller-Str.;4;;;NetzLeipzig.pdf
+E40770010000010000000003212800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.200;;;;;;03.11.2008;;;;SN;Leipzig;;04328;Sachsenstr.;11;;;NetzLeipzig.pdf
+E40770010000010000000003277400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.760;;;;;;24.11.2008;;;;SN;Leipzig;;04249;Häußerstr.;17;;;NetzLeipzig.pdf
+E40770010000010000000003296500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;26.11.2008;;;;SN;Leipzig;;04329;Sommerfelder Weg;2;;;NetzLeipzig.pdf
+E40770010000010000000003297200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;17.10.2008;;;;SN;Leipzig;;04207;Lausner Weg;38;;;NetzLeipzig.pdf
+E40770010000010000000003325200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.500;;;;;;15.12.2008;;;;SN;Leipzig;;04277;Koburger Str.;20;;;NetzLeipzig.pdf
+E40770010000010000000003332900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.280;;;;;;19.12.2008;;;;SN;Leipzig;;04299;Gletschersteinstr.;9;;;NetzLeipzig.pdf
+E40770010000010000000003334500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.000;;;;;;17.12.2008;;;;SN;Leipzig;;04279;Ernst-Toller-Str.;6;;;NetzLeipzig.pdf
+E40770010000010000000003334700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;11.12.2008;;;;SN;Leipzig;;04349;Portitzer Winkel;7;;;NetzLeipzig.pdf
+E40770010000010000000003341100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;13.800;;;;;;30.12.2008;;;;SN;Leipzig;;04155;Wiederitzscher Str.;44;;;NetzLeipzig.pdf
+E40770010000010000000003341300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.100;;;;;;23.12.2008;;;;SN;Leipzig;;04229;Dammstr.;28;;;NetzLeipzig.pdf
+E40770010000010000000003377500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.800;;;;;;29.12.2008;;;;SN;Leipzig;;04249;Seumestr.;52a;;;NetzLeipzig.pdf
+E40770010000010000000001452400002;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.720;;;;;;28.08.2009;;;;SN;Leipzig;;04349;Am Keulenberg;71;;;NetzLeipzig.pdf
+E40770010000010000000001847100002;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;04.11.2009;;;;SN;Leipzig;;04205;Ilmenauer Weg;3;;;NetzLeipzig.pdf
+E40770010000010000000002445300002;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.990;;;;;;22.09.2009;;;;SN;Leipzig;;04205;Liebensteiner Weg;37;;;NetzLeipzig.pdf
+E40770010000010000000002682100002;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.190;;;;;;21.04.2009;;;;SN;Leipzig;;04177;Lützner Str.;27;;;NetzLeipzig.pdf
+E40770010000010000000003641200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;06.02.2009;;;;SN;Leipzig;;04319;Am Sommerfeld;21;;;NetzLeipzig.pdf
+E40770010000010000000003717300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.500;;;;;;01.11.2009;;;;SN;Leipzig;;04205;Suhler Str.;27;;;NetzLeipzig.pdf
+E40770010000010000000003717400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.500;;;;;;30.03.2009;;;;SN;Leipzig;;04249;Buttergasse;5;;;NetzLeipzig.pdf
+E40770010000010000000003735100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;70.000;;;;;;11.08.2009;;;;SN;Leipzig;;04159;Stammerstr.;40;;;NetzLeipzig.pdf
+E40770010000010000000003760000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;24.04.2009;;;;SN;Leipzig;;04357;Carlebachstr.;1;;;NetzLeipzig.pdf
+E40770010000010000000003760400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;08.05.2009;;;;SN;Leipzig;;04349;Arnds Hufen;27;;;NetzLeipzig.pdf
+E40770010000010000000003767100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.800;;;;;;18.05.2009;;;;SN;Leipzig;;04207;Würzburger Str.;22;;;NetzLeipzig.pdf
+E40770010000010000000003774200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.200;;;;;;28.05.2009;;;;SN;Leipzig;;04129;Wolteritzer Weg;24;;;NetzLeipzig.pdf
+E40770010000010000000003780000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.500;;;;;;08.06.2009;;;;SN;Leipzig;;04249;Berlichingenweg;32;;;NetzLeipzig.pdf
+E40770010000010000000003781800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;29.05.2009;;;;SN;Leipzig;;04249;Dieskaustr.;363;;;NetzLeipzig.pdf
+E40770010000010000000003836000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.750;;;;;;26.06.2009;;;;SN;Leipzig;;04328;Albrecht-Dürer-Weg;8;;;NetzLeipzig.pdf
+E40770010000010000000003836100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.500;;;;;;06.07.2009;;;;SN;Leipzig;;04205;Sonneberger Weg;5;;;NetzLeipzig.pdf
+E40770010000010000000003836300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.500;;;;;;14.07.2009;;;;SN;Leipzig;;04105;Humboldtstr.;2a;;;NetzLeipzig.pdf
+E40770010000010000000003839300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;15.07.2009;;;;SN;Leipzig;;04249;Birkenpilzweg;4;;;NetzLeipzig.pdf
+E40770010000010000000003842700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.550;;;;;;22.07.2009;;;;SN;Leipzig;;04349;Teschstr.;35;;;NetzLeipzig.pdf
+E40770010000010000000003866100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.040;;;;;;03.07.2009;;;;SN;Leipzig;;04157;Franz-Mehring-Str.;11;;;NetzLeipzig.pdf
+E40770010000010000000003866700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;04.08.2009;;;;SN;Leipzig;;04207;Blaufichtenweg;10;;;NetzLeipzig.pdf
+E40770010000010000000003888000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.300;;;;;;05.08.2009;;;;SN;Leipzig;;04349;Krätzbergstr.;40;;;NetzLeipzig.pdf
+E40770010000010000000003914900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.300;;;;;;12.08.2009;;;;SN;Leipzig;;04357;Friedrichshafner Str.238;;;;NetzLeipzig.pdf
+E40770010000010000000003916000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.800;;;;;;09.07.2009;;;;SN;Leipzig;;04389;Logauweg;2;;;NetzLeipzig.pdf
+E40770010000010000000003954100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.800;;;;;;02.09.2009;;;;SN;Leipzig;;04289;Buckyweg;1;;;NetzLeipzig.pdf
+E40770010000010000000003975700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;04.09.2009;;;;SN;Leipzig;;04328;Albrecht-Dürer-Weg;9c;;;NetzLeipzig.pdf
+E40770010000010000000003975800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.970;;;;;;17.09.2009;;;;SN;Leipzig;;04129;Crensitzer Weg;10;;;NetzLeipzig.pdf
+E40770010000010000000003977400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;110.000;;;;;;22.08.2009;;;;SN;Leipzig;;04159;Linkelstr. Flst.209;5;;;NetzLeipzig.pdf
+E40770010000010000000003977900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.600;;;;;;09.09.2009;;;;SN;Leipzig;;04289;Höltystr.;17;;;NetzLeipzig.pdf
+E40770010000010000000003996500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.750;;;;;;25.09.2009;;;;SN;Leipzig;;04349;Kästnerbogen;4;;;NetzLeipzig.pdf
+E40770010000010000000004017000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.500;;;;;;13.10.2009;;;;SN;Leipzig;;04207;Kulmbacher Str.;4;;;NetzLeipzig.pdf
+E40770010000010000000004123100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.600;;;;;;14.10.2009;;;;SN;Leipzig;;04249;Knautnaundorfer Str.;50;;;NetzLeipzig.pdf
+E40770010000010000000004123200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.750;;;;;;08.10.2009;;;;SN;Leipzig;;04249;Ritterlingsweg;7;;;NetzLeipzig.pdf
+E40770010000010000000004125500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.200;;;;;;17.12.2009;;;;SN;Leipzig;;04279;Friederikenstr.;11;;;NetzLeipzig.pdf
+E40770010000010000000004126100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;29.10.2009;;;;SN;Leipzig;;04347;Poserstr.;69;;;NetzLeipzig.pdf
+E40770010000010000000004126200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;28.10.2009;;;;SN;Leipzig;;04347;Shukowstr.;32;;;NetzLeipzig.pdf
+E40770010000010000000004126300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;29.10.2009;;;;SN;Leipzig;;04315;Kreuzstr.;35;;;NetzLeipzig.pdf
+E40770010000010000000004126400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;29.10.2009;;;;SN;Leipzig;;04318;Leonhard-Frank-Str.;18;;;NetzLeipzig.pdf
+E40770010000010000000004126500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.500;;;;;;29.10.2009;;;;SN;Leipzig;;04289;Zolaweg;96;;;NetzLeipzig.pdf
+E40770010000010000000004127000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.950;;;;;;09.10.2009;;;;SN;Leipzig;;04349;Ligusterweg;18;;;NetzLeipzig.pdf
+E40770010000010000000004137100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.050;;;;;;11.11.2009;;;;SN;Leipzig;;04289;Roseggerstr.;9a;;;NetzLeipzig.pdf
+E40770010000010000000004143200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;29.10.2009;;;;SN;Leipzig;;04317;Brambacher Str.;79;;;NetzLeipzig.pdf
+E40770010000010000000004143300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;29.10.2009;;;;SN;Leipzig;;04209;Gärtnerstr.;125;;;NetzLeipzig.pdf
+E40770010000010000000004144000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;24.11.2009;;;;SN;Leipzig;;04357;Herzenstr.;41;;;NetzLeipzig.pdf
+E40770010000010000000004150600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;29.10.2009;;;;SN;Leipzig;;04205;Illmenauer Weg;36;;;NetzLeipzig.pdf
+E40770010000010000000004173600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;13.11.2009;;;;SN;Leipzig;;04155;Menckestr.;20;;;NetzLeipzig.pdf
+E40770010000010000000004174000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.920;;;;;;16.11.2009;;;;SN;Leipzig;;04349;Pappelblick;20;;;NetzLeipzig.pdf
+E40770010000010000000004175300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;10.080;;;;;;06.11.2009;;;;SN;Leipzig;;04109;Alexanderstr.;43;;;NetzLeipzig.pdf
+E40770010000010000000004175600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;09.11.2009;;;;SN;Leipzig;;04207;Kissinger Str.;17a;;;NetzLeipzig.pdf
+E40770010000010000000004192300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;20.10.2009;;;;SN;Leipzig;;40103;Sternwartenstr.;67;;;NetzLeipzig.pdf
+E40770010000010000000004198100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;30.11.2009;;;;SN;Leipzig;;04179;Groitzscher Str.;33;;;NetzLeipzig.pdf
+E40770010000010000000004200400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.900;;;;;;26.11.2009;;;;SN;Leipzig;;04347;Bodenreformweg;37;;;NetzLeipzig.pdf
+E40770010000010000000004202400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;19.11.2009;;;;SN;Leipzig;;04249;Sanddornweg;7;;;NetzLeipzig.pdf
+E40770010000010000000004203700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.200;;;;;;12.11.2009;;;;SN;Leipzig;;04177;Roßmarktstr.;30;;;NetzLeipzig.pdf
+E40770010000010000000004214200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;03.12.2009;;;;SN;Leipzig;;04357;Kieler Str.;71;;;NetzLeipzig.pdf
+E40770010000010000000004219600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;20.250;;;;;;18.12.2009;;;;SN;Leipzig;;04229;Markranstädter Str.;29b;;;NetzLeipzig.pdf
+E40770010000010000000004230300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.820;;;;;;10.12.2009;;;;SN;Leipzig;;04329;Hornissenwinkel;25;;;NetzLeipzig.pdf
+E40770010000010000000004230400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;01.12.2009;;;;SN;Leipzig;;04329;Hornissenwinkel;27;;;NetzLeipzig.pdf
+E40770010000010000000004230900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;16.600;;;;;;11.12.2009;;;;SN;Leipzig;;04179;Sattelhofstr.;7;;;NetzLeipzig.pdf
+E40770010000010000000004236500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;09.12.2009;;;;SN;Leipzig;;04249;Wildschweinpfad;45;;;NetzLeipzig.pdf
+E40770010000010000000004236600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;29.10.2009;;;;SN;Leipzig;;04317;Samuel-Lampel-Str.;26;;;NetzLeipzig.pdf
+E40770010000010000000004236700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;30.11.2009;;;;SN;Leipzig;;04129;Magnusstr.;16;;;NetzLeipzig.pdf
+E40770010000010000000004236800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;56.000;;;;;;17.12.2009;;;;SN;Leipzig;;04249;Kunzestr.;18;;;NetzLeipzig.pdf
+E40770010000010000000004236900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.850;;;;;;02.12.2009;;;;SN;Leipzig;;04249;Ritterlingsweg;37;;;NetzLeipzig.pdf
+E40770010000010000000004237100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.080;;;;;;09.11.2009;;;;SN;Leipzig;;04279;Magdeborner Str.;14;;;NetzLeipzig.pdf
+E40770010000010000000004237200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.000;;;;;;18.12.2009;;;;SN;Leipzig;;04329;Sommerfelder Weg;4;;;NetzLeipzig.pdf
+E40770010000010000000004238300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.070;;;;;;21.12.2009;;;;SN;Leipzig;;04277;Mühlholzgasse;73;;;NetzLeipzig.pdf
+E40770010000010000000004238500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;18.12.2009;;;;SN;Leipzig;;04299;Sonnenwinkel;33;;;NetzLeipzig.pdf
+E40770010000010000000004238600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;29.10.2009;;;;SN;Leipzig;;04315;Hildegardstr.;20;;;NetzLeipzig.pdf
+E40770010000010000000004241400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.500;;;;;;21.12.2009;;;;SN;Leipzig;;04289;Schwarzenbergweg;51;;;NetzLeipzig.pdf
+E40770010000010000000004244400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;18.000;;;;;;17.12.2009;;;;SN;Leipzig;;04249;Hornstr.;11;;;NetzLeipzig.pdf
+E40770010000010000000004245200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;14.600;;;;;;30.11.2009;;;;SN;Leipzig;;04279;Gerlindeweg;2;;;NetzLeipzig.pdf
+E40770010000010000000004246900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.380;;;;;;18.12.2009;;;;SN;Leipzig;;04229;Erdmannstr.;16;;;NetzLeipzig.pdf
+E40770010000010000000004250700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.200;;;;;;21.12.2009;;;;SN;Leipzig;;04275;Alfred-Kästner-Str.;21;;;NetzLeipzig.pdf
+E40770010000010000000004250800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;16.10.2009;;;;SN;Leipzig;;04207;Rapsweg;62;;;NetzLeipzig.pdf
+E40770010000010000000004251000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;18.000;;;;;;22.12.2009;;;;SN;Leipzig;;04159;Bucksdorffstr.;43;;;NetzLeipzig.pdf
+E40770010000010000000004251100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;17.000;;;;;;30.12.2009;;;;SN;Leipzig;;04129;Maximilianallee;17;;;NetzLeipzig.pdf
+E40770010000010000000004251200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;29.10.2009;;;;SN;Leipzig;;04249;Straße am Park;46;;;NetzLeipzig.pdf
+E40770010000010000000004252600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.400;;;;;;21.12.2009;;;;SN;Leipzig;;04129;Brodauer Weg;35;;;NetzLeipzig.pdf
+E40770010000010000000004260500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.500;;;;;;23.12.2009;;;;SN;Leipzig;;04329;Hornissenwinkel;5;;;NetzLeipzig.pdf
+E40770010000010000000004266300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;14.12.2009;;;;SN;Leipzig;;04249;Weigandtweg;2;;;NetzLeipzig.pdf
+E40770010000010000000004296500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.300;;;;;;29.12.2009;;;;SN;Leipzig;;04157;Braunschweiger Str.;9;;;NetzLeipzig.pdf
+E40770010000010000000003191200002;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.525;;;;;;09.06.2010;;;;SN;Leipzig;;04249;Iltispfad;16;;;NetzLeipzig.pdf
+E40770010000010000000003735100002;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.000;;;;;;26.10.2010;;;;SN;Leipzig;;04159;Stammerstr.;40;;;NetzLeipzig.pdf
+E40770010000010000000003977400002;50Hertz;Netz Leipzig GmbH;;Solar;NS;17.000;;;;;;26.10.2010;;;;SN;Leipzig;;04159;Linkelstr. Flst.209;5;;;NetzLeipzig.pdf
+E40770010000010000000004305300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.600;;;;;;19.02.2010;;;;SN;Leipzig;;04349;Kremserweg;4;;;NetzLeipzig.pdf
+E40770010000010000000004322800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.300;;;;;;02.03.2010;;;;SN;Leipzig;;04249;Moosbeerweg;9;;;NetzLeipzig.pdf
+E40770010000010000000004377600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;18.03.2010;;;;SN;Leipzig;;04279;Friederikenstr;13;;;NetzLeipzig.pdf
+E40770010000010000000004381700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;25.000;;;;;;24.03.2010;;;;SN;Leipzig;;04157;Pittlerstr.;28;;;NetzLeipzig.pdf
+E40770010000010000000004392400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.600;;;;;;22.03.2010;;;;SN;Leipzig;;04357;Berthastr.;3;;;NetzLeipzig.pdf
+E40770010000010000000004397100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.200;;;;;;31.03.2010;;;;SN;Leipzig;;04299;Prager Str.;199;;;NetzLeipzig.pdf
+E40770010000010000000004397300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;06.04.2010;;;;SN;Leipzig;;04349;Donarstr.;32;;;NetzLeipzig.pdf
+E40770010000010000000004398600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.300;;;;;;01.04.2010;;;;SN;Leipzig;;04329;Falterstr.;53;;;NetzLeipzig.pdf
+E40770010000010000000004398700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;24.03.2010;;;;SN;Leipzig;;04279;Am Eichwinkel;29c;;;NetzLeipzig.pdf
+E40770010000010000000004437000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.780;;;;;;23.04.2010;;;;SN;Leipzig;;04299;Kolmstr.;47;;;NetzLeipzig.pdf
+E40770010000010000000004450400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.450;;;;;;16.04.2010;;;;SN;Leipzig;;04357;Berthastr.;1;;;NetzLeipzig.pdf
+E40770010000010000000004451600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;25.05.2010;;;;SN;Leipzig;;04349;Donarstr.;8;;;NetzLeipzig.pdf
+E40770010000010000000004451700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;15.07.2010;;;;SN;Leipzig;;04349;Olbernhauer Str.;1;;;NetzLeipzig.pdf
+E40770010000010000000004451800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;19.300;;;;;;13.04.2010;;;;SN;Leipzig;;04279;Hildburgstr.;2;;;NetzLeipzig.pdf
+E40770010000010000000004453500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;25.000;;;;;;28.04.2010;;;;SN;Leipzig;;04129;Dessauer Str.;26;;;NetzLeipzig.pdf
+E40770010000010000000004461300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.100;;;;;;04.06.2010;;;;SN;Leipzig;;04299;Oberdorfstr.;29;;;NetzLeipzig.pdf
+E40770010000010000000004482200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;28.200;;;;;;10.06.2010;;;;SN;Leipzig;;04277;Bernhard-Göring-Str.;152;;;NetzLeipzig.pdf
+E40770010000010000000004483400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.100;;;;;;25.05.2010;;;;SN;Leipzig;;04249;Hagebuttenweg;30;;;NetzLeipzig.pdf
+E40770010000010000000004484000001;50Hertz;Netz Leipzig GmbH;;Solar;MS;3160.000;;;;;;30.06.2010;;;;SN;Leipzig;;04347;Brahestr. Flst.909;2;;;NetzLeipzig.pdf
+E40770010000010000000004484300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.900;;;;;;28.05.2010;;;;SN;Leipzig;;04249;Fuchspfad;1;;;NetzLeipzig.pdf
+E40770010000010000000004489700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;18.06.2010;;;;SN;Leipzig;;04205;Wasunger Str.;24;;;NetzLeipzig.pdf
+E40770010000010000000004489900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.120;;;;;;28.06.2010;;;;SN;Leipzig;;04159;Swiftstr.;19;;;NetzLeipzig.pdf
+E40770010000010000000004490100002;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.700;;;;;;28.06.2010;;;;SN;Leipzig;;04159;Swiftstr.;15;;;NetzLeipzig.pdf
+E40770010000010000000004491300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;240.000;;;;;;30.06.2010;;;;SN;Leipzig;;04249;Raiffeisenstr.;51;;;NetzLeipzig.pdf
+E40770010000010000000004499400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;14.400;;;;;;01.06.2010;;;;SN;Leipzig;;04205;Horburger Str.;97;;;NetzLeipzig.pdf
+E40770010000010000000004531500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.680;;;;;;29.06.2010;;;;SN;Leipzig;;04329;Falterstr.;59;;;NetzLeipzig.pdf
+E40770010000010000000004531700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.300;;;;;;28.06.2010;;;;SN;Leipzig;;04129;Brodauer Weg;28;;;NetzLeipzig.pdf
+E40770010000010000000004531900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.250;;;;;;29.06.2010;;;;SN;Leipzig;;04329;Hummelstr.;16;;;NetzLeipzig.pdf
+E40770010000010000000004532100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.050;;;;;;30.06.2010;;;;SN;Leipzig;;04277;Windscheidstr.;41a;;;NetzLeipzig.pdf
+E40770010000010000000004532300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.923;;;;;;30.06.2010;;;;SN;Leipzig;;04277;Windscheidstr.;41a;;;NetzLeipzig.pdf
+E40770010000010000000004532500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.700;;;;;;30.06.2010;;;;SN;Leipzig;;04277;Windscheidstr.;41a;;;NetzLeipzig.pdf
+E40770010000010000000004532700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;14.06.2010;;;;SN;Leipzig;;04103;Scherlstr.;6;;;NetzLeipzig.pdf
+E40770010000010000000004532900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;23.06.2010;;;;SN;Leipzig;;04129;Brodauer Weg;13;;;NetzLeipzig.pdf
+E40770010000010000000004533200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.600;;;;;;22.06.2010;;;;SN;Leipzig;;04357;Lermontowstr.;28;;;NetzLeipzig.pdf
+E40770010000010000000004533400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;24.06.2010;;;;SN;Leipzig;;04289;Strümpelstr.;31a;;;NetzLeipzig.pdf
+E40770010000010000000004533600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.820;;;;;;24.06.2010;;;;SN;Leipzig;;04289;Österreicher Weg;24;;;NetzLeipzig.pdf
+E40770010000010000000004533800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;35.200;;;;;;30.06.2010;;;;SN;Leipzig;;04179;Pansastr.;34;;;NetzLeipzig.pdf
+E40770010000010000000004534000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.700;;;;;;30.06.2010;;;;SN;Leipzig;;04277;Windscheidstr.;41a;;;NetzLeipzig.pdf
+E40770010000010000000004534200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;08.06.2010;;;;SN;Leipzig;;04205;Liebensteiner Weg;6;;;NetzLeipzig.pdf
+E40770010000010000000004534300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;30.06.2010;;;;SN;Leipzig;;04249;Seumestr.;37;;;NetzLeipzig.pdf
+E40770010000010000000004534600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;08.06.2010;;;;SN;Leipzig;;04205;Liebensteiner Weg;8;;;NetzLeipzig.pdf
+E40770010000010000000004534800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;18.480;;;;;;25.06.2010;;;;SN;Leipzig;;04109;Grimmaische Str.;12;;;NetzLeipzig.pdf
+E40770010000010000000004535100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;23.320;;;;;;25.06.2010;;;;SN;Leipzig;;04109;Universitätsstr.;3-7;;;NetzLeipzig.pdf
+E40770010000010000000004535300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.120;;;;;;28.06.2010;;;;SN;Leipzig;;04207;Fürther Str.;38;;;NetzLeipzig.pdf
+E40770010000010000000004535500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.400;;;;;;29.06.2010;;;;SN;Leipzig;;04159;Sorbenstr.;1;;;NetzLeipzig.pdf
+E40770010000010000000004535700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.700;;;;;;30.06.2010;;;;SN;Leipzig;;04277;Windscheidstr.;41a;;;NetzLeipzig.pdf
+E40770010000010000000004536100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;29.06.2010;;;;SN;Leipzig;;04249;Dieskaustr.;325;;;NetzLeipzig.pdf
+E40770010000010000000004536200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.250;;;;;;30.06.2010;;;;SN;Leipzig;;04277;Windscheidstr.;41a;;;NetzLeipzig.pdf
+E40770010000010000000004536600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.250;;;;;;30.06.2010;;;;SN;Leipzig;;04277;Windscheidstr.;41a;;;NetzLeipzig.pdf
+E40770010000010000000004536800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.800;;;;;;28.06.2010;;;;SN;Leipzig;;04177;Demmeringstr.;31;;;NetzLeipzig.pdf
+E40770010000010000000004537000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;49.000;;;;;;25.06.2010;;;;SN;Leipzig;;04249;Kunzestr.;20;;;NetzLeipzig.pdf
+E40770010000010000000004537400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.320;;;;;;30.06.2010;;;;SN;Leipzig;;04107;Shakespearestr.;52;;;NetzLeipzig.pdf
+E40770010000010000000004537600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.940;;;;;;26.06.2010;;;;SN;Leipzig;;04229;Gießerstr.;64;;;NetzLeipzig.pdf
+E40770010000010000000004537800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;74.800;;;;;;29.06.2010;;;;SN;Leipzig;;04205;Schönauer Str.;240;;;NetzLeipzig.pdf
+E40770010000010000000004538200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.640;;;;;;10.06.2010;;;;SN;Leipzig;;04275;Shakespearestr.;34;;;NetzLeipzig.pdf
+E40770010000010000000004538400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.100;;;;;;30.06.2010;;;;SN;Leipzig;;04249;Sanddornweg;6;;;NetzLeipzig.pdf
+E40770010000010000000004538600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;30.06.2010;;;;SN;Leipzig;;04129;Maximilianallee;17;;;NetzLeipzig.pdf
+E40770010000010000000004542000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.000;;;;;;29.06.2010;;;;SN;Leipzig;;04107;Paul-Gruner-Str.42;;;;NetzLeipzig.pdf
+E40770010000010000000004545200001;50Hertz;Netz Leipzig GmbH;;Solar;MS;1000.000;;;;;;29.06.2010;;;;SN;Leipzig;;04347;Wodanstr. Flst.;9,186;;;NetzLeipzig.pdf
+E40770010000010000000004562100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;25.600;;;;;;27.04.2010;;;;SN;Leipzig;;04249;Kunzestr.;16;;;NetzLeipzig.pdf
+E40770010000010000000004591100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.300;;;;;;27.08.2010;;;;SN;Leipzig;;04328;Defreggerweg;17;;;NetzLeipzig.pdf
+E40770010000010000000004609400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.300;;;;;;08.09.2010;;;;SN;Leipzig;;04328;Tilmann-Riemenscheider Weg;;;;NetzLeipzig.pdf
+E40770010000010000000004614700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.800;;;;;;03.09.2010;;;;SN;Leipzig;;04249;Fuchspfad;1;;;NetzLeipzig.pdf
+E40770010000010000000004641800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.600;;;;;;24.08.2010;;;;SN;Leipzig;;04177;Hebelstr.;16;;;NetzLeipzig.pdf
+E40770010000010000000004643100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.400;;;;;;16.09.2010;;;;SN;Leipzig;;04279;Am Eichwinkel;20;;;NetzLeipzig.pdf
+E40770010000010000000004643400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;15.10.2010;;;;SN;Leipzig;;04329;Sommerfelder Weg;22;;;NetzLeipzig.pdf
+E40770010000010000000004658100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.200;;;;;;21.09.2010;;;;SN;Leipzig;;04329;Falterstr.;55;;;NetzLeipzig.pdf
+E40770010000010000000004658400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.000;;;;;;27.09.2010;;;;SN;Leipzig;;04328;Tilmann-Riemenscheider Weg;;;;NetzLeipzig.pdf
+E40770010000010000000004659500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.900;;;;;;10.09.2010;;;;SN;Leipzig;;04249;Seumestr.;46;;;NetzLeipzig.pdf
+E40770010000010000000004659800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.300;;;;;;07.09.2010;;;;SN;Leipzig;;04209;Alte Salzstr.;133;;;NetzLeipzig.pdf
+E40770010000010000000004669400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.100;;;;;;30.09.2010;;;;SN;Leipzig;;04157;Heinrich-Mann-Str.;46;;;NetzLeipzig.pdf
+E40770010000010000000004669800002;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.920;;;;;;26.09.2010;;;;SN;Leipzig;;04229;Schleußiger Weg;8;;;NetzLeipzig.pdf
+E40770010000010000000004670200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.030;;;;;;29.09.2010;;;;SN;Leipzig;;04249;Riffeisenstr.  a;35a;;;NetzLeipzig.pdf
+E40770010000010000000004670600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;11.700;;;;;;30.09.2010;;;;SN;Leipzig;;04249;Gerhard-Ellrodt-Str.40;;;;NetzLeipzig.pdf
+E40770010000010000000004671000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;29.09.2010;;;;SN;Leipzig;;04205;Eisenberger Ring;33;;;NetzLeipzig.pdf
+E40770010000010000000004671500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;15.09.2010;;;;SN;Leipzig;;04207;Wertheimer Str.;4;;;NetzLeipzig.pdf
+E40770010000010000000004671700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.300;;;;;;06.10.2010;;;;SN;Leipzig;;04279;Willi-Bredel-Str.;13;;;NetzLeipzig.pdf
+E40770010000010000000004673100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.050;;;;;;01.10.2010;;;;SN;Leipzig;;04279;Herwigstr.;33;;;NetzLeipzig.pdf
+E40770010000010000000004673300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;29.09.2010;;;;SN;Leipzig;;04105;Färberstr.;5;;;NetzLeipzig.pdf
+E40770010000010000000004679000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.120;;;;;;30.09.2010;;;;SN;Leipzig;;04207;Dreiecksweg;16;;;NetzLeipzig.pdf
+E40770010000010000000004737200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;01.11.2010;;;;SN;Leipzig;;04299;Kolmstr.;101;;;NetzLeipzig.pdf
+E40770010000010000000004748200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;84.000;;;;;;09.11.2010;;;;SN;Leipzig;;04205;Am kleinen Feld;3;;;NetzLeipzig.pdf
+E40770010000010000000004785200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.400;;;;;;11.11.2010;;;;SN;Leipzig;;04249;Schwarzdornweg;7;;;NetzLeipzig.pdf
+E40770010000010000000004795400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.000;;;;;;05.11.2010;;;;SN;Leipzig;;04347;Söhrerstr.;15;;;NetzLeipzig.pdf
+E40770010000010000000004796300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;17.000;;;;;;25.10.2010;;;;SN;Leipzig;;04157;Rudi-Opitz-Str.26;;;;NetzLeipzig.pdf
+E40770010000010000000004815200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;16.11.2010;;;;SN;Leipzig;;04249;Gerhard-Ellrodt-Str.2;;;;NetzLeipzig.pdf
+E40770010000010000000004819100002;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.600;;;;;;30.12.2010;;;;SN;Leipzig;;04329;Ilse-Decho-Weg;59;;;NetzLeipzig.pdf
+E40770010000010000000004819700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.560;;;;;;07.12.2010;;;;SN;Leipzig;;04249;Berlichingenweg;21;;;NetzLeipzig.pdf
+E40770010000010000000004836700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;27.000;;;;;;17.12.2010;;;;SN;Leipzig;;04205;Lützner Str.;452;;;NetzLeipzig.pdf
+E40770010000010000000004836900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;391.000;;;;;;22.12.2010;;;;SN;Leipzig;;04229;Windorfer Str.;63;;;NetzLeipzig.pdf
+E40770010000010000000004839600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.620;;;;;;30.11.2010;;;;SN;Leipzig;;04249;Nimrodstr.;60a;;;NetzLeipzig.pdf
+E40770010000010000000004842500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.020;;;;;;25.11.2010;;;;SN;Leipzig;;04329;Adelgunde-Gottsched-Weg;9;;;NetzLeipzig.pdf
+E40770010000010000000004842800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;24.700;;;;;;28.12.2010;;;;SN;Leipzig;;04279;Friederikenstr.;61;;;NetzLeipzig.pdf
+E40770010000010000000004843200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;24.000;;;;;;28.12.2010;;;;SN;Leipzig;;04279;Friederikenstr.;63;;;NetzLeipzig.pdf
+E40770010000010000000004844100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.520;;;;;;30.12.2010;;;;SN;Leipzig;;04159;Zehmenstr.;11;;;NetzLeipzig.pdf
+E40770010000010000000004845400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;55.000;;;;;;28.12.2010;;;;SN;Leipzig;;04129;Dessauer Str.;8;;;NetzLeipzig.pdf
+E40770010000010000000004852600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.760;;;;;;30.12.2010;;;;SN;Leipzig;;04329;Am Lösegraben;13;;;NetzLeipzig.pdf
+E40770010000010000000004852800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;16.500;;;;;;21.12.2010;;;;SN;Leipzig;;04129;Schönefelder Str.;21a;;;NetzLeipzig.pdf
+E40770010000010000000004856200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;30.12.2010;;;;SN;Leipzig;;04249;Wildschweinpfad;49;;;NetzLeipzig.pdf
+E40770010000010000000004857600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.630;;;;;;28.10.2010;;;;SN;Leipzig;;04229;Weißenfelser Str.;33;;;NetzLeipzig.pdf
+E40770010000010000000004857800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.500;;;;;;16.12.2010;;;;SN;Leipzig;;04107;Emilienstr.;12;;;NetzLeipzig.pdf
+E40770010000010000000004858000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.300;;;;;;23.12.2010;;;;SN;Leipzig;;04277;Am Lindenhof;13;;;NetzLeipzig.pdf
+E40770010000010000000004858200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.320;;;;;;30.11.2010;;;;SN;Leipzig;;04249;Nimrodstr.;60;;;NetzLeipzig.pdf
+E40770010000010000000004858500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.000;;;;;;23.12.2010;;;;SN;Leipzig;;04249;Gerhard-Ellrodt-Str.;24;;;NetzLeipzig.pdf
+E40770010000010000000004863100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;55.000;;;;;;30.12.2010;;;;SN;Leipzig;;04249;Gerhard-Ellrodt-Str.;26;;;NetzLeipzig.pdf
+E40770010000010000000004866000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;30.12.2010;;;;SN;Leipzig;;04329;Ilse-Decho-Weg;45;;;NetzLeipzig.pdf
+E40770010000010000000004867300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.480;;;;;;30.12.2010;;;;SN;Leipzig;;04329;Ilse-Decho-Weg;32;;;NetzLeipzig.pdf
+E40770010000010000000004894500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.600;;;;;;22.12.2010;;;;SN;Leipzig;;04329;Sommerfelder Weg;2;;;NetzLeipzig.pdf
+E40770010000010000000004903700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;14.02.2011;;;;SN;Leipzig;;04357;Friedrichshafener Str.149;;;;NetzLeipzig.pdf
+E40770010000010000000004903900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;14.02.2011;;;;SN;Leipzig;;04357;Schildberger Weg;1;;;NetzLeipzig.pdf
+E40770010000010000000004907700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;14.02.2011;;;;SN;Leipzig;;04357;Katzmannstr.13;;;;NetzLeipzig.pdf
+E40770010000010000000004998700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.900;;;;;;09.03.2011;;;;SN;Leipzig;;04317;Senefelder Str.;18;;;NetzLeipzig.pdf
+E40770010000010000000005002400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.890;;;;;;01.04.2011;;;;SN;Leipzig;;04289;Prager Str.;332;;;NetzLeipzig.pdf
+E40770010000010000000005044000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;11.04.2011;;;;SN;Leipzig;;04249;Grauwackeweg;6;;;NetzLeipzig.pdf
+E40770010000010000000005091200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.260;;;;;;26.05.2011;;;;SN;Leipzig;;04249;Zur alten Bäckerei;12;;;NetzLeipzig.pdf
+E40770010000010000000005095300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.050;;;;;;20.05.2011;;;;SN;Leipzig;;04347;Bautzner Str.;25;;;NetzLeipzig.pdf
+E40770010000010000000005095800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.500;;;;;;06.06.2011;;;;SN;Leipzig;;04289;Gildemeisterring;47;;;NetzLeipzig.pdf
+E40770010000010000000005100400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.950;;;;;;07.06.2011;;;;SN;Leipzig;;04277;Am Lindenhof;8;;;NetzLeipzig.pdf
+E40770010000010000000005107100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;09.03.2011;;;;SN;Leipzig;;04207;Berkaer Weg;16;;;NetzLeipzig.pdf
+E40770010000010000000005108000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;26.05.2011;;;;SN;Leipzig;;04349;Ursula-Götze-Str.;39;;;NetzLeipzig.pdf
+E40770010000010000000005108600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;10.200;;;;;;19.05.2011;;;;SN;Leipzig;;04357;Korolenkostr.15;;;;NetzLeipzig.pdf
+E40770010000010000000005110400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;09.06.2011;;;;SN;Leipzig;;04249;Am Mühlgraben;27;;;NetzLeipzig.pdf
+E40770010000010000000005110600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.600;;;;;;09.06.2011;;;;SN;Leipzig;;04249;Wildschweinpfad;11;;;NetzLeipzig.pdf
+E40770010000010000000005110800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.280;;;;;;07.06.2011;;;;SN;Leipzig;;04349;Jöhstädter;3;;;NetzLeipzig.pdf
+E40770010000010000000005113100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.220;;;;;;16.06.2011;;;;SN;Leipzig;;04347;Wuttkestr.;14;;;NetzLeipzig.pdf
+E40770010000010000000005134400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;22.06.2011;;;;SN;Leipzig;;04289;Pahlenweg;15;;;NetzLeipzig.pdf
+E40770010000010000000005134600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.365;;;;;;11.07.2011;;;;SN;Leipzig;;04289;Fontanestr.;21;;;NetzLeipzig.pdf
+E40770010000010000000005135000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;14.800;;;;;;05.07.2011;;;;SN;Leipzig;;04289;Corotweg;21;;;NetzLeipzig.pdf
+E40770010000010000000005135900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;30.06.2011;;;;SN;Leipzig;;04107;Braustr.;15;;;NetzLeipzig.pdf
+E40770010000010000000005136300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;27.06.2011;;;;SN;Leipzig;;04299;Kolmstr.;37b;;;NetzLeipzig.pdf
+E40770010000010000000005139000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.640;;;;;;29.06.2011;;;;SN;Leipzig;;04249;Seumestr.;19;;;NetzLeipzig.pdf
+E40770010000010000000005173200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.400;;;;;;04.06.2011;;;;SN;Leipzig;;04357;Mockauer Str.;30;;;NetzLeipzig.pdf
+E40770010000010000000005173400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.640;;;;;;29.06.2011;;;;SN;Leipzig;;04249;Dieskaustr.;361;;;NetzLeipzig.pdf
+E40770010000010000000005173600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;13.07.2011;;;;SN;Leipzig;;04329;Ilse-Decho-Weg;34;;;NetzLeipzig.pdf
+E40770010000010000000005174200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.160;;;;;;24.06.2011;;;;SN;Leipzig;;04249;Seumestr. Flst.;369;;;NetzLeipzig.pdf
+E40770010000010000000005196200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.600;;;;;;05.07.2011;;;;SN;Leipzig;;04299;Kolmstr.;63;;;NetzLeipzig.pdf
+E40770010000010000000005205000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.650;;;;;;21.06.2011;;;;SN;Leipzig;;04357;Gogolstr.;45;;;NetzLeipzig.pdf
+E40770010000010000000005205400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.060;;;;;;26.07.2011;;;;SN;Leipzig;;04159;Wolffstsr.;6;;;NetzLeipzig.pdf
+E40770010000010000000005205700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;27.06.2011;;;;SN;Leipzig;;04299;Prager Str.;201;;;NetzLeipzig.pdf
+E40770010000010000000005205900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;28.07.2011;;;;SN;Leipzig;;04229;Rochlitzstr.36;;;;NetzLeipzig.pdf
+E40770010000010000000005236200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.390;;;;;;14.07.2011;;;;SN;Leipzig;;04105;Wettiner Str.;3;;;NetzLeipzig.pdf
+E40770010000010000000005258100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.000;;;;;;29.06.2011;;;;SN;Leipzig;;04329;Falterstr.;47;;;NetzLeipzig.pdf
+E40770010000010000000005258500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.700;;;;;;11.08.2011;;;;SN;Leipzig;;04349;Tauchaer Str.;52;;;NetzLeipzig.pdf
+E40770010000010000000005258800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.550;;;;;;22.06.2011;;;;SN;Leipzig;;04277;An der Märchenwiese;38;;;NetzLeipzig.pdf
+E40770010000010000000005259300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;27.07.2011;;;;SN;Leipzig;;04277;Am Lindenhof;24;;;NetzLeipzig.pdf
+E40770010000010000000005259600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.600;;;;;;05.09.2011;;;;SN;Leipzig;;04155;Möckernsche Str.;43;;;NetzLeipzig.pdf
+E40770010000010000000005266100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.550;;;;;;18.08.2011;;;;SN;Leipzig;;04159;Elli-Voigt-Str.;2;;;NetzLeipzig.pdf
+E40770010000010000000005268700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.400;;;;;;16.06.2011;;;;SN;Leipzig;;04349;Posastr.;21;;;NetzLeipzig.pdf
+E40770010000010000000005269300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.880;;;;;;11.08.2011;;;;SN;Leipzig;;04159;Hendelweg;11;;;NetzLeipzig.pdf
+E40770010000010000000005280200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;15.07.2011;;;;SN;Leipzig;;04249;Seumestr.;33b;;;NetzLeipzig.pdf
+E40770010000010000000005283200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;93.000;;;;;;27.06.2011;;;;SN;Leipzig;;04275;Altenburger Str.;9;;;NetzLeipzig.pdf
+E40770010000010000000005283200002;50Hertz;Netz Leipzig GmbH;;Solar;NS;61.000;;;;;;27.06.2011;;;;SN;Leipzig;;04275;Altenburger Str.;13;;;NetzLeipzig.pdf
+E40770010000010000000005288400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.500;;;;;;04.08.2011;;;;SN;Leipzig;;04207;Miltenberger Str.;10b;;;NetzLeipzig.pdf
+E40770010000010000000005295200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;17.08.2011;;;;SN;Leipzig;;04157;Braunschweiger Str.;16;;;NetzLeipzig.pdf
+E40770010000010000000005306400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.060;;;;;;28.07.2011;;;;SN;Leipzig;;04249;Albersdorfer Str.;13;;;NetzLeipzig.pdf
+E40770010000010000000005306600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;11.10.2011;;;;SN;Leipzig;;04105;Ehrensteinstr.;8;;;NetzLeipzig.pdf
+E40770010000010000000005306900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;29.09.2011;;;;SN;Leipzig;;04229;Altranstädter Str.;42;;;NetzLeipzig.pdf
+E40770010000010000000005307200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.890;;;;;;05.07.2011;;;;SN;Leipzig;;04207;Bamberger Str.;34;;;NetzLeipzig.pdf
+E40770010000010000000005308000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;10.000;;;;;;02.09.2011;;;;SN;Leipzig;;04155;Breitenfelder Str.;39;;;NetzLeipzig.pdf
+E40770010000010000000005308300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.640;;;;;;29.09.2011;;;;SN;Leipzig;;04249;Seumestr.;44;;;NetzLeipzig.pdf
+E40770010000010000000005322600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.000;;;;;;04.08.2011;;;;SN;Leipzig;;04329;Goldene Hufe Flst;1,1407;;;NetzLeipzig.pdf
+E40770010000010000000005342800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.840;;;;;;21.10.2011;;;;SN;Leipzig;;04357;Lermontowstr.;12a;;;NetzLeipzig.pdf
+E40770010000010000000005351300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.490;;;;;;15.09.2011;;;;SN;Leipzig;;04357;Herzenstr.;58;;;NetzLeipzig.pdf
+E40770010000010000000005356400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.800;;;;;;26.08.2011;;;;SN;Leipzig;;04129;Wolteritzer Weg;35;;;NetzLeipzig.pdf
+E40770010000010000000005356600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;22.09.2011;;;;SN;Leipzig;;04157;Heinrich-Budde-Str.;33;;;NetzLeipzig.pdf
+E40770010000010000000005357400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.000;;;;;;04.11.2011;;;;SN;Leipzig;;04207;Miltenberger Str.;6;;;NetzLeipzig.pdf
+E40770010000010000000005357600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;11.11.2011;;;;SN;Leipzig;;04249;Rehbacher Str.;51;;;NetzLeipzig.pdf
+E40770010000010000000005357800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.560;;;;;;29.06.2011;;;;SN;Leipzig;;04249;Grauwackeweg;24;;;NetzLeipzig.pdf
+E40770010000010000000005373300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.610;;;;;;18.10.2011;;;;SN;Leipzig;;04179;Lützner Str.;175;;;NetzLeipzig.pdf
+E40770010000010000000005373500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;27.260;;;;;;13.09.2011;;;;SN;Leipzig;;04249;Saarländer Str.;1;;;NetzLeipzig.pdf
+E40770010000010000000005383600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.030;;;;;;02.12.2011;;;;SN;Leipzig;;04249;Wendelin Hipler Weg;3;;;NetzLeipzig.pdf
+E40770010000010000000005386300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;30.11.2011;;;;SN;Leipzig;;04229;Pistorisstr.;51;;;NetzLeipzig.pdf
+E40770010000010000000005390300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.400;;;;;;28.11.2011;;;;SN;Leipzig;;04279;Espenhainer Str.;26;;;NetzLeipzig.pdf
+E40770010000010000000005392200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.500;;;;;;18.10.2011;;;;SN;Leipzig;;04229;Pistorisstr.;2d;;;NetzLeipzig.pdf
+E40770010000010000000005906000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;09.05.2011;;;;SN;Leipzig;;04289;Pahlenweg;13;;;NetzLeipzig.pdf
+E40770010000010000000005387600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.800;;;;;;21.11.2011;;;;SN;Leipzig;;04277;Am Wolfswinkel;50;;;NetzLeipzig.pdf
+E40770010000010000000005436300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.950;;;;;;08.11.2011;;;;SN;Leipzig;;04159;Hüfnerstr.;7;;;NetzLeipzig.pdf
+E40770010000010000000005465100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;10.530;;;;;;12.12.2011;;;;SN;Leipzig;;04249;Wendelin Hipler Weg;4;;;NetzLeipzig.pdf
+E40770010000010000000005434600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.660;;;;;;16.12.2011;;;;SN;Leipzig;;04229;Windorfer Str.;106;;;NetzLeipzig.pdf
+E40770010000010000000005434700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.920;;;;;;13.12.2011;;;;SN;Leipzig;;04315;Mariannenstr.;44;;;NetzLeipzig.pdf
+E40770010000010000000005465400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;23.12.2011;;;;SN;Leipzig;;04357;Herzenstr.;66;;;NetzLeipzig.pdf
+E40770010000010000000005450300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;55.200;;;;;;09.12.2011;;;;SN;Leipzig;;04129;Haferkornstr.;15;;;NetzLeipzig.pdf
+E40770010000010000000005465800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;20.000;;;;;;27.12.2011;;;;SN;Leipzig;;04155;Mottelerstr.;8;;;NetzLeipzig.pdf
+E40770010000010000000005457700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.590;;;;;;29.12.2011;;;;SN;Leipzig;;04329;Sommerfelder Weg;110;;;NetzLeipzig.pdf
+E40770010000010000000005452800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;21.12.2011;;;;SN;Leipzig;;04357;Witkowskistr.;13;;;NetzLeipzig.pdf
+E40770010000010000000005461500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;22.12.2011;;;;SN;Leipzig;;04315;Klasingstr.;6;;;NetzLeipzig.pdf
+E40770010000010000000005461200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.760;;;;;;20.12.2011;;;;SN;Leipzig;;04349;Klosterneuburger Weg;8;;;NetzLeipzig.pdf
+E40770010000010000000005468900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;17.11.2011;;;;SN;Leipzig;;04349;Tauchaer Str.;69;;;NetzLeipzig.pdf
+E40770010000010000000005450700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.430;;;;;;24.11.2011;;;;SN;Leipzig;;04159;Hendelweg;18;;;NetzLeipzig.pdf
+E40770010000010000000005385200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;02.12.2011;;;;SN;Leipzig;;04279;Leinestr.;14;;;NetzLeipzig.pdf
+E40770010000010000000005452600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;21.12.2011;;;;SN;Leipzig;;04357;Katzmannstr.2;;;;NetzLeipzig.pdf
+E40770010000010000000005457000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;22.12.2011;;;;SN;Leipzig;;04318;Max-Borsdorf-Str.;11;;;NetzLeipzig.pdf
+E40770010000010000000005455500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;22.12.2011;;;;SN;Leipzig;;04315 ;Kreuzstr.;40;;;NetzLeipzig.pdf
+E40770010000010000000005455800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;22.12.2011;;;;SN;Leipzig;;04347;Schwantestr.;21;;;NetzLeipzig.pdf
+E40770010000010000000005526600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.900;;;;;;08.04.2011;;;;SN;Leipzig;;04349;Freiberger Str.;13;;;NetzLeipzig.pdf
+E40770010000010000000005526400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.900;;;;;;04.04.2011;;;;SN;Leipzig;;04279;Gersterstr.;24;;;NetzLeipzig.pdf
+E40770010000010000000005358000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.900;;;;;;04.04.2011;;;;SN;Leipzig;;04209;Gärtnerstr.;163;;;NetzLeipzig.pdf
+E40770010000010000000005526200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.900;;;;;;19.04.2011;;;;SN;Leipzig;;04103;Sternwartenstr.;51;;;NetzLeipzig.pdf
+E40770010000010000000005525900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.900;;;;;;19.04.2011;;;;SN;Leipzig;;04107;Windmühlenstr.;35;;;NetzLeipzig.pdf
+E40770010000010000000005002200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;01.04.2011;;;;SN;Leipzig;;04349;Heimdallstr.;9;;;NetzLeipzig.pdf
+E40770010000010000000005196000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.800;;;;;;16.06.2011;;;;SN;Leipzig;;04207;Lausner Weg;91;;;NetzLeipzig.pdf
+E40770010000010000000005449900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;79.920;;;;;;19.12.2011;;;;SN;Leipzig;;04209;Dahlienstr.;26;;;NetzLeipzig.pdf
+E40770010000010000000005451400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;14.400;;;;;;21.12.2011;;;;SN;Leipzig;;04177;Demmeringstr.;72;;;NetzLeipzig.pdf
+E40770010000010000000005352700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.400;;;;;;30.09.2011;;;;SN;Leipzig;;04109;Elsterstr.;37;;;NetzLeipzig.pdf
+E40770010000010000000005444100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.880;;;;;;15.11.2011;;;;SN;Leipzig;;04349;Eichbergstr.;62;;;NetzLeipzig.pdf
+E40770010000010000000005387200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;06.12.2011;;;;SN;Leipzig;;04347 ;Bodenreformweg;37a;;;NetzLeipzig.pdf
+E40770010000010000000005382700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;25.11.2011;;;;SN;Leipzig;;04249;Albersdorfer Str.;12;;;NetzLeipzig.pdf
+E40770010000010000000005438000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;27.500;;;;;;15.12.2011;;;;SN;Leipzig;;04103;Ranftsche Gasse;14;;;NetzLeipzig.pdf
+E40770010000010000000005544000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.410;;;;;;19.12.2011;;;;SN;Leipzig;;04179 ;Margeritenweg;18;;;NetzLeipzig.pdf
+E40770010000010000000005389200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;23.11.2011;;;;SN;Leipzig;;04329;Sommerfelder Weg;6;;;NetzLeipzig.pdf
+E40770010000010000000005517000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.120;;;;;;23.12.2011;;;;SN;Leipzig;;04249;Anton-Zickmantel-Str.;20;;;NetzLeipzig.pdf
+E40770010000010000000004266300002;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.000;;;;;;14.12.2011;;;;SN;Leipzig;;04249;Weigandtweg;2;;;NetzLeipzig.pdf
+E40770010000010000000005516700002;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.120;;;;;;21.12.2011;;;;SN;Leipzig;;04179;Gustav-Esche-Str.;1;;;NetzLeipzig.pdf
+E40770010000010000000005499300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.900;;;;;;20.12.2011;;;;SN;Leipzig;;04207;Rapsweg Flst.;1446;;;NetzLeipzig.pdf
+E40770010000010000000005514500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.070;;;;;;23.12.2011;;;;SN;Leipzig;;04207;Lausner Weg;38b;;;NetzLeipzig.pdf
+E40770010000010000000005436400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.660;;;;;;16.12.2011;;;;SN;Leipzig;;04229;Windorfer Str.;106;;;NetzLeipzig.pdf
+E40770010000010000000005576600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.360;;;;;;23.12.2011;;;;SN;Leipzig;;04159;Bucksdorffstr.;21;;;NetzLeipzig.pdf
+E40770010000010000000005547500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.820;;;;;;21.12.2011;;;;SN;Leipzig;;04357;Walter-Albrecht-Weg;139;;;NetzLeipzig.pdf
+E40770010000010000000005434900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;15.12.2011;;;;SN;Leipzig;;04317;Reichpietschstr.;23;;;NetzLeipzig.pdf
+E40770010000010000000005576300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.280;;;;;;23.12.2011;;;;SN;Leipzig;;04349;Otterstr.;33;;;NetzLeipzig.pdf
+E40770010000010000000005461400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.200;;;;;;21.12.2011;;;;SN;Leipzig;;04279;Cröberner Str.;5;;;NetzLeipzig.pdf
+E40770010000010000000005307400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.330;;;;;;01.08.2011;;;;SN;Leipzig;;04207;Neubauernstr.;18;;;NetzLeipzig.pdf
+E40770010000010000000005576000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.840;;;;;;09.11.2011;;;;SN;Leipzig;;04249;Industriestr.;57;;;NetzLeipzig.pdf
+E40770010000010000000005544200002;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.590;;;;;;12.12.2011;;;;SN;Leipzig;;04349;Am Keulenberg;71;;;NetzLeipzig.pdf
+E40770010000010000000005405600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;23.500;;;;;;30.05.2011;;;;SN;Leipzig;;04318;Permoser Str.;15;;;NetzLeipzig.pdf
+E40770010000010000000005405600002;50Hertz;Netz Leipzig GmbH;;Solar;NS;11.000;;;;;;16.06.2011;;;;SN;Leipzig;;04318;Permoser Str.;15;;;NetzLeipzig.pdf
+E40770010000010000000005570700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;23.12.2011;;;;SN;Leipzig;;04209;Brünner Str.;26;;;NetzLeipzig.pdf
+E40770010000010000000005640100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.050;;;;;;30.12.2011;;;;SN;Leipzig;;04349;Hainburger Weg;31;;;NetzLeipzig.pdf
+E40770010000010000000005637000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.700;;;;;;30.12.2011;;;;SN;Leipzig;;04329;Sommerfelder Weg;2;;;NetzLeipzig.pdf
+E40770010000010000000005645100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;46.170;;;;;;22.12.2011;;;;SN;Leipzig;;04277;Bornaische Str.;55;;;NetzLeipzig.pdf
+E40770010000010000000004489700002;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;19.08.2011;;;;SN;Leipzig;;04205;Wasunger Str.;24;;;NetzLeipzig.pdf
+E40770010000010000000005639100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.000;;;;;;27.12.2011;;;;SN;Leipzig;;04155;Georg-Schumann-Str.;32;;;NetzLeipzig.pdf
+E40770010000010000000005666500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.800;;;;;;27.04.2012;;;;SN;Leipzig;;04205;Lauschaer Weg;5;;;NetzLeipzig.pdf
+E40770010000010000000005673300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;02.04.2012;;;;SN;Leipzig;;04229;Eduardstr.;15;;;NetzLeipzig.pdf
+E40770010000010000000005668800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;26.03.2012;;;;SN;Leipzig;;04349;Plösener Str.;13;;;NetzLeipzig.pdf
+E40770010000010000000005673500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.340;;;;;;23.04.2012;;;;SN;Leipzig;;04349;Gottleubaer Str.;3;;;NetzLeipzig.pdf
+E40770010000010000000005674000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.610;;;;;;05.03.2012;;;;SN;Leipzig;;04179;Saarländer Str.;3;;;NetzLeipzig.pdf
+E40770010000010000000005674200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.270;;;;;;04.05.2012;;;;SN;Leipzig;;04289;Calderonweg;4;;;NetzLeipzig.pdf
+E40770010000010000000005673800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.000;;;;;;27.04.2012;;;;SN;Leipzig;;04177;Jordanstr.;1;;;NetzLeipzig.pdf
+E40770010000010000000005674400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;20.04.2012;;;;SN;Leipzig;;04329;Dachsstr.;5;;;NetzLeipzig.pdf
+E40770010000010000000005699000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;06.03.2012;;;;SN;Leipzig;;04207;Lausner Weg;34b;;;NetzLeipzig.pdf
+E40770010000010000000005661700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.650;;;;;;15.03.2012;;;;SN;Leipzig;;04315;Kapellenstr.;18;;;NetzLeipzig.pdf
+E40770010000010000000005632700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;22.03.2012;;;;SN;Leipzig;;04249;Perlpilzweg;7;;;NetzLeipzig.pdf
+E40770010000010000000005668800002;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;26.03.2012;;;;SN;Leipzig;;04349;Plößner Str.;13;;;NetzLeipzig.pdf
+E40770010000010000000005664200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;10.320;;;;;;28.03.2012;;;;SN;Leipzig;;04229;Creuziger Str.;11;;;NetzLeipzig.pdf
+E40770010000010000000005727600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;10.000;;;;;;04.04.2012;;;;SN;Leipzig;;04357;Herzenstr.;74;;;NetzLeipzig.pdf
+E40770010000010000000005751200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.600;;;;;;30.03.2012;;;;SN;Leipzig;;04229;Merseburger Str.  HH;1;;;NetzLeipzig.pdf
+E40770010000010000000005752500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;07.06.2012;;;;SN;Leipzig;;04159;Hendelweg;16;;;NetzLeipzig.pdf
+E40770010000010000000005760300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;11.06.2012;;;;SN;Leipzig;;04249;Grillenstr.;1;;;NetzLeipzig.pdf
+E40770010000010000000005760600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;29.05.2012;;;;SN;Leipzig;;04279;Sigebandweg;33;;;NetzLeipzig.pdf
+E40770010000010000000005762000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;26.03.2012;;;;SN;Leipzig;;04357;Friedrichshafener Str.212;;;;NetzLeipzig.pdf
+E40770010000010000000005792000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;20.03.2012;;;;SN;Leipzig;;04159;Georg-Schumann-Str.;317;;;NetzLeipzig.pdf
+E40770010000010000000005762600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.500;;;;;;14.05.2012;;;;SN;Leipzig;;04349;Ackerweg;6;;;NetzLeipzig.pdf
+E40770010000010000000005683600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.940;;;;;;30.12.2011;;;;SN;Leipzig;;04207;Blaufichtenweg;8;;;NetzLeipzig.pdf
+E40770010000010000000005789700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;20.06.2012;;;;SN;Leipzig;;04329;Sommerfelder Weg;114;;;NetzLeipzig.pdf
+E40770010000010000000005842000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;26.350;;;;;;08.03.2012;;;;SN;Leipzig;;04347;Föpplstr.;11;;;NetzLeipzig.pdf
+E40770010000010000000005835600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;14.06.2012;;;;SN;Leipzig;;04357;Tauchaer Str.;2;;;NetzLeipzig.pdf
+E40770010000010000000005835800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;14.06.2012;;;;SN;Leipzig;;04209;Straße am Park;28;;;NetzLeipzig.pdf
+E40770010000010000000005751000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;14.06.2012;;;;SN;Leipzig;;04103;Nürnberger Str.;27a;;;NetzLeipzig.pdf
+E40770010000010000000005750800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;14.06.2012;;;;SN;Leipzig;;04357;Otto-Michael-Str.;16;;;NetzLeipzig.pdf
+E40770010000010000000005751600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.660;;;;;;11.06.2012;;;;SN;Leipzig;;04279;Markkleeberger Str.;49;;;NetzLeipzig.pdf
+E40770010000010000000005855800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.850;;;;;;29.03.2012;;;;SN;Leipzig;;04277;Hänselweg;22;;;NetzLeipzig.pdf
+E40770010000010000000005890400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;23.05.2012;;;;SN;Leipzig;;04249;Albersdorfer Str.;24;;;NetzLeipzig.pdf
+E40770010000010000000005892100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.700;;;;;;25.07.2012;;;;SN;Leipzig;;04357;Bochumer Str.8;;;;NetzLeipzig.pdf
+E40770010000010000000005544400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.500;;;;;;30.12.2011;;;;SN;Leipzig;;04357;Gogolstr.;73;;;NetzLeipzig.pdf
+E40770010000010000000005894800002;50Hertz;Netz Leipzig GmbH;;Solar;NS;19.200;;;;;;23.07.2012;;;;SN;Leipzig;;04205;Horburger Str.;97;;;NetzLeipzig.pdf
+E40770010000010000000005891000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;11.760;;;;;;24.08.2012;;;;SN;Leipzig;;04328;An den Theklafeldern;18b;;;NetzLeipzig.pdf
+E40770010000010000000005890800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;03.08.2012;;;;SN;Leipzig;;04299;Kärrnerweg;14;;;NetzLeipzig.pdf
+E40770010000010000000005886500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.370;;;;;;07.08.2012;;;;SN;Leipzig;;04279;Auenhainer Str.;9;;;NetzLeipzig.pdf
+E40770010000010000000005890100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;20.08.2012;;;;SN;Leipzig;;04289;Kegelweg;3;;;NetzLeipzig.pdf
+E40770010000010000000005930900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;30.04.2012;;;;SN;Leipzig;;04347;Taubestr.;52;;;NetzLeipzig.pdf
+E40770010000010000000005940500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;30.000;;;;;;28.06.2012;;;;SN;Leipzig;;04329;Schongauer Str.;37;;;NetzLeipzig.pdf
+E40770010000010000000005995600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;12.06.2012;;;;SN;Leipzig;;04329;Hopfenweg;6;;;NetzLeipzig.pdf
+E40770010000010000000005918300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;14.06.2012;;;;SN;Leipzig;;04317;Ranstädter Steinweg;15;;;NetzLeipzig.pdf
+E40770010000010000000005933100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.560;;;;;;29.06.2012;;;;SN;Leipzig;;04279;Zwickauer Str.;59;;;NetzLeipzig.pdf
+E40770010000010000000005929000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;12.06.2012;;;;SN;Leipzig;;04347;Seipelweg;16;;;NetzLeipzig.pdf
+E40770010000010000000005929400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;12.06.2012;;;;SN;Leipzig;;04347;Losinskiweg;9;;;NetzLeipzig.pdf
+E40770010000010000000005929600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;19.06.2012;;;;SN;Leipzig;;04329;Günselstr.;6;;;NetzLeipzig.pdf
+E40770010000010000000005994200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;19.06.2012;;;;SN;Leipzig;;04329;Günselstr.;5;;;NetzLeipzig.pdf
+E40770010000010000000005993800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;19.06.2012;;;;SN;Leipzig;;04329;Gundermannstr.;35;;;NetzLeipzig.pdf
+E40770010000010000000005924400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;26.06.2012;;;;SN;Leipzig;;04315;Elisabethstr.;4;;;NetzLeipzig.pdf
+E40770010000010000000005916300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;12.06.2012;;;;SN;Leipzig;;04347;Platanenstr.;26;;;NetzLeipzig.pdf
+E40770010000010000000005917200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;19.06.2012;;;;SN;Leipzig;;04315;Lukasstr.;12;;;NetzLeipzig.pdf
+E40770010000010000000005917500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;12.06.2012;;;;SN;Leipzig;;04315;Weidmannstr.;17;;;NetzLeipzig.pdf
+E40770010000010000000005917000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;19.06.2012;;;;SN;Leipzig;;04347;Schwantestr.;8;;;NetzLeipzig.pdf
+E40770010000010000000005917800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;19.06.2012;;;;SN;Leipzig;;04315;Weidmannstr.;9;;;NetzLeipzig.pdf
+E40770010000010000000005929200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;12.06.2012;;;;SN;Leipzig;;04315;Zollikofer Str.;32;;;NetzLeipzig.pdf
+E40770010000010000000005922500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;26.06.2012;;;;SN;Leipzig;;04315;Zollikofer Str.;15;;;NetzLeipzig.pdf
+E40770010000010000000005931000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.890;;;;;;26.06.2012;;;;SN;Leipzig;;04315;Zollikofer Str.;23;;;NetzLeipzig.pdf
+E40770010000010000000005894600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.800;;;;;;25.06.2012;;;;SN;Leipzig;;04129;Güntheritzer Weg;11;;;NetzLeipzig.pdf
+E40770010000010000000005673000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;12.960;;;;;;30.03.2012;;;;SN;Leipzig;;04229;Merseburger Str.  HH;1;;;NetzLeipzig.pdf
+E40770010000010000000005863500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;02.07.2012;;;;SN;Leipzig;;04357;Gontscharowstr.;23;;;NetzLeipzig.pdf
+E40770010000010000000005863800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.500;;;;;;07.08.2012;;;;SN;Leipzig;;04329 ;Stünz-Mölkauer Weg;34;;;NetzLeipzig.pdf
+E40770010000010000000005881100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;11.200;;;;;;22.06.2012;;;;SN;Leipzig;;04317;Kippenbergstr.;31;;;NetzLeipzig.pdf
+E40770010000010000000005891400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.500;;;;;;28.08.2012;;;;SN;Leipzig;;04329;Goldene Hufe;65;;;NetzLeipzig.pdf
+E40770010000010000000005890600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.500;;;;;;31.07.2012;;;;SN;Leipzig;;04349;Balderstr.;23;;;NetzLeipzig.pdf
+E40770010000010000000005893800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.900;;;;;;20.08.2012;;;;SN;Leipzig;;04207;Erlanger Str.;27b;;;NetzLeipzig.pdf
+E40770010000010000000005998200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.350;;;;;;21.08.2012;;;;SN;Leipzig;;04249;Dieskaustr.;403;;;NetzLeipzig.pdf
+E40770010000010000000005932900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;17.09.2012;;;;SN;Leipzig;;04159;Goldene Hufe;61;;;NetzLeipzig.pdf
+E40770010000010000000005929800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;03.09.2012;;;;SN;Leipzig;;04179;Alte Salzstr.;13;;;NetzLeipzig.pdf
+E40770010000010000000005934500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;10.000;;;;;;23.07.2012;;;;SN;Leipzig;;04207;Karlstädter Str.;1a;;;NetzLeipzig.pdf
+E40770010000010000000005949200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.500;;;;;;30.08.2012;;;;SN;Leipzig;;04249;Weidmannweg;11;;;NetzLeipzig.pdf
+E40770010000010000000005939800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.000;;;;;;29.08.2012;;;;SN;Leipzig;;04329;Otterstr.;36;;;NetzLeipzig.pdf
+E40770010000010000000005956600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;1.700;;;;;;27.09.2012;;;;SN;Leipzig;;04249;Schwarzdornweg;18;;;NetzLeipzig.pdf
+E40770010000010000000005997900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.500;;;;;;09.08.2012;;;;SN;Leipzig;;04357;Lermontowstr.;36;;;NetzLeipzig.pdf
+E40770010000010000000005952100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;02.08.2012;;;;SN;Leipzig;;04249;Weigandtstr.;31;;;NetzLeipzig.pdf
+E40770010000010000000005911700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;30.04.2012;;;;SN;Leipzig;;04347;Taubestr.;54;;;NetzLeipzig.pdf
+E40770010000010000000005952300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.240;;;;;;11.07.2012;;;;SN;Leipzig;;04249;Weigandtweg;71;;;NetzLeipzig.pdf
+E40770010000010000000005950600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;11.07.2012;;;;SN;Leipzig;;04249;Weigandtweg;69;;;NetzLeipzig.pdf
+E40770010000010000000005934200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;218.000;;;;;;19.07.2012;;;;SN;Leipzig;;04129;Zschortauer Str.;96;;;NetzLeipzig.pdf
+E40770010000010000000005977200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.100;;;;;;04.07.2012;;;;SN;Leipzig;;04159;Reuningsstr.;4;;;NetzLeipzig.pdf
+E40770010000010000000005914300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.000;;;;;;18.07.2012;;;;SN;Leipzig;;04318;Zum Kleingartenpark;32E;;;NetzLeipzig.pdf
+E40770010000010000000005952600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.500;;;;;;28.09.2012;;;;SN;Leipzig;;04329;Otterstr.;55;;;NetzLeipzig.pdf
+E40770010000010000000005914900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.900;;;;;;24.07.2012;;;;SN;Leipzig;;04159;Elsterblick;19;;;NetzLeipzig.pdf
+E40770010000010000000005870000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;23.000;;;;;;20.08.2012;;;;SN;Leipzig;;04103;Perlickstr.;5;;;NetzLeipzig.pdf
+E40770010000010000000005831300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.900;;;;;;02.08.2012;;;;SN;Leipzig;;04129;Magnusstr.;26;;;NetzLeipzig.pdf
+E40770010000010000000005953600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;15.600;;;;;;28.06.2012;;;;SN;Leipzig;;04229;Kantatenweg; 9b,9a;;;NetzLeipzig.pdf
+E40770010000010000000005972800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;14.09.2012;;;;SN;Leipzig;;04289;Schwarzenbergweg;6;;;NetzLeipzig.pdf
+E40770010000010000000006059800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.800;;;;;;02.11.2012;;;;SN;Leipzig;;04329;Hornissenwinkel;4;;;NetzLeipzig.pdf
+E40770010000010000000006065300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;11.180;;;;;;30.10.2012;;;;SN;Leipzig;;04107;Braustr.;24;;;NetzLeipzig.pdf
+E40770010000010000000006066000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;13.500;;;;;;13.11.2012;;;;SN;Leipzig;;04315;Ludwigstr.;103;;;NetzLeipzig.pdf
+E40770010000010000000006065600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.200;;;;;;02.11.2012;;;;SN;Leipzig;;04229;Sonnenwinkel;102;;;NetzLeipzig.pdf
+E40770010000010000000006064900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.190;;;;;;29.10.2012;;;;SN;Leipzig;;04329;Otterstr.;18;;;NetzLeipzig.pdf
+E40770010000010000000006192800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;23.10.2012;;;;SN;Leipzig;;04205;Nordhäuser Weg;6;;;NetzLeipzig.pdf
+E40770010000010000000006059700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.600;;;;;;30.10.2012;;;;SN;Leipzig;;04328;Lenzstr.;16;;;NetzLeipzig.pdf
+E40770010000010000000005632900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.160;;;;;;17.12.2011;;;;SN;Leipzig;;04357;Friedrichshafener Str.;242;;;NetzLeipzig.pdf
+E40770010000010000000006038700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.000;;;;;;01.11.2012;;;;SN;Leipzig;;04205;Ilmenauer Weg;38;;;NetzLeipzig.pdf
+E40770010000010000000006092400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;28.11.2012;;;;SN;Leipzig;;04249;Seumestr.;64;;;NetzLeipzig.pdf
+E40770010000010000000005949200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.500;;;;;;30.08.2012;;;;SN;Leipzig;;04249;Weidmannweg;11;;;NetzLeipzig.pdf
+E40770010000010000000005972800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;12.10.2012;;;;SN;Leipzig;;04289;Schwarzenbergweg;6;;;NetzLeipzig.pdf
+E40770010000010000000006054400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.160;;;;;;22.10.2012;;;;SN;Leipzig;;04249;Dieskaustr.;348;;;NetzLeipzig.pdf
+E40770010000010000000006038900002;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.200;;;;;;31.07.2012;;;;SN;Leipzig;;04105;Fregestr.;28;;;NetzLeipzig.pdf
+E40770010000010000000006059700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.600;;;;;;30.10.2012;;;;SN;Leipzig;;04328;Lenzstr.;16;;;NetzLeipzig.pdf
+E40770010000010000000006111600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;40.000;;;;;;28.11.2012;;;;SN;Leipzig;;04249;Dieskaustr. Flst;3,69;;;NetzLeipzig.pdf
+E40770010000010000000006016800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.500;;;;;;22.10.2012;;;;SN;Leipzig;;04289;Jutta-Hipp-Weg;16;;;NetzLeipzig.pdf
+E40770010000010000000005997900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.500;;;;;;30.07.2012;;;;SN;Leipzig;;04357;Lermontowstr.;36;;;NetzLeipzig.pdf
+E40770010000010000000006038700002;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.000;;;;;;01.11.2012;;;;SN;Leipzig;;04205;Ilmenauer Weg;38;;;NetzLeipzig.pdf
+E40770010000010000000006103100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.600;;;;;;03.12.2012;;;;SN;Leipzig;;04249;Weigandtweg;38;;;NetzLeipzig.pdf
+E40770010000010000000006060100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.250;;;;;;23.11.2012;;;;SN;Leipzig;;04289;Tollweg;62;;;NetzLeipzig.pdf
+E40770010000010000000006129200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;10.000;;;;;;28.11.2012;;;;SN;Leipzig;;04349;Krätzbergstr.;18;;;NetzLeipzig.pdf
+E40770010000010000000006128100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.200;;;;;;30.11.2012;;;;SN;Leipzig;;04159;Bucksdorffstr.;19;;;NetzLeipzig.pdf
+E40770010000010000000006065300001;50Hertz;Netz Leipzig GmbH;;Solar;NS;11.180;;;;;;30.10.2012;;;;SN;Leipzig;;04107;Braustr.;24;;;NetzLeipzig.pdf
+E40770010000010000000006129400001;50Hertz;Netz Leipzig GmbH;;Solar;NS;7.000;;;;;;30.10.2012;;;;SN;Leipzig;;04349;Hainburger Weg;43;;;NetzLeipzig.pdf
+E40770010000010000000006150200001;50Hertz;Netz Leipzig GmbH;;Solar;NS;5.600;;;;;;10.12.2012;;;;SN;Leipzig;;04357;Gontscharowstr.;42;;;NetzLeipzig.pdf
+E40770010000010000000005777800001;50Hertz;Netz Leipzig GmbH;;Solar;MS;1100.000;;;;;;29.06.2012;;;;SN;Leipzig;;04249;Gerhard-Ellrodt-Str.;170;;;NetzLeipzig.pdf
+E40770010000010000000006095800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;3.000;;;;;;30.11.2012;;;;SN;Leipzig;;04249;Wendelin-Hipler-Weg;12;;;NetzLeipzig.pdf
+E40770010000010000000006152500001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.960;;;;;;18.12.2012;;;;SN;Leipzig;;04329;Otterstr.;27;;;NetzLeipzig.pdf
+E40770010000010000000006170100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;21.12.2012;;;;SN;Leipzig;;04349 ;Altes Dorf;8;;;NetzLeipzig.pdf
+E40770010000010000000006150000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;2.800;;;;;;30.10.2012;;;;SN;Leipzig;;04249;Knautnaundorfer Str.;50;;;NetzLeipzig.pdf
+E40770010000010000000006152900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;9.180;;;;;;28.12.2012;;;;SN;Leipzig;;04318;Rankestr.;6;;;NetzLeipzig.pdf
+E40770010000010000000006152700001;50Hertz;Netz Leipzig GmbH;;Solar;NS;4.000;;;;;;12.12.2012;;;;SN;Leipzig;;04289;Österreicher Weg;20;;;NetzLeipzig.pdf
+E40770010000010000000005658600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;6.440;;;;;;30.03.2012;;;;SN;Leipzig;;04318;Zweenfurther Str.;2a;;;NetzLeipzig.pdf
+E40770010000010000000006216900001;50Hertz;Netz Leipzig GmbH;;Solar;NS;19.000;;;;;;28.08.2012;;;;SN;Leipzig;;04155;Lindenthaler Str.;19;;;NetzLeipzig.pdf
+E40770010000010000000006253600001;50Hertz;Netz Leipzig GmbH;;Solar;NS;15.000;;;;;;05.12.2011;;;;SN;Leipzig;;04159;Bucksdorffstr.;43;;;NetzLeipzig.pdf
+E40770010000010000000006333800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;30.10.2012;;;;SN;Leipzig;;04103;Sternwartenstr.;2;;;NetzLeipzig.pdf
+E40770010000010000000006193000001;50Hertz;Netz Leipzig GmbH;;Solar;NS;8.000;;;;;;14.09.2012;;;;SN;Leipzig;;04357;Vierzehn Bäumeweg;1;;;NetzLeipzig.pdf
+E40770010000010000000006081100001;50Hertz;Netz Leipzig GmbH;;Solar;NS;150.000;;;;;;25.07.2012;;;;SN;Leipzig;;04347;Brahestr.1;;;;NetzLeipzig.pdf
+E40770010000010000000006333800001;50Hertz;Netz Leipzig GmbH;;Solar;NS;29.000;;;;;;30.10.2012;;;;SN;Leipzig;;04103;Sternwartenstr.;2;;;NetzLeipzig.pdf

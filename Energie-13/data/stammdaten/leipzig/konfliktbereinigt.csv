@@ -1,0 +1,11 @@
+Anlagenschlüssel;Übertragungsnetzbetreiber;Netzbetreiber;Netzbetreiber Betriebsnummer;Energieträger;Einspeisungsebene;Leistung;Leistungsgemessene Anlage;Zeitreihentyp;Regelbarkeit;Biomasse KWK-Anteil;Biomassetechnologie;Zeitpunkt der Inbetriebnahme;Zeitpunkt der Ausserbetriebnahme;Zeitpunkt des Netzzugangs;Zeitpunkt des Netzabgangs;Bundeslandkürzel;Ort;Ortsteil;PLZ;Strasse;Nummer;Flur;Flurstück;Quelle
+E40770010000010000000005322600001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;9;nein;;;nein;null;04.08.2011;;;;SN;Leipzig;;04329;Goldene Hufe;71;;;50hertz.com
+E40770010000010000000006111600001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;40;nein;;;nein;null;28.11.2012;;;;SN;Leipzig;;04249;Dieskaustr.;401a;;;50hertz.com
+E40770010000010000000005387200001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.6;nein;;;;;06.12.2011;;;;SN;Leipzig;;04347;Bodenreformweg;37a;;;eeg-kwk.net
+E40770010000010000000005863800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.5;nein;;;;;07.08.2012;;;;SN;Leipzig;;04329;Stünz-Mölkauer Weg;34;;;eeg-kwk.net
+E40770010000010000000006170100001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4;nein;;;;;21.12.2012;;;;SN;Leipzig;;04349;Altes Dorf;8;;;eeg-kwk.net
+E41081010000000000000000000035061;50Hertz;Mitteldeutsche Netzgesellschaft Strom mbH;10001645;Gas;MS;1727;ja;GAL;regelbar nach § 6 Abs. 1 EEG;nein;null;26.02.1997;;;;SN;Leipzig;Wiederitzsch;04356;Maximilianallee;80;;;50hertz.com
+E40770010000010000000001169800001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;4.94;nein;;;;;16.12.2005;;;;SN;Leipzig;;04129;Dübener Landstr.;3;;;eeg-kwk.net
+E40770010000010000000005544000001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;7.41;nein;;;;;19.12.2011;;;;SN;Leipzig;;04179;Margeritenweg;18;;;eeg-kwk.net
+E41081010000000000000000000006363;50Hertz;Mitteldeutsche Netzgesellschaft Strom mbH;10001645;Gas;MS;469;ja;GAL;regelbar nach § 6 Abs. 1 EEG;nein;null;08.10.1998;;;;SN;Leipzig;Liebertwolkwitz;04288;Ostende;999;;;50hertz.com
+E40770010000010000000005455500001;50Hertz;Netz Leipzig GmbH;10001882;Solar;NS;30;nein;;;;;22.12.2011;;;;SN;Leipzig;;04315;Kreuzstr.;40;;;eeg-kwk.net

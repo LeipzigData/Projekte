@@ -38,12 +38,13 @@ function setNamespaces() {
     EasyRdf_Namespace::set('jsp', 'http://leipzig-data.de/Data/Jugendstadtplan/');
 }
 
-/* print_categories gibt alle in "jsp:hascategory" gesetzten URIs zurück */
-function getCategories($quelle,$lang) {
-    $graph1 = EasyRdf_Graph::newAndLoad($quelle); // Lädt den vollen Graphen
+/* getCategories gibt alle in "jsp:hascategory" gesetzten URIs zurück.
+ * $graph1 enthält nun bereits den RDF Graphen */
+function getCategories($graph1,$lang) {
+    setNamespaces();
     $count = 0;
     $testarray = array();
-    $out;
+    $out='';
     foreach ($graph1->resources() as $res) {
         if ($res->hasProperty('jsp:hascategory') == 1)
         {
@@ -70,15 +71,12 @@ function getCategories($quelle,$lang) {
 
 /* Funktion zum Hinzufügen der fehlenden GEO-Koordinaten */
 
-function get_missing_geo_data($quelle,$do)
+function get_missing_geo_data($graph,$do)
 {
     global $log2;
     global $log3;
 
-    $my_graph = new EasyRdf_Graph();
     $count = 0;
-    $graph = EasyRdf_Graph::newAndLoad($quelle); // Lädt das RDF-File
-
     // Geht alle jsp:Ort durch und überprüft die Orte ,ob jsp:hasAddress nicht leer und Geo Koordinaten gesetzt
     foreach ($graph->allOfType("jsp:Ort") as $resource1) {
         $uri_1 = $resource1->getUri();
@@ -286,9 +284,6 @@ function create_filter_file($quelle)
     }
 
 }
-
-
-
 
 ?>
 

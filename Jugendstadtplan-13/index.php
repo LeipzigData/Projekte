@@ -92,7 +92,9 @@ function footer($quelle,$lang) {
 
 $lang="de";
 // if($_REQUEST['lang']=="en"){ $lang="en";} 
-$quelle='Data/unsere_data_1.json';
+setNamespaces();
+$quelle=new EasyRdf_Graph();
+$quelle->parseFile('Data/unsere_data_1.json'); // Lädt den vollen Graphen
 //echo preamble($lang).mainPage($quelle,$lang).footer($quelle,$lang);
 
 echo getCategories($quelle,$lang);

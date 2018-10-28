@@ -1,0 +1,44 @@
+[
+    {
+        "id": "Eins",
+        "name": "Beispielname",
+        "desc": "Hier handelt es sich um einen Beispieleintrag und dies ist seine Beschreibung. Hier können alle möglichen Informationen oder etwaige Hinweise stehen. Natürlich kann die Beschreibung auch problemlos freigelassen werden. Dann wird aber auch keine angezeigt...",
+        "accessibility": 0,
+        "imgs": [
+            "/images/example.jpg"
+        ],
+        "phone": "123456789",
+        "tags": [
+            "Beispiel", "Super Eintrag"
+        ],
+        "email": "max.mustermann@example.org",
+        "address": "Beispielallee 9999, 09999 Nirgendwo",
+        "gps": {
+            "long": -0.1277583,
+            "lat": 51.5073509
+        },
+        "url": "https://example.org",
+        "extend": {}
+    },
+    {
+        "id": 2,
+        "name": "Kein Beispielname",
+        "desc": "Hier könnte Ihre Beschreibung stehen!",
+        "accessibility": 2,
+        "imgs": [
+            "/images/example.jpg"
+        ],
+        "phone": "987654321",
+        "tags": [
+            "Kein Beispiel", "Super Eintrag"
+        ],
+        "email": "max.mustermann@example.org",
+        "address": "Beispielallee 9998, 09999 Nirgendwo",
+        "gps": {
+            "long": -0.1277583,
+            "lat": 51.5073509
+        },
+        "url": "https://example.org",
+        "extend": {}
+    }
+]

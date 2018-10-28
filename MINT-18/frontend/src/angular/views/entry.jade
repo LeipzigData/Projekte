@@ -1,0 +1,44 @@
+h2.headline {{ entry.name }}
+  span.tag-badge.badge.badge-dark(ng-repeat="tag in entry.tags" title="{{ tag }}")
+    i.fa(class="{{ iconFromTag(tag) }}" ng-show="iconFromTag(tag)")
+    span(ng-hide="iconFromTag(tag)") {{ tag }}
+  span.tag-badge.badge.badge-dark.border(title="{{ accessibilityToText(entry.accessibility) }}"
+    style="background-color:{{ accessibilityToColor(entry.accessibility) }}")
+    i.fa.fa-wheelchair
+
+.row
+  .col(ng-show="entry.imgs && entry.imgs.length > 0")
+    #carousel.carousel.slide(data-ride="carousel")
+      .carousel-inner
+        .carousel-item(ng-repeat="(id, img) in entry.imgs" ng-class="{active:$first}")
+          img.d-block.w-100(ng-src="{{ img }}" onerror="brokenImage(this)")
+      a.carousel-control-prev(data-target="#carousel" role="button" data-slide="prev")
+        span.carousel-control-prev-icon(aria-hidden="true")
+        span.sr-only Vorheriges
+      a.carousel-control-next(data-target="#carousel" role="button" data-slide="next")
+        span.carousel-control-next-icon(aria-hidden="true")
+        span.sr-only Nächstes
+  .col
+    h5 Kontakt:
+    p(ng-show="entry.address && entry.address.trim()")
+        i.fa.fa-map(title="Adresse")
+        | &nbsp; {{ entry.address }}
+    p(ng-show="entry.phone")
+        i.fa.fa-phone(title="Telefon")
+        | &nbsp; {{ entry.phone }}
+    p(ng-show="entry.fax")
+        i.fa.fa-fax(title="Fax")
+        | &nbsp; {{ entry.fax }}
+    p(ng-show="entry.email")
+        i.fa.fa-at(title="Mail")
+        | &nbsp; {{ entry.email }}
+    p(ng-show="entry.url")
+        i.fa.fa-globe(title="Internet")
+          | &nbsp;
+        a(href="{{ entry.url }}") {{ entry.url }}
+
+h4.headline(ng-show="entry.desc") Beschreibung
+p(ng-bind-html="entry.desc")
+
+h4.headline(ng-show="validMap") Karte
+#map(ng-show="validMap" style="height: 400px; width: 100%;")

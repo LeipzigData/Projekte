@@ -1,0 +1,71 @@
+
+.container-fluid
+  h1 Einträge (Qualitätssicherung)
+  ul.nav.nav-tabs(role="tablist")
+    li.nav-item
+      a.nav-link(href=""
+        role="tab"
+        ng-click="select('table')"
+        ng-class="{active: selected === 'table'}")
+        | Tabelle
+    li.nav-item
+      a.nav-link(href=""
+        role="tab"
+        ng-click="select('json')"
+        ng-class="{active: selected === 'json'}")
+        | JSON
+
+.container-fluid
+  .pane(role="tabpanel" ng-show="selected === 'table'")
+    table.table.table-bordered
+      thead
+        tr
+          th(title="Index"): i.fa.fa-hashtag
+          th(title="ID"): i.fa.fa-fingerprint
+          th(title="Name"): i.fa.fa-signature
+          th(title="Bilder"): i.fa.fa-image
+          th(title="Telefon"): i.fa.fa-phone
+          th(title="Tags"): i.fa.fa-tags
+          th(title="Mail"): i.fa.fa-at
+          th(title="Adresse"): i.fa.fa-map-marked
+          th(title="GPS"): i.fa.fa-globe
+          th(title="URL"): i.fa.fa-link
+      tbody
+        style(type='text/css').
+          .fa.fa-times {
+            color: red;
+          }
+          .fa.fa-check {
+            color: green;
+          }
+        tr(ng-repeat="(key, el) in rawJson track by el.id")
+          td(ng-bind="key")
+          td
+            p.small {{ el.id }}
+          td
+            i.fa.fa-check(ng-show="el.name")
+            i.fa.fa-times(ng-hide="el.name")
+          td
+            i.fa.fa-check(ng-show="el.imgs && el.imgs.length > 0")
+            i.fa.fa-times(ng-hide="el.imgs && el.imgs.length > 0")
+          td
+            i.fa.fa-check(ng-show="el.phone")
+            i.fa.fa-times(ng-hide="el.phone")
+          td
+            i.fa.fa-check(ng-show="el.tags") ({{ el.tags.length }})
+            i.fa.fa-times(ng-hide="el.tags")
+          td
+            i.fa.fa-check(ng-show="el.email")
+            i.fa.fa-times(ng-hide="el.email")
+          td
+            i.fa.fa-check(ng-show="el.address")
+            i.fa.fa-times(ng-hide="el.address")
+          td
+            i.fa.fa-check(ng-show="el.gps && el.gps.lat && el.gps.long")
+            i.fa.fa-times(ng-hide="el.gps && el.gps.lat && el.gps.long")
+          td
+            i.fa.fa-check(ng-show="el.url")
+            i.fa.fa-times(ng-hide="el.url")
+  .pane(role="tabpanel" ng-show="selected === 'json'")
+    pre(style="white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap;white-space: pre-wrap;word-wrap: break-word;").
+      {{ rawJson }}

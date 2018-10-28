@@ -1,0 +1,10 @@
+.jumbotron
+  h1.display-4 #{title}
+  p.lead
+    | #{desc}
+  p
+    a.btn.btn-lg.btn-success(href='#!search', role='button') Suche starten
+
+.card.card-default(ng-show="baseData.length")
+  .card-body
+    |  Derzeit kannst du {{baseData.length}} Einträge durchsuchen.

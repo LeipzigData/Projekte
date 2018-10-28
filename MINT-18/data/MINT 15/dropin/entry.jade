@@ -1,0 +1,99 @@
+h2.headline {{ entry.name }}
+  span.tag-badge.badge.badge-dark(ng-repeat="tag in entry.tags" title="{{ tag }}")
+    i.fa(class="{{ iconFromTag(tag) }}")
+  span.tag-badge.badge.badge-dark.border(title="{{ accessibilityToText(entry.accessibility) }}"
+  style="background-color:{{ accessibilityToColor(entry.accessibility) }}")
+    i.fa.fa-wheelchair
+br
+
+.row
+  .col
+    #carousel.carousel.slide(data-ride="carousel" ng-if="entry.imgs")
+      ol.carousel-indicators
+        li(data-target="#carousel" data-slide-to="{{ $index }}" ng-repeat="img in entry.imgs" ng-class="{active:$first}")
+      .carousel-inner
+        .carousel-item(ng-repeat="(id, img) in entry.imgs" ng-class="{active:$first}")
+          img.d-block.w-100(ng-src="{{ img }}")
+      a.carousel-control-prev(data-target="#carousel" role="button" data-slide="prev")
+        i.fa.fa-chevron-left(aria-hidden="true")
+        span.sr-only Vorheriges
+      a.carousel-control-next(data-target="#carousel" role="button" data-slide="next")
+        i.fa.fa-chevron-right(aria-hidden="true")
+        span.sr-only Nächstes
+  .col
+    h5 Kontakt:
+    p(ng-if="entry.address")
+        i.fa.fa-map(title="Adresse")
+        | &nbsp; {{ entry.address }}
+    p(ng-if="entry.phone")
+        i.fa.fa-phone(title="Telefon")
+        | &nbsp; {{ entry.phone }}
+    p(ng-if="entry.fax")
+        i.fa.fa-fax(title="Fax")
+        | &nbsp; {{ entry.fax }}
+    p(ng-if="entry.email")
+        i.fa.fa-at(title="Mail")
+        | &nbsp; {{ entry.email }}
+    p(ng-if="entry.url")
+        i.fa.fa-globe(title="Internet")
+          | &nbsp;
+        a(href="{{ entry.url }}") {{ entry.url }}
+
+h4.headline(ng-show="entry.desc") Beschreibung
+p {{ entry.desc }}
+
+h4.headline(ng-show="entry.Schwerpunkte") Schwerpunkte
+table.table.table-striped.table-bordered(ng-show="entry.Schwerpunkte")
+  thead: tr
+    th Schwerpunkt
+    th Zielgruppe
+    th Kosten p.P.
+    th Max. Teilnehmerzahl
+    th(title="Ganztagesangebot") GTA
+  tbody
+    tr(ng-repeat="schwerpunkt in entry.Schwerpunkte")
+      td(ng-bind="schwerpunkt.name")
+      td(ng-bind="schwerpunkt.Zielgruppe")
+      td(ng-bind="schwerpunkt.Kosten")
+      td(ng-bind="schwerpunkt.Teilnehmerzahl")
+      td(ng-bind="schwerpunkt.GTA")
+
+
+h4.headline(ng-show="entry.Angebote && entry.Angebote.length > 0") Angebote
+table.table.project-table(ng-repeat="angebot in entry.Angebote")
+  thead
+    tr
+      th(style="width:200px;") Titel / Thema
+      th {{angebot.name}}
+        //- .pull-right
+        //-   img(ng-show="angebot.hasTagIds.indexOf('Berufsorientierung') > -1" src="img/berufsorientierung.png" tooltip-append-to-body="true" uib-tooltip="Berufsorientierung" height="25px" width="25px")
+        //-   img(ng-show="angebot.hasTagIds.indexOf('Informatik') > -1" src="img/informatik.png" tooltip-append-to-body="true" uib-tooltip="Informatik" height="25px" width="25px")
+        //-   img(ng-show="angebot.hasTagIds.indexOf('Mathematik') > -1" src="img/mathe.png" tooltip-append-to-body="true" uib-tooltip="Mathe" height="25px" width="25px")
+        //-   img(ng-show="angebot.hasTagIds.indexOf('Naturwissenschaft') > -1" src="img/naturwissenschaften.png" tooltip-append-to-body="true" uib-tooltip="Naturwissenschaften" height="25px" width="25px")
+        //-   img(ng-show="angebot.hasTagIds.indexOf('Technik') > -1" src="img/technik.png" tooltip-append-to-body="true" uib-tooltip="Technik" height="25px" width="25px")
+        //-   img(ng-show="angebot.hasTagIds.indexOf('Umweltbildung') > -1" src="img/umweltbildung.png" tooltip-append-to-body="true" uib-tooltip="Umweltbildung" height="25px" width="25px")
+        //-   img(ng-show="angebot.hasTagIds.indexOf('EinBehiGe') > -1" src="img/EinBehiGe.png" tooltip-append-to-body="true" uib-tooltip="Eingeschränkt Behindertengerechter Zugang" height="25px" width="25px")
+        //-   img(ng-show="angebot.hasTagIds.indexOf('BehiGe') > -1" src="img/BehiGe.png" tooltip-append-to-body="true" uib-tooltip="Behindertengerechter Zugang" height="25px" width="25px")
+        //-   img(ng-show="angebot.hasTagIds.indexOf('GTA') > -1" src="img/GTA.png" tooltip-append-to-body="true" uib-tooltip="Ganztagesangebot" height="25px" width="25px")
+  tbody
+    tr
+      th Lernziele / Untersuchte Fragestellungen
+      td {{angebot.Lernziel}}
+    tr
+      th Zielgruppen
+      td {{angebot.Zielgruppe}}
+    tr
+      th Kosten / Eintritt
+      td {{angebot.Kosten}}
+    tr
+      th Veranstaltungsort
+      td {{angebot.Ort}}
+    tr
+      th Wichtige Hinweise
+      td {{angebot.Hinweis}}
+    tr
+      th Laufzeit des Angebots
+      td {{angebot.Laufzeit}}
+
+h4.headline(ng-show="validMap") Karte
+#map(ng-show="validMap" style="height: 400px; width: 100%;")

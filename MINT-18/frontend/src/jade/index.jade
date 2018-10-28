@@ -1,0 +1,66 @@
+doctype html
+html(lang='en')
+  head
+    <!-- Required meta tags -->
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='shortcut icon' type='image/x-icon' href='/logos/favicon.ico')
+    link(rel='icon', href='/logos/favicon.ico')
+    title #{title}
+    link(href=vendorDir + '/leaflet.css' rel="stylesheet")
+    link(href=vendorDir + '/MarkerCluster.Default.css' rel="stylesheet")
+    link(href=vendorDir + '/MarkerCluster.css' rel="stylesheet")
+    link(href=vendorDir + '/bootstrap.min.css', rel='stylesheet')
+    link(href=vendorDir + '/css/all.min.css', rel='stylesheet')
+    link(href='css/style.css', rel='stylesheet')
+
+  body(ng-app='app')
+    .container
+      .header.clearfix
+        nav.navbar.navbar-expand-sm.navbar-light.bg-light(ng-controller="NaviController")
+          a.navbar-brand(href="#!")
+            h2.text-muted #{title}
+          button.navbar-toggler(type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation")
+            span.navbar-toggler-icon
+          div#navbarSupportedContent.collapse.navbar-collapse
+            ul.navbar-nav.nav-pills.ml-auto
+              li.nav-item(role='presentation')
+                a.nav-link(href='#!' ng-class="{'active':activeMenu==''}")
+                  i.fa.fa-home.fa-2x
+              li.nav-item(role='presentation')
+                a.nav-link(href='#!search'
+                  ng-class="{'active':(activeMenu=='search' || activeMenu=='detail' )}")
+                  i.fa.fa-search.fa-2x
+              li.nav-item(role='presentation')
+                a.nav-link(href='#!info'
+                  ng-class="{'active':activeMenu=='info'}")
+                  i.fa.fa-info-circle.fa-2x
+    .container(data-ng-view)
+
+    .container
+      footer.footer
+        p All logos and contents are owned by their respective owners.
+        p © 2018 - Studenten der Uni Leipzig
+
+    script(src=vendorDir + '/jquery.min.js')
+    script(src=vendorDir + '/angular.min.js')
+    script(src=vendorDir + '/angular-local-storage.min.js')
+    script(src=vendorDir + '/angular-animate.min.js')
+    script(src=vendorDir + '/angular-route.js')
+    script(src=vendorDir + '/angular-sanitize.min.js')
+    script(src=vendorDir + '/angular-resource.min.js')
+    script(src=vendorDir + '/popper.min.js')
+    script(src=vendorDir + '/bootstrap.min.js')
+    script(src=vendorDir + '/leaflet.js')
+    script(src=vendorDir + '/leaflet.markercluster.js')
+    script(src='js/app.min.js')
+    script(src='js/app.tmpl.min.js')

@@ -1,0 +1,35 @@
+{
+    "title": "MINT-Orte in Leipzig",
+    "desc": "Diese Website dient als Gesamtübersicht über die Bildungsangebote in den Bereichen Mathematik, Informatik, Naturwissenschaften und Technik (MINT) sowie Umweltbildung in Leipzig.",
+    "tags": [
+        {
+            "name": "Umweltbildung",
+            "icon": "fa-leaf"
+        },
+        {
+            "name": "Technik",
+            "icon": "fa-plane"
+        },
+        {
+            "name": "Informatik",
+            "icon": "fa-microchip"
+        },
+        {
+            "name": "Berufsorientierung",
+            "icon": "fa-briefcase"
+        },
+        {
+            "name": "GTA",
+            "icon": "fa-clock"
+        },
+        {
+            "name": "Naturwissenschaft",
+            "icon": "fa-flask"
+        },
+        {
+            "name": "Mathematik",
+            "icon": "fa-infinity"
+        }
+    ]
+
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Beispieltitel",
+    "desc": "Hier können Beispiele und nicht-Beispiele durchsucht werden.",
+    "tags": [
+        {
+            "name": "Beispiel",
+            "icon": "fa-smile"
+        },
+        {
+            "name": "Kein Beispiel",
+            "icon": "fa-frown"
+        },
+        {
+            "name": "Super Eintrag",
+            "icon": "fa-thumbs-up"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+.input-group
+  .input-group-prepend
+    button.btn.btn-outline-primary.dropdown-toggle(type="button"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false")
+      i.fa.fa-wheelchair : &nbsp;
+      //--| Behindertengerecht
+      span(ng-show="option.accessibility == 0") Alles
+      span(ng-show="option.accessibility == 1" title="Orte mit Eingeschränkt oder Behindertengerechtem Zugang") Eing. Behindertengerecht
+      span(ng-show="option.accessibility == 2" title="Orte mit Behindertengerechtem Zugang") Nur Behindertengerecht
+      span.caret
+    .dropdown-menu
+      a.dropdown-item(href="" ng-click="option.accessibility = 0" ng-class="{active: option.accessibility == 0}")
+        |  Alle Anzeigen
+      a.dropdown-item(href="" ng-click="option.accessibility = 1" ng-class="{active: option.accessibility == 1}")
+        |  Eingeschränkt Behindertengerechter Zugang
+      a.dropdown-item(href="" ng-click="option.accessibility = 2" ng-class="{active: option.accessibility == 2}")
+        |  Behindertengerechter Zugang
+  .input-group-prepend
+    button.btn.btn-outline-primary.dropdown-toggle(type="button"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+      ng-class="{disabled: !config.tags || config.tags.length == 0}")
+      i.fa.fa-tags : &nbsp;
+      span(ng-show="option.tags.length == 0") Alle
+      span(ng-hide="option.tags.length == 0") {{ option.tags.length }}
+      span.caret
+    .dropdown-menu
+      a.dropdown-item(ng-repeat="(key, tag) in config.tags track by key" href="" ng-click="toggleTag(tag)" ng-class="{active: option.tags.includes(tag.name)}")
+        span.fa(class="{{ tag.icon }}") &nbsp;
+        span {{ tag.name }} &nbsp;
+        span.badge(ng-class="{'badge-info': !option.tags.includes(tag.name), 'badge-warning': option.tags.includes(tag.name)}")
+          | {{ tagCount[tag.name] }}
+    span#sizing-addon3.input-group-text.d-none.d-lg-block
+      i.fa.fa-search
+  input.form-control(type='text', placeholder='Suche...', ng-model="option.searchString" aria-describedby='sizing-addon3')
+  .input-group-append
+    span.input-group-text.d-none.d-lg-block {{filteredData.length}}/{{data.length}}
+    button.btn.btn-warning(ng-disabled="filteredData.length == data.length" ng-click="resetFilter()")
+      i.fa.fa-backspace
+
+br
+
+ul.nav.nav-tabs(role="tablist")
+  li.nav-item
+    a.nav-link(href=""
+      role="tab"
+      ng-click="select('list')"
+      ng-class="{active: selected === 'list'}")
+      | Listenansicht
+  li.nav-item
+    a.nav-link(href=""
+      role="tab"
+      ng-click="select('map')"
+      ng-class="{active: selected === 'map', disabled: filteredData.length === 0}")
+      | Kartenansicht
+
+br
+
+.container
+  .pane(role="tabpanel" ng-show="selected === 'list'")
+    .card-columns
+      .card.border-dark(ng-repeat="entry in filteredData track by entry.id ")
+        img.card-img-top(ng-if="entry.imgs" ng-src="{{ entry.imgs[0] }}" onerror="brokenImage(this)")
+        .card-body
+          h6.card-title(ng-bind-html="entry.name")
+        .card-footer.bg-primary
+          a.btn.btn-default.btn-sm.btn-block.text-white(ng-href="#!e/{{entry.id}}") Mehr Infos
+  .pane(role="tabpanel" ng-show="selected === 'map'")
+    #map-all(style="height:500px;")
